@@ -1,0 +1,937 @@
+Class Title,Attribute/Class/Definition/Priority Complete,Description Abbreviation ,Class Matches Library,Attribute Name,Order for Description,"Type (List,MultilineString,Date,Boolean,Integer,Real)","Dimensions (Unit)
+AKA Measurement Type",Preferred Unit,"Is Multivalue (True,False)",Description,Default Value,Authorized Values (comma delimited),Authorized Abbreviation (comma delimited),Minimum (inclusive),Maximum (inclusive),"Required (True,False)"
+A/C Oil,X,ACOIL,TRUE,A/C Oil Type,1,List,,,FALSE,,,"Mineral, PAG, POE/ESTER, PAO","MNRL, PAG, POE, PAO",,,
+A/C Oil,X,ACOIL,TRUE,A/C OIL Viscosity,2,List,,,FALSE,,,"ISO32, ISO46, ISO68, ISO100","ISO32, ISO46, ISO68, ISO100",,,
+A/C Oil,X,ACOIL,TRUE,A/C OIL Refrig Compat,,List,,,TRUE,,,"R-12, R134A, R-1234YF","R12, R134A, R1234YF",,,
+A/C Refrigerant,,ACRFGT,TRUE,A/C Refridgerant Type,1,List,,,FALSE,,,"R-12, R-134A, R-1234YF","R12, R134A, R1234YF",,,
+Abrassion Resistant Sleeve,X,ART,FALSE,Abrassion Sleeve Material Type,1,List,,,FALSE,,,"Corrugated, Expandable, Spiral, WrapAround","CORRUGATE, EXPAND, SPIRAL, WRAPAROUND",,,
+Abrassion Resistant Sleeve,X,ART,FALSE,Max Temp,,Real,Temperature,°F,FALSE,,,,,,,
+Abrassion Resistant Sleeve,X,ART,FALSE,Sleeve Max ID ,2,Real,Diameter,Inch,FALSE,,,,,,,
+Actuator Cable,,ACTRCBL,TRUE,Act. Cab. End 1 Type,,List,,,FALSE,,,,,,,
+Actuator Cable,,ACTRCBL,TRUE,Act. Cab. End 2 Type,,List,,,FALSE,,,,,,,
+Actuator Cable,X,ACTRCBL,TRUE,Ext Length,,Real,Length,Inch,FALSE,,,,,,,
+Actuator Cable,X,ACTRCBL,TRUE,Stroke Length,1,Real,Length,Inch,FALSE,,,,,,,
+Air Cleaner,X,AIRCLEANER,TRUE,Dust Capacity,,Real,Mass,Gram,FALSE,,,,,,,TRUE
+Air Cleaner,X,AIRCLEANER,TRUE,Element Type,,List,,,FALSE,,,"Single Stage, Dual Stage","SGLSTG, DUALSTG",,,TRUE
+Air Cleaner,X,AIRCLEANER,TRUE,Inlet Diameter,,Real,Length,,FALSE,,,,,,,TRUE
+Air Cleaner,X,AIRCLEANER,TRUE,Max Air Flow,1,Real,Air Flow,CFM,FALSE,,,,,,,TRUE
+Air Cleaner,X,AIRCLEANER,TRUE,Min Air Flow,,Real,Air Flow,CFM,FALSE,,,,,,,TRUE
+Air Cleaner,X,AIRCLEANER,TRUE,Outlet Diameter,,Real,Length,,FALSE,,,,,,,TRUE
+Air Compressor,X,AIRCOMPR,TRUE,AIR COMPRESSOR Max Flow Rate,2,Real,Volumetric Flow,CFM,FALSE,,,,,,,FALSE
+Air Compressor,X,AIRCOMPR,TRUE,Max Pressure,3,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Air Compressor,X,AIRCOMPR,TRUE,AIR COMPRESSOR Power Source,,List,,,FALSE,,,"Electric, Engine, Unpowered","ELEC, ENG, NONPWRD",,,TRUE
+Air Compressor,X,AIRCOMPR,TRUE,AIR COMPRESSOR Tank,1,Boolean,,,FALSE,,,"Tank, No Tank","TK, NOTK",,,TRUE
+Air Compressor,X,AIRCOMPR,TRUE,Tank Capacity,,Real,Volume,Gallon,FALSE,,,,,,,FALSE
+Antenna,2,ANT,TRUE,Antenna Connection Type,,List,,,FALSE,,,"TNCM, NF","TNCM, NF",,,TRUE
+Antenna,2,ANT,TRUE,Antenna Gain,,Real,Sound Intensity,dB,FALSE,,,,,,,
+Antenna,,ANT,TRUE,Max Frequency,2,,,,,,,,,,,
+Antenna,3,ANT,TRUE,Mounting Material Thickness,,Real,Thickness,Inch,FALSE,,,,,,,
+Antenna,4,ANT,TRUE,Mounting Hole ID,,Real,Diameter,Inch,FALSE,,,,,,,
+Antenna,2,ANT,TRUE,Antenna Type,1,List,,,FALSE,,,"Colinear, Dipole, Monopole, Patch, Phantom, Yagi","COLIN, DIPOLE, MONOPOLE, PATCH, PHM, YAGI",,,
+Antifreeze,2,ANTIFRZ,TRUE,Additive Type,2,List,,,FALSE,,,"IAT, OAT, HOAT","IAT, OAT, HOAT",,,TRUE
+Antifreeze,2,ANTIFRZ,TRUE,Base Type,1,List,,,FALSE,,,"Ethylene Glycol, Propylene Glycol","ETHYLENEGLYCOL,PROPYLENEGLYCOL",,,TRUE
+Audible Device,2,AUDDVC,TRUE,Max Power,,Real,Power,Watt,FALSE,,,"120W, 135W, 220W, NA","120W, 135W, 220W, NA",,,
+Audible Device,2,AUDDVC,TRUE,Max Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Audible Device,2,AUDDVC,TRUE,Min Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Audible Device,2,AUDDVC,TRUE,Sensitivity,,List,,,FALSE,,,"82dB, 84dB, 88dB, NA","82dB, 84dB, 88dB, NA",,,
+Audible Device,2,AUDDVC,TRUE,Sound Pressure Level,1,Real,Sound Intensity,dB,FALSE,,,"85dBA, 93dBA, 102dBA, 107dBA, 108dBA, 109dBA, 110dBA, 112dBA, NA","85dBA, 93dBA, 102dBA, 107dBA, 108dBA, 109dBA, 110dBA, 112dBA, NA",,,TRUE
+Axle,2,AXEL,TRUE,Suspension Type,2,List,,,FALSE,,,"Torsional, Straight, Leafspring, Air","TORNL, STR, LEAFSPR",,,
+Axle,2,AXEL,TRUE,Axel GAWR ,1,Real,Weight,Pound,FALSE,,,,0,,,
+Axle,2,AXEL,TRUE,No. of Axels,,List,,,FALSE,,,"Single, Tandem, Triple","SNGL, TDM, TPL",,,
+Axle,2,AXEL,TRUE,Steerable,,List,,,FALSE,,,"Steer, NonSteerable","STR, NONSTR",,,
+Ball Joint,2,BALLJT,TRUE,Ball Joint ID,2,Real,DIAMETER,INCH,FALSE,,,,,,,TRUE
+Ball Joint,2,BALLJT,TRUE,Ball Joint Shank Gender,,List,,,FALSE,,,"Male, Female","M, F",,,TRUE
+Ball Joint,2,BALLJT,TRUE,Shank Thread Direction,,List,,,FALSE,,,"Right Hand, Left Hand","RH, LH",,,TRUE
+Ball Joint,2,BALLJT,TRUE,Shank Thread Size,,List,,,FALSE,,,"6-32, 8-32, 10-24, 10-32, 1_4-20, 1_4-28, 5_16-18, 5_16-24, 3_8-16, 3_8-24, 7_16-14, 7_16-20, 1_2-13, 1_2-20, 5_8-11, 5_8-24, 3_4-10, 3_4-16, 7_8-9, 7_8-14, 1-8, 1-12, 1-14","6-32, 8-32, 10-24, 10-32, 1_4-20, 1_4-28, 5_16-18, 5_16-24, 3_8-16, 3_8-24, 7_16-14, 7_16-20, 1_2-13, 1_2-20, 5_8-11, 5_8-24, 3_4-10, 3_4-16, 7_8-9, 7_8-14, 1-8, 1-12, 1-14",,,TRUE
+Ball Joint,2,BALLJT,TRUE,Ball Joint Type,1,List,,,FALSE,,,"Sealed, Serviceable","SLD, SVCE",,,TRUE
+Battery,2,BTRY,TRUE,Battery CCA,2,Real,Electric Intensity,A,FALSE,,,,,,,TRUE
+Battery,2,BTRY,TRUE,Battery Connector,,List,,,FALSE,,,"TopPost, SidePost","TPOST, SPOST",,,TRUE
+Battery,2,BTRY,TRUE,Battery Cranking Amps,,Real,Electric Intensity,A,FALSE,,,,,,,TRUE
+Battery,2,BTRY,TRUE,Battery Group Size,3,List,,,FALSE,,,"Grp24, Grp27, Grp31, Grp34, Grp35, Grp51, Grp65, Grp78","GRP24, GRP27, GRP31, GRP34, GRP35, GRP51, GRP65, GRP78",,,TRUE
+Battery,2,BTRY,TRUE,Nominal Voltage,1,Real,Voltage,V,FALSE,,,,,,,TRUE
+Battery Box,3,BTRYBX,TRUE,Battery Group Size,1,List,,,,,,"Grp24, Grp27, Grp31, Grp34, Grp35, Grp51, Grp65, Grp78","GRP24, GRP27, GRP31, GRP34, GRP35, GRP51, GRP65, GRP78",,,
+Battery Cable,2,BTRYCBL,TRUE,Terminal A Size,,List,,,,,,"10, 8, 6, 02500, 03125, 03750, 04375, 05000, 06250, 07500, BLADE, POST",,,,
+Battery Cable,2,BTRYCBL,TRUE,Terminal B Size,,List,,,,,,"10, 8, 6, 1/4, 5/16, 3/8, 7/16, 1/2, 5/8, 3/4, BLADE, POST",,,,
+Battery Cable,2,BTRYCBL,TRUE,Additional Terminal,,Boolean,,,,,,"ADDITIONAL TERMINAL, NO ADDITIONAL TERMINAL","ADDLTERM, NOTERM",,,
+Battery Cable,2,BTRYCBL,TRUE,Length,3,Real,Length,Inch,FALSE,,,,,,,TRUE
+Battery Cable,2,BTRYCBL,TRUE,Cable Size,2,List,,,FALSE,,,"20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 1, 0, 00, 000, 0000","20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 1, 0, 00, 000, 0000",,,TRUE
+Battery Cable,2,BTRYCBL,TRUE,Insulation Type,,List,,,FALSE,,,"TXL, GXL, SGX, SGR, SGT, SXL","TXL, GXL, SGX, SGR, SGT, SXL",,,
+Battery Cable,2,BTRYCBL,TRUE,Polarity,1,List,,,FALSE,,,"Positive, Negative","POS, NEG",,,TRUE
+Battery Cable,2,BTRYCBL,TRUE,Protective Covering,,List,,,FALSE,,,"Cover, NoCover","COVER,NOCOVER",,,TRUE
+Battery Cable,2,BTRYCBL,TRUE,Terminal A Type,,List,,,FALSE,,,"Straight, Bent, Elbow, Clamp","STRT, BENT, ELB, CLMP",,,TRUE
+Battery Cable,2,BTRYCBL,TRUE,Terminal B Type,,List,,,FALSE,,,"Straight, Bent, Elbow, Clamp","STRT, BENT, ELB, CLMP",,,
+"Bearing, Ball",2,BBRG,FALSE,Dynamic Load Rating,,Real,Force,Pound,FALSE,,,,,,,TRUE
+"Bearing, Ball",2,BBRG,FALSE,ID,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+"Bearing, Ball",2,BBRG,FALSE,Max RPM,,Real,Angular Velocity,RPM,,,,,,,,
+"Bearing, Ball",2,BBRG,FALSE,Ball Bearing Mount,,List,,,FALSE,,,"2 bolt flange, 4 bolt flange, pressfit, unmounted","2BOLTFLG, 4BOLTFLG, PLBLK, PRFT, UNMTD",,,TRUE
+"Bearing, Ball",2,BBRG,FALSE,OD,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+"Bearing, Ball",2,BBRG,FALSE,Bearing Rows,,Integer,,,FALSE,,,,,1,,TRUE
+"Bearing, Ball",2,BBRG,FALSE,Static Load Rating,,Real,Force,Pound,FALSE,,,,,,,FALSE
+"Bearing, Ball",2,BBRG,FALSE,Thrust or Rotation,2,List,,,FALSE,,,"Thrust, Rotation","THR, ROT",,,TRUE
+"Bearing, Ball",2,BBRG,FALSE,Bearing Trade Name,,List,,,FALSE,,,"52, 52_2Z, 62","52, 52_2Z, 62",,,FALSE
+"Bearing, Ball",2,BBRG,FALSE,Ball Bearing Type,1,List,,,FALSE,,,"Deep Groove, Magneto, Angular Contact, Self Aligning, Double Direction, With Alignment Seat, Linear, Pillow Block","DEEPGRV, MGN, ANLRCONT, SELFALIGN, DBLDIR, ALIGNSEAT, LIN, PLBLK",,,FALSE
+"Bearing, Bushing",2,"BRG,BSHG",FALSE,Bushing Type,1,List,,,FALSE,,,"Flanged, Radial, Spherical, Thrust, Linear","FLG, RDL, SPHER, THR, LIN",,,
+"Bearing, Bushing",2,"BRG,BSHG",FALSE,Bushing Shaft OD,,Real,Diameter,Inch,FALSE,,,,,,,
+"Bearing, Bushing",2,"BRG,BSHG",FALSE,Bushing Material,2,List,,,FALSE,,,"Synthetic, Metalic","SYNTH, MET",,,
+"Bearing, Bushing",2,"BRG,BSHG",FALSE,Bushing Housing OD,,Real,Diameter,Inch,FALSE,,,,,,,
+"Bearing, Bushing",2,"BRG,BSHG",FALSE,Length,,Real,Length,Inch,FALSE,,,,,,,
+"Bearing, Linear",2,"BRG,LIN",FALSE,Linear Bearing Material,1,List,,,FALSE,,,"Plastic, Bronze, Ceramic, Graphite, Stainless ","PLSTC, BRZ, CERAMIC, GPH, SST",,,
+"Bearing, Linear",2,"BRG,LIN",FALSE,Linear Bearing Types,2,List,,,FALSE,,,"Ball Bearing, Track Roller, Dovetail, Bushing","BBRG, TRKRLR, DVTL, BSHG",,,
+"Bearing, Roller",2,"BRG,RLR",FALSE,Roller Bearing Max RPM,,Real,Angular Velocity,RPM,FALSE,,,,,,,
+"Bearing, Roller",2,"BRG,RLR",FALSE,Roller Bearing Mount,,List,,,FALSE,,,"2 bolt flange, 4 bolt flange, pillow block, unmounted, Press Fit, N/A","2BOLTFLG, 4BOLTFLG, PLBLK, PRFT, UNMTD, NA",,,TRUE
+"Bearing, Roller",2,"BRG,RLR",FALSE,Roller Bearing Thrust/Rotation,2,List,,,FALSE,,,"Thrust, Rotation, N/A","THR, ROT, NA",,,TRUE
+"Bearing, Roller",2,"BRG,RLR",FALSE,Roller Bearing Trade Name,,List,,,FALSE,,,"52, 52_2Z, 62, N/A","52, 52_2Z, 62, NA",,,FALSE
+"Bearing, Roller",2,"BRG,RLR",FALSE,Roller Bearing Type,1,List,,,FALSE,,,"Cylinderical, Spherical, Tapered, Pillow Block","CYL, SPHER, TP, PLBLK",,,
+"Bearing, Roller",2,"BRG,RLR",FALSE,Roller Bearing Shaft OD,,Real,Distance,Inch,FALSE,,,,,,,
+"Bearing, Roller",2,"BRG,RLR",FALSE,Roller Bearing Housing ID,,Real,Distance,Inch,FALSE,,,,,,,
+"Bearing, Roller",2,"BRG,RLR",FALSE,Radial Dynamic Load,,Real,Force,Pound,FALSE,,,,,,,
+"Bearing, Roller",2,"BRG,RLR",FALSE,Radial Static Load,,Real,Force,Pound,FALSE,,,,,,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Slew Bearing Type,1,List,,,FALSE,,,"Standard, Flanged","STD, FLG",,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Slew Bearing Teeth,,List,,,FALSE,,,"Internal, External, None","INTL, EXT, NONE",,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Slew Bearing ID,,Real,Diameter,Inch,FALSE,,,,,,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Slew Bearing OD,,Real,Diameter,Inch,FALSE,,,,,,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Max Load,,Real,Weight,Pound,FALSE,,,,,,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Max Torque,,Real,Torque,Foot-Pounds,FALSE,,,,,,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Max Rotation Speed,,Real,Angular Velocity,RPM,FALSE,,,,,,,
+"Bearing, Slew",2,"BRG,SLEW",FALSE,Sealed,2,Boolean,,,FALSE,,,,,,,
+"Belt, Baler",3,"BLT,BALER",FALSE,Length,2,Real,Length,Inch,FALSE,,,,,,,
+"Belt, Baler",3,"BLT,BALER",FALSE,Bailer Belt Splice Type,4,List,,,FALSE,,,"Endless, Aligator Rivet","ENDLESS, AR",,,
+"Belt, Baler",3,"BLT,BALER",FALSE,Width,1,Real,Length,Inch,FALSE,,,,,,,
+"Belt, Baler",4,"BLT,BALER",FALSE,Baler Belt Ply,3,List,,,FALSE,,,"2 Ply, 3 Ply","2PLY, 3PLY",,,
+"Belt, Conveyor",3,"BELT,CNVR",FALSE,Length,,Real,Length,Inch,FALSE,,,,,,,
+"Belt, Conveyor",3,"BELT,CNVR",FALSE,Conveyor Belt Type,1,List,,,FALSE,,,"FLAT, CLEATED, CHEVRON, MULTI-CHEVRON,","FLAT, CLEAT, CHVRN, MULTCHVRN",,,
+"Belt, Conveyor",3,"BELT,CNVR",FALSE,Width,2,Real,Length,Inch,FALSE,,,,,,,
+"Belt, Drive",3,"BLET,DR",FALSE,Drive Belt Trade Size,2,List,,,FALSE,,N/A,"2L, 3L, 3V, NA","2L, 3L, 3V, NA",,,TRUE
+"Belt, Drive",3,"BLET,DR",FALSE,Drive Belt Outer Cir.,,Real,Length,Inch,FALSE,,,,,,,TRUE
+"Belt, Drive",3,"BLET,DR",FALSE,Drive Belt Type,1,List,,,FALSE,,N/A,"Round, Flat, V, Toothed, Link, N/A","RND, FLAT, V, TOOTH, LINK, NA",,,
+"Belt, Drive",3,"BLET,DR",FALSE,Width,,Real,Length,Inch,FALSE,,,,,,,
+Blower,2,BLO,TRUE,Blower Max Flow,1,Real,Volumetric Flow,CFM,FALSE,,,,,,,TRUE
+Blower,2,BLO,TRUE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Blower,2,BLO,TRUE,Blower Max Speed,,Real,Angular Velocity,RPM,FALSE,,,,,,,TRUE
+Blower,2,BLO,TRUE,Blower Max Vacuum,,Real,Vacuum,HG,FALSE,,,,,,,TRUE
+Bolt,3,BOLT,TRUE,Bolt Type,1,List,,,FALSE,,,"Hex, Carriage, Lag, Flange, Eye, Shoulder, Elevator, MISC.","HEX, CRG, LAG, FLG, EYE, SHLDR, ELEV, MISC",,,TRUE
+Bolt,3,BOLT,TRUE,Bolt Coating,5,List,,,FALSE,,,"Brass Plated, Bronze Plated, Chrome Plated, Nickel Plated, Zinc, Hot Dip Galvanized, Electro Galvanized, Grey Phosphate, Ceramic, Blackoxidize, Magnicoat","BRSPLD, BRZPLD, CRPLD, NKLPLD, ZINC, HDGALV, ELECTROGALV, GREYPHOS, CERAMIC, BLKOX, MAGNI",,,TRUE
+Bolt,3,BOLT,TRUE,Length,2,Real,Length,Inch,FALSE,,,,,,,TRUE
+Bolt,3,BOLT,TRUE,Bolt Grade / Class,3,List,,,FALSE,,,"Grade 2, Grade 5, Grade 8, Class 8.8, Class 10.9, Class 12.9","GR2, GR5, GR8, CL8.8, CL10.9, CL12.9",,,TRUE
+Bolt,3,BOLT,TRUE,Bolt Thread Size,4,List,,,FALSE,,,"0-80, 1-64, 1-72, 2-56, 2-64, 3-48, 3-56, 4-40, 4-48, 5-40, 5-44, 6-32, 6-40, 8-32, 8-36, 10-24, 10-32, 12-24, 12-28, 1/4-20, 1/4-28, 5/16-18, 5/16-24, 3/8-16, 3/8-24,7/16-14, 7/16-20, 1/2-13, 1/2-20, 9/16-12, 9/16-18, 5/8-11, 5/8-18, 3/4-10, 3/4-16, 7/8-9, 7/8-14, 1-8, 1-12, M1.4-0.3, M2-0.4, M2.5-0.45, M3-0.5, M3.5-0.6, M4-0.7, M5-0.8, M6-1.0, M7-1.0, M8-1.25, M8-1.0, M10-1.5, M10-1.25, M10-1.0, M12-1.75, M12-1.5, M12-1.25, M14-2.0, M14-1.5, M16-2.0, M16-1.5, M18-2.5, M18-1.5, M20-2.5, M20-1.5, M22-2.5, M24-3.0, M24-2.0, M30-3.5, M36-4.0","0-80, 1-64, 1-72, 2-56, 2-64, 3-48, 3-56, 4-40, 4-48, 5-40, 5-44, 6-32, 6-40, 8-32, 8-36, 10-24, 10-32, 12-24, 12-28, 1_4-20, 1_4-28, 5_16-18, 5_16-24, 3_8-16, 3_8-24,7_16-14, 7_16-20, 1_2-13, 1_2-20, 9_16-12, 9_16-18, 5_8-11, 5_8-18, 3_4-10, 3_4-16, 7_8-9, 7_8-14, 1-8, 1-12, M1.4-0.3, M2-0.4, M2.5-0.45, M3-0.5, M3.5-0.6, M4-0.7, M5-0.8, M6-1.0, M7-1.0, M8-1.25, M8-1.0, M10-1.5, M10-1.25, M10-1.0, M12-1.75, M12-1.5, M12-1.25, M14-2.0, M14-1.5, M16-2.0, M16-1.5, M18-2.5, M18-1.5, M20-2.5, M20-1.5, M22-2.5, M24-3.0, M24-2.0, M30-3.5, M36-4.0",,,TRUE
+Brake,2,BRAKE,TRUE,Brake Type,1,List,,,FALSE,,,"Drum, Disc, Roller, Air, Emergency, Parking, ","DRUM, DISC, ROLLER, AIR, EMER, PRKG",,,
+Brake,2,BRAKE,TRUE,Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Burst Protection ,3,BURSTPROTN,FALSE,Sleeve ID ,1,Real,Diameter,mm,FALSE,,,,,,,
+Burst Protection ,3,BURSTPROTN,FALSE,Max Pressure Rating,,Real,Pressure ,PSI,FALSE,,,,,,,
+Cable Tie,3,CBLTIE,TRUE,Cable Tie Color,,List,,,FALSE,,,"Black, Red, White, Purple, Blue","BLK, RED, WHT, PRP, BLU",,,TRUE
+Cable Tie,3,CBLTIE,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Cable Tie,3,CBLTIE,TRUE,Max Bundle Dia,1,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+Cable Tie Mount,3,CBLTIEMNT,TRUE,Cable Tie Mnt Type,1,List,,,,,,"Fastener, Adhesive, Snap-In","FSTNR, ADH, SNAP",,,
+Cable Tie Mount,3,CBLTIEMNT,TRUE,Cable Tie Mnt Color,,List,,,,,,"Black, Red, White, Purple, Blue","BLK, RED, WHT, PRP, BLU",,,
+Caster,2,CASTER,TRUE,Caster Max Load,,Real,Weight,Pound,,,,,,,,
+Caster,2,CASTER,TRUE,Caster Type,1,List,,,,,,"Swivel, Rigid","SWVL, RGD",,,
+Caster,2,CASTER,TRUE,Caster Mount Type,,List,,,,,,"Plate, Stem, Bracket, Bolt On, Threaded Stud, Socket, Press Fit","PL, STEM, BRKT, BOLTON, MTHRD, SKT, PRSFIT",,,
+Caster,2,CASTER,TRUE,Caster Wheel Diameter,3,Real,Diameter,Inch,,,,,,,,
+Caster,2,CASTER,TRUE,Caster Wheel Type,2,List,,,,,,"Solid, Tread on Core, Flat Free, Pneumatic, Semi_Pneumatic, Hollow Core","SOLID, TREAD, FLTFREE, PNEU, SEMIPNEU, HOLCORE",,,
+"Chassis, Trailer",3,"CHAS,TRLR",FALSE,GVWR,1,Real,Weight,Pound,FALSE,,,,,,,TRUE
+"Chassis, Trailer",3,"CHAS,TRLR",FALSE,Trailer No. of Axles,,List,,,FALSE,,,"1 Axle, 2 Axles, 3 Axles","1AXLE, 2AXLE, 3AXLE",,,TRUE
+"Chassis, Truck",3,"CHAS,TRK",FALSE,GVWR,1,Real,Weight,Pound,FALSE,,,,,,,TRUE
+"Chassis, Truck",3,"CHAS,TRK",FALSE,Truck Manufacturer,2,List,,,FALSE,,,"Kenworth, Mack, Peterbilt, Ford","KW, MACK, PTRB, FORD",,,TRUE
+"Chassis, Truck",3,"CHAS,TRK",FALSE,Truck No. of Fixed Axles,,List,,,FALSE,,,"2 Fixed Axles, 3 Fixed Axles, 4 Fixed Axles","2FIX, 3FIX, 4FIX",,,TRUE
+"Chassis, Truck",3,"CHAS,TRK",FALSE,Truck No. of Lift Axles,,List,,,FALSE,,,"0 Lift Axles, 1 Lift Axle, 2 Lift Axles, 3 Lift Axles","0LIFT, 1LIFT, 2LIFT, 3LIFT",,,TRUE
+"Chassis, Truck",3,"CHAS,TRK",FALSE,Truck Wheelbase,3,Real,Length,Inch,FALSE,,,,,,,TRUE
+Chipper Knife,3,CHIPPERKNIFE,FALSE,Bevel Style,,List,,,,,,"Single, Double","SGL, DBL",,,
+Chipper Knife,3,CHIPPERKNIFE,FALSE,Edge Style,,List,,,,,,"Single, Double","SGL, DBL",,,
+Chipper Knife,3,CHIPPERKNIFE,FALSE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Chipper Knife,3,CHIPPERKNIFE,FALSE,Number of Bolts,,Integer,,,FALSE,,,,,,,
+Chipper Knife,3,CHIPPERKNIFE,FALSE,Thickness,,Real,Length,Inch,,,,,,,,
+Chipper Knife,3,CHIPPERKNIFE,FALSE,Width,,Real,Length,Inch,,,,,,,,
+Clamp,2,CLAMP,TRUE,Clamp Type,1,List,,,FALSE,,,"Cushion, P-Clamp, Pinch, Constant Torque T-Bolt, Standard T-Bolt, Constant Torque Worm Gear, Standard Work Gear, Hydraulic","CUSH, PCLAMP, PINCH, CTTBOLT, STDTBOLT, CTWMGR, STDWMGR, HYDR",,,
+Clamp,2,CLAMP,TRUE,Clamp Hose OD Min,,Real,Diameter,Inch,FALSE,,,,,,,
+Clamp,2,CLAMP,TRUE,Clamp Hose OD Max,,Real,Diameter,Inch,FALSE,,,,,,,
+Clevis,3,CLEVIS,TRUE,Clevis Type,1,List,,,,,,"Threaded, Unthreaded","THRD, NOTHRD",,,
+Clevis,3,CLEVIS,TRUE,Clevis Pin OD,,Real,Diameter,Inch,,,,,,,,
+Clevis,3,CLEVIS,TRUE,Clevis Grip,,Real,Length,Inch,,,,,,,,
+Clevis,3,CLEVIS,TRUE,Clevis Thread Dia.,,Real,Diameter,Inch,,,,,,,,
+Clevis,3,CLEVIS,TRUE,Clevis Thread Pitch,,List,,,,,,,,,,
+Clutch,2,CLUTCH,TRUE,Flywheel Housing Size,3,List,,,FALSE,,,"00, 0, 1_2, 1, 2, 3, 4, 5, 6","00, 0, 1_2, 1, 2, 3, 4, 5, 6",,,
+Clutch,2,CLUTCH,TRUE,Clutch Brake,,Boolean,,,FALSE,,,"Brake, No Brake","BK, NOBK",,,
+Clutch,2,CLUTCH,TRUE,Clutch Pump Drive,4,Boolean,,,FALSE,,,"Pump Drive, No Pump Drive","PUMPDR, NOPUMPDR",,,
+Clutch,2,CLUTCH,TRUE,Clutch Rated Torque,,Real,Torque,Foot-Pound,FALSE,,,,,,,
+Clutch,2,CLUTCH,TRUE,Clutch Type,1,List,,,FALSE,,,"Electric, Mechanical, Hydraulic","ELEC, MECH, HYDR",,,
+Clutch,2,CLUTCH,TRUE,Output Shaft Diameter,,Real,Diameter,Inch,FALSE,,,,,,,
+Clutch,2,CLUTCH,TRUE,Flywheel Size,2,List,,,FALSE,,,"6-1/2, 7-1/2, 8, 10, 11-1/2, 14, 18, 21","6-1_2, 7-1_2, 8, 10, 11-1_2, 14, 18, 21",,,
+Clutch,2,CLUTCH,TRUE,Clutch Pack Type,,List,,,FALSE,,,"WET, DRY, NA","WET, DRY, NA",,,
+Cone,3,CONE,TRUE,Cone Color,1,List,,,FALSE,,,"Orange, Fluorescent Green","ORN, GRN",,,TRUE
+Cooling System,2,CLGSYS,TRUE,Cooler Type,1,List,,,TRUE,,,"Radiator, Oil, Charge Air, Condenser, Fuel","RDTR, OIL, CAC, COND, FUEL",,,TRUE
+Cooling System,2,CLGSYS,TRUE,Core Depth,2,Real,Length,Inch,FALSE,,,,,,,TRUE
+Cooling System,2,CLGSYS,TRUE,Custom,,Boolean,,,FALSE,,,"Custom, Off The Shelf","CUST, COTS",,,TRUE
+Cooling System,2,CLGSYS,TRUE,Number of Cores,,Integer,,,FALSE,,,,,,,TRUE
+Cooling System,2,CLGSYS,TRUE,Overall Core Height,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Cooling System,2,CLGSYS,TRUE,Overall Core Width,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Cooling System,2,CLGSYS,TRUE,Primary Core Fin Density,3,Real,Density,FPI,FALSE,,,,,,,TRUE
+Cooling System,2,CLGSYS,TRUE,Surge Tank,,Boolean,,,FALSE,,,"Tank, NoTank","TANK, NOTANK",,,TRUE
+Curtain,3,"SAF,CURT",TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Curtain,3,"SAF,CURT",TRUE,Curtain Thickness,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Curtain,3,"SAF,CURT",TRUE,Curtain Type,1,List,,,FALSE,,,"Infeed Chute, Loadout Conveyor, Weld","INFEED, CNVR, WELD",,,TRUE
+Curtain,3,"SAF,CURT",TRUE,Curtain Width,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Cutter Chain,3,CTRCHAIN,FALSE,Super Duty,,Boolean,,,FALSE,,,"SUPER DUTY, -","SUPERDUTY, -",,,
+Cutter Chain,3,CTRCHAIN,FALSE,Order Number,,Real,,,FALSE,,,,,,,
+Cutter Chain,3,CTRCHAIN,FALSE,Chain Style,1,List,,,FALSE,,,"ABF, FLATBASE, LOW PROFILE, STANDARD
+","ABF, FLATBASE, LOWPF, STD",,,
+Cutter Chain,3,CTRCHAIN,FALSE,Chain Cut Width,,Integer,,,FALSE,,,,,,,
+Cutter Chain,3,CTRCHAIN,FALSE,Chain Pin Count,,Even Integer,,,FALSE,,,,,,,
+Cutter Chain,3,CTRCHAIN,FALSE,Chain Cutter Style,2,List,,,FALSE,,,"C87 ROTARY FULL, C87 WELDED ROTARY, CORAL ROTARY, CUP FULL, CUP PARTIAL, NEW JERSEY ROTARY, ROTARY COMBO, ROTARY FULL, SHARK COMBO, SHARK FULL, TIGER CUP COMBO, SHARK FULL, TIGER CUP PARTIAL, WELDED ROTARY, WELDED SHARK","C87RTRYFULL, C87WLDRTRY, CORALRTRY, CUPFULL, CUPPART, NEWJERSEYRTRY, RTRYCOMBO, RTRYFULL,SHARKCOMBO, SHARKFULL, TIGERCUPCOMBO, SHARKFULL, TIGERCUPPART, WLDRTRY, WLDSHARK, NA",,,
+Label,2,DECAL,TRUE,Label Language,,List,,,FALSE,,,"English, Chinese, Spanish, French, German, Dutch, No Text","ENG, CHINESE, SPANISH, FRENCH, GERMAN, DUTCH, NOTEXT",,,
+Label,2,DECAL,TRUE,Width,,Real,Length ,Inch,FALSE,,,,,,,
+Label,2,DECAL,TRUE,Height,,Real,Length,Inch,FALSE,,,,,,,
+Label,2,DECAL,TRUE,Label Material ,,List,,,FALSE,,,"Vinyl, Clear Vinyl, Polycarb, Polyester, Aluminum","VINYL, CLEARVINYL, POLYCARB, POLYESTER, ALUMIMUM ",,,
+Label,2,DECAL,TRUE,Label Type,,List,,,FALSE,,,"DECAL, PLATE","DECAL, PLATE",,,
+"Decal, Control",3,"DECAL,CONT",TRUE,Control Type,,List,,,FALSE,,,"Button, Dial, E-Stop, Joystick, Keypad, Keypad Overlay, Keyswitch, Lever, Light, Lock Pin, Switch, Valve","BUTTON, DIAL, ESTOP, JSTICK, KEYPAD, KEYPADOVERLAY, KEYSWITCH, LEVER, LIGHT, LOCKPIN, SWITCH, VALVE",,,
+"Decal, Control Multi ",3,"DECAL,CONTMULTI",FALSE,Control Type,,List,,,FALSE,,,"Button, Dial, E-Stop, Joystick, Keypad, Keypad Overlay, Keyswitch, Lever, Light, Lock Pin, Switch, Valve","BUTTON, DIAL, ESTOP, JSTICK, KEYPAD, KEYPADOVERLAY, KEYSWITCH, LEVER, LIGHT, LOCKPIN, SWITCH, VALVE",,,
+"Decal, Control Panel",3,"DECAL,CONTPNL",FALSE,Control Location,,List,,,FALSE,,,"Bottom, Dash, Front, Left, Lower, Main, Rear, Right, Top, Upper","BOT, DASH, FRONT, LEFT, LOWER, MAIN, REAR, RIGHT, TOP, UPPER",,,
+"Decal, Control Panel",3,"DECAL,CONTPNL",FALSE,Machine Type,,List,,,FALSE,,,"All, Attachment, Bale Processor, Bale Wrapper, Baler, Baler - Self Propelled, Brush Chipper, Compact Articulated Loader, Compost Turner, Concrete Cutter, Core Saw, Disc Mower, Feed Wagon, Grinder, High Pressure Mud Pump, Horizontal Grinder, Mini Skid Steer, Mix System, Mower, MUD Hub, Pedestrian Trencher, Piercing Tool, Pile Driver, Pipeline Directional Drill, Pipeline Trencher, Rake, Rake, Reclaimer, Stump Cutter, Tedder, Terrain Leveler, Trailed Mower, Trailer, Trencher, Trommel Screen, Tub Grinder, Utility Directional Drills, Utility Locator, Vacuum Excavator, Whole Tree Chipper",,,,
+"Decal, Fuse",3,"DECAL,FUSE",TRUE,"Decal, Emission Standard",,List,,,FALSE,,,"T3, IT4, T4F, StageV","T3, IT4, T4F, SV",,,
+"Decal, Information",3,"DECAL,INFO",TRUE,"Decal, Information Type",,List,,,FALSE,,,"Tie Down, Lift Point, Grease Location, Fgas, Indicator, Machine ID, Tire Placard, Rear Impact Guard, Final Stage Manufacturer, Prior Manufacturer IVD, Altered Vehicle","TIEDOWN, LIFTPT, GRSLOCATION, FGAS, INDICATOR, MACHID, TIREPLACARD, REARIMPGD, FINALSTGMFR, PRIORMFRIVD, ALTRDVEH",,,
+"Decal, Logo",3,"DECAL,LOGO",FALSE,Logo Type,,List,,,FALSE,,,"Vermeer,McLaughlin,Cosmetic V, SmartFeed, ECOIDLE","VERMEER, MCLAUGHLIN, COSMETICV, SMARTFEED, ECOIDLE",,,
+"Decal, Logo",3,"DECAL,LOGO",FALSE,Decal Color,,List,,,FALSE,,,"Black, Clear, Gray, Green, White, Yellow","BLK, CLEAR, GRA, GRN, WHITE, YEL",,,
+"Decal, Lube Chart",3,"DECAL,LUBE",TRUE,"Decal, Chart Location",,List,,,FALSE,,,"Left, Right  ","LEFT, RIGHT",,,
+"Decal, Lube Chart",3,"DECAL,LUBE",TRUE,Machine Type,,List,,,FALSE,,,"All, Attachment, Bale Processor, Bale Wrapper, Baler, Baler - Self Propelled, Brush Chipper, Compact Articulated Loader, Compost Turner, Concrete Cutter, Core Saw, Disc Mower, Feed Wagon, Grinder, High Pressure Mud Pump, Horizontal Grinder, Mini Skid Steer, Mix System, Mower, MUD Hub, Pedestrian Trencher, Piercing Tool, Pile Driver, Pipeline Directional Drill, Pipeline Trencher, Rake, Rake, Reclaimer, Stump Cutter, Tedder, Terrain Leveler, Trailed Mower, Trailer, Trencher, Trommel Screen, Tub Grinder, Utility Directional Drills, Utility Locator, Vacuum Excavator, Whole Tree Chipper",,,,
+"Decal, Impact Stripe",3,"DECAL,STRIPE",FALSE,Vermeer Model,,List,,,FALSE,,,"BC700XL, BC1000XL",,,,
+"Decal, Impact Stripe",3,"DECAL,STRIPE",FALSE,Decal Color,,List,,,FALSE,,,"Black, Clear, Gray, Green, White, Yellow","BLK, CLEAR, GRA, GRN, WHITE, YEL",,,
+"Decal, Impact Stripe",3,"DECAL,STRIPE",FALSE,Decal Position,,List,,,FALSE,,,"Left, Right, Front, Rear",,,,
+"Decal, Private Label ",3,"DECAL,PRIVATELBL",FALSE,Private Label Company,,List,,,FALSE,,,"Home Depot, Sunbelt, ","HOMEDEPOT, SUNBELT",,,
+"Decal, Private Label ",3,"DECAL,PRIVATELBL",FALSE,Orientation,,List,,,FALSE,,,"Horizontal, Vertical","HORIZ, VERT",,,
+"Decal, Protective",3,"DECAL,PROT",FALSE,Decal Color,,List,,,FALSE,,,"Black, Clear, Gray, Green, White, Yellow","BLK, CLEAR, GRA, GRN, WHITE, YEL",,,
+"Decal, Safety",2,"DECAL,SAF",TRUE,Number of Labels,,Integer,,,FALSE,,,,,,,
+"Decal, Safety",2,"DECAL,SAF",TRUE,Hazard Type,,List,,,FALSE,,,"BURN, CRUSH, CUT, ELECTRICUTION, FALL, FALLING OBJECT, GENERIC HAZARD, PRESSURIZED FLUID, ENTANGLEMENT, MAGNETIC FIELD, ROLLOVER, SHUTDOWN PROCEDURE, THROWN OBJECTS, TOWING","BURN, CRUSH, CUT, ELECTRIC, FALL, FALLOBJ, GENERIC, PRSRZFL, ENTANGLE, MAGFLD, ROLLOVER, SHTDNPROC, THROWOBJ, TOW",,,
+"Decal, Safety",,"DECAL,SAF",TRUE,Decal Format,,List,,,FALSE,,,"ANSI, ISO","ANSI, ISO",,,
+"Decal, Safety",2,"DECAL,SAF",TRUE,Decal Orientation,,List,,,,,,"Horizontal, Vertical","HORIZ, VERT",,,
+"Decal, Safety",2,"DECAL,SAF",TRUE,Hazard Level,1,List,,,FALSE,,,"Danger, Warning, Caution, Notice, Instructional, Safety X Panel","DANGER, WARNING, CAUTION, NOTICE, INSTR, SAFXPNL",,,
+"Decal, Sound Level ",3,"DECAL,SNDLVL",FALSE,Sound Level,,Real,Sound Pressure,dB,FALSE,,,,,,,
+"Decal, Speed Indication Symbol",3,"DECAL,SIS",FALSE,Decal Speed,,List,,,FALSE,,,,,,,
+Display,2,DSPL,TRUE,Max Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Display,2,DSPL,TRUE,Min Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Display,2,DSPL,TRUE,Multifunction,3,List,,,FALSE,,,"Controller, Display","CONT, DSPL",,,
+Display,2,DSPL,TRUE,Screen Type,2,List,,,FALSE,,,"Color, Monochrome","COLOR, MONO",,,TRUE
+Display,2,DSPL,TRUE,Screen Size,1,Real,,,FALSE,,,,,,,TRUE
+Drill Head,3,DRILLHEAD,FALSE,Drill Rod Size,2,Real,,Inch,FALSE,,,,,,,
+Drill Head,3,DRILLHEAD,FALSE,Ground Conditions,3,List,,,FALSE,,,"Cobble, Fractured Rock, Soft Rock, Hard Rock",,,,
+Drill Head,3,DRILLHEAD,FALSE,Min Cut Diameter,1,Real,Diameter,Inch,FALSE,,,,,,,
+Drive Chain,3,DRCHAIN,TRUE,Drive Chain No. of Links,3,Integer,,,FALSE,,,,,,,
+Drive Chain,3,DRCHAIN,TRUE,Length,1,Real,Length,Inch,FALSE,,,,,,,
+Drive Chain,3,DRCHAIN,TRUE,Width,2,Real,Length,Inch,FALSE,,,,,,,
+Drive Chuck,,,FALSE,Thread Size,1,List,,,FALSE,,,"Firestick 600, Firestick 700, etc.","FIRESTICK600, FIRESTICK700",,,
+Drive Chuck ,,,FALSE,Drill Rod Size,2,Real,,Inch,FALSE,,,,,,,
+Edge Trim,3,EDGETRIM,TRUE,Edge Trim Mat.,1,List,,,,,,"Aluminum, Plastic, Rubber, Stainless
+","AL, PLSTC, RBR, SST",,,
+Edge Trim,3,EDGETRIM,TRUE,Parent Mat. Thickness,,Real,Length,Inch,,,,,,,,
+Electric Connector,2,ELECCCONN,FALSE,Cavity Count,2,Integer,,,FALSE,,,,,,,TRUE
+Electric Connector,2,ELECCCONN,FALSE,Color,,List,,,FALSE,,,,,,,TRUE
+Electric Connector,2,ELECCCONN,FALSE,Connector Type,3,List,,,FALSE,,,"Circular, Rectangular, ","CIRC, RECT",,,TRUE
+Electric Connector,2,ELECCCONN,FALSE,Gender,1,List,,,FALSE,,,"Plug, Receptacle","PLUG, RCPT",,,TRUE
+Electric Connector,2,ELECCCONN,FALSE,Key,,List,,,FALSE,,,,,,,TRUE
+Electric Connector,2,ELECCCONN,FALSE,Modifications,,List,,,FALSE,,,,,,,TRUE
+Electric Fan,2,ELECFAN,FALSE,Fan Diameter,1,Real,Length,Inch,FALSE,,,,,,,TRUE
+Electric Fan,2,ELECFAN,FALSE,Max Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Electric Fan,2,ELECFAN,FALSE,Min Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Electric Fan,2,ELECFAN,FALSE,Number of Blades,,Integer,,,FALSE,,,,,,,
+Electric Fan,2,ELECFAN,FALSE,Reversible,,Boolean,,,FALSE,,FALSE,"Non-Reversible, Reversible",,,,TRUE
+Electric Fan,3,ELECFAN,FALSE,Fan Air Flow,,Real,Flowrate,CFM,FALSE,,,,,,,
+Electric Fan,3,ELECFAN,FALSE,Flow Direction,2,Boolean,,,FALSE,,,"Sucker, Blower","SUCKER, BLOWER",,,
+Electric Gauge,2,ELECGA,FALSE,Gauge Max Voltage,,Real,Voltage,V,TRUE,,,,,,,FALSE
+Electric Gauge,2,ELECGA,FALSE,Gauge Min Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Electric Gauge,2,ELECGA,FALSE,Gauge Type,1,List,,,FALSE,,,"FUEL, HOUR, HOUR/TACH, PRESSURE, TACH, TEMPERATURE, VOLTAGE","FUEL, HR, HRTACH, PRESS, TACH, TEMP, VOLT",,,TRUE
+Electric Motor,2,ELECMOT,FALSE,Motor Rated Speed,,Real,Angular Velocity,RPM,FALSE,,,,,,,TRUE
+Electric Motor,2,ELECMOT,FALSE,Motor Rated Power,4,Real,Power ,KW,FALSE,,,,,,,FALSE
+Electric Motor,2,ELECMOT,FALSE,Motor Mounting Type,,List,,,FALSE,,,"Foot Only, Outer Flange, Inner Flange, Foot and Outer Flange, Foot and Inner Flange ","FTONLY, OUTFLG, INFLG, FTOUTFLG, FTINFLG",,,
+Electric Motor,2,ELECMOT,FALSE,Motor Rating Type,,List,,,FALSE,,,"IEC, NEMA","IEC, NEMA",,,
+Electric Motor,2,ELECMOT,FALSE,Motor Frame IEC Size,,List,,,FALSE,,,"63, 71, 80, 90, 100, 112, 132, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500","63, 71, 80, 90, 100, 112, 132, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500",,,
+Electric Motor,2,ELECMOT,FALSE,Motor Frame NEMA Size,,List,,,FALSE,,,"42, 48, 56, 180T, 210T, 250T, 280T, 320T, 360T, 400T, 440T, 5000, 5800, 6800","42, 48, 56, 180T, 210T, 250T, 280T, 320T, 360T, 400T, 440T, 5000, 5800, 6800",,,
+Electric Motor,2,ELECMOT,FALSE,Motor Rotation Direction,,List,,,,,,"CCW, CW","CCW, CW",,,
+Electric Motor,2,ELECMOT,FALSE,Motor Voltage,1,Real,Voltage,V,TRUE,,,,,,,TRUE
+Electric Motor,2,ELECMOT,FALSE,Current Type,2,List,,,FALSE,,,,,,,
+Electric Motor,2,ELECMOT,FALSE,Number of Phases,3,List,,,FALSE,,,"Single Phase, Three Phase, ",,,,
+Electric Motor,2,ELECMOT,FALSE,Motor Housing Material,,List,,,FALSE,,,"Steel, Aluminum  ","STL, AL ",,,
+Electrical Actuator,2,ELECACTR,TRUE,Current Type,,List,,,,,,"AC, DC","AC, DC",,,
+Electrical Actuator,2,ELECACTR,TRUE,Extended Length,,Real,Length,Inch,FALSE,,,,,,,
+Electrical Actuator,2,ELECACTR,TRUE,Pull Load Capacity,,Real,Force,Pound,FALSE,,,,,,,
+Electrical Actuator,2,ELECACTR,TRUE,Push Load Capacity,2,Real,Force,Pound,FALSE,,,,,,,
+Electrical Actuator,2,ELECACTR,TRUE,Stroke Length,1,Real,Length,Inch,FALSE,,,,,,,
+Electrical Actuator,2,ELECACTR,TRUE,Voltage,3,Real,Voltage,V,,,,,,,,
+Electrical Cable,2,ELECCBL,TRUE,Cable Type,1,List,,,,,,"USB, Ethernet, Antenna","USB, ETH, ANT",,,
+Electrical Cable,2,ELECCBL,TRUE,Ethernet Category,,List,,,,,N/A,"CAT5, CAT5e, CAT6, NA","CAT5, CAT5e, CAT6, NA",,,
+Electrical Cable,2,ELECCBL,TRUE,Length,2,Real,Length,Inch,FALSE,,,,,,,
+Electrical Cable,2,ELECCBL,TRUE,Cable Terminal A Type,,List,,,,,,"M12_F, M12_M, RJ45, RJ45S, 12P_F, LEADS, TNCM, NF","M12_F, M12_M, RJ45, RJ45S, 12P_F, LEADS, TNCM, NF",,,
+Electrical Cable,2,ELECCBL,TRUE,Cable Terminal B Type,,List,,,,,,"M12_F, M12_M, RJ45, RJ45S, 12P_F, LEADS, TNCM, NF","M12_F, M12_M, RJ45, RJ45S, 12P_F, LEADS, TNCM, NF",,,
+Electronic Control Module ,2,ECM,FALSE,Control Module Type,1,List,,,FALSE,,,"Body, Climate, Engine, Electronic Brake, Powertrain, Transmission","BCM, CCM, ECM, EBCM, PCM, TCM",,,
+Electronic Control Module ,2,ECM,FALSE,Cavity Count,3,Integer,,,FALSE,,,,,,,
+Electronic Control Module ,2,ECM,FALSE,Connector Count,2,Integer,,,TRUE,,,,,,,TRUE
+Encoder,3,"SNSR,ENCDR",TRUE,Encoder Max Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Encoder,3,"SNSR,ENCDR",TRUE,Encoder Min Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Encoder,3,"SNSR,ENCDR",TRUE,Encoder Output Type,,List,,,FALSE,,,"Voltage, CAN","VOLT, CAN",,,TRUE
+Encoder,3,"SNSR,ENCDR",TRUE,Encoder Type,1,List,,,FALSE,,,"Absolute, Incremental","ABS, INCR",,,TRUE
+Engine,2,ENG,TRUE,Displacement,2,Real,Volume,Liter,FALSE,,,,,,,TRUE
+Engine,2,ENG,TRUE,EPA Emissions,,List,,,FALSE,,NA,"NA, Pre_Tier, Tier 1, Tier 2, Tier 3, Tier 4i, Tier 4f, Tier 5, Phase 1, Phase 2, Phase 3","NA, PRETIER, T1, T2, T3, IT4, T4F, T5, P1, P2, P3",,,TRUE
+Engine,2,ENG,TRUE,EU Emissions,,List,,,FALSE,,NA,"NA, Pre_Stage, Stage I, Stage II, Stage IIIa, Stage IIIb, Stage IV, Stage V, Stage VI","NA, PRESTG, STG1, STG2, STG3A, STG3B, STG4, STG5, STG6",,,TRUE
+Engine,2,ENG,TRUE,Fuel Type,1,List,,,FALSE,,,"Diesel, Gasoline, LPG","DSL, GAS, LPG",,,TRUE
+Engine,2,ENG,TRUE,Rated Power,3,Real,Power,HP,FALSE,,,,,,,TRUE
+Engine,2,ENG,TRUE,Rated Speed,,Real,ROTATIONAL VELOCITY,RPM,FALSE,,,,,,,TRUE
+Engine Oil,2,ENGOIL,TRUE,Engine Oil API Rating,,List,,,TRUE,,,"SP, SN, SM, CK_4, CJ_4, CI_4, FA_4","SP, SN, SM, CK_4, CJ_4, CI_4, FA_4",,,
+Engine Oil,2,ENGOIL,TRUE,SAE Visc. Grade,3,List,,,FALSE,,,"4, 8, 12, 20, 30, 40, 50, 60","4, 8, 12, 20, 30, 40, 50, 60",,,TRUE
+Engine Oil,2,ENGOIL,TRUE,SAE Winter Visc Grade,2,List,,,FALSE,,,"0W, 5W, 10W, 15W, 20W, 25W","0W, 5W, 10W, 15W, 20W, 25W",,,
+Engine Oil,2,ENGOIL,TRUE,Engine Oil Type,1,List,,,TRUE,,,"Diesel, Gas, other","DSL, GAS, OTHER",,,
+Exhaust Flex Coupling,2,EXHCPLG,FALSE,Pipe OD,1,Real,Diameter,Inch,FALSE,,,,,,,
+Fabricated Machined,2,FABMA,TRUE,Fab Material,,List,,,FALSE,,,"Steel, Stainless, Aluminum, Plastic, ","STL, SST, AL, PLSTC",,,
+Fabricated Sheetmetal,2,FABSHMET,TRUE,Sheetmetal Material,,List,,,FALSE,,,"Steel, Stainless, Aluminum","STL, SST, AL",,,
+Fabricated Sheetmetal,2,FABSHMET,TRUE,Sheetmetal Thickness,,Real,Thickness,Inch,FALSE,,,,,,,
+Fabricated Sheetmetal,2,FABSHMET,TRUE,Sheetmetal VRM,,List,,,FALSE,,,"100, 101, 102, 103, 104, 105, 106, 107, 118, 119, 129, 130, 131, 132, 139, 404, 405, 500","100, 101, 102, 103, 104, 105, 106, 107, 118, 119, 129, 130, 131, 132, 139, 404, 405, 500",,,
+Filter,2,FLRT,TRUE,Filter Type,1,List,,,FALSE,,,"Engine Oil, Air, Hydraulic, Water, Fuel","ENGOIL, AIR, HYDR, H2O, FUEL",,,FALSE
+Filter Element,2,FLRTELEM,FALSE,Filter Type,1,List,,,FALSE,,,"Engine Oil, Air, Hydraulic, Water, Fuel","ENGOIL, AIR, HYDR, H2O, FUEL",,,
+"Fitting, Adapter",3,"FTG,ADPTR",FALSE,End 1 Type,2,List,,,FALSE,,,"Hose Barb, NPT, BSPT","HB, NPT, BSPT",,,
+"Fitting, Adapter",3,"FTG,ADPTR",FALSE,End 1 Size,,List,,,FALSE,,,"1/4"", 5/16"", 3/8"", 1/2"", 3/4"", 7/8"", 1"", 1-1/8"", 1-1/4"", 1-3/8"", 1-1/2"", 1-3/4"", 2"", 2-1/4"", 2-1/2"", 2-3/4"", 3"", M5, M6, M7, M8, M10, M12, M14, M16, M18, M20, M22","1_4"", 5_16"", 3_8"", 1_2"", 3_4"", 7_8"", 1"", 1-1_8"", 1-1_4"", 1-3_8"", 1-1_2"", 1-3_4"", 2"", 2-1_4"", 2-1_2"", 2-3_4"", 3"", M5, M6, M7, M8, M10, M12, M14, M16, M18, M20, M22",,,
+"Fitting, Adapter",3,"FTG,ADPTR",FALSE,End 1 Gender,,List,,,FALSE,,,"MALE, FEMALE","M, F",,,
+"Fitting, Adapter",3,"FTG,ADPTR",FALSE,End 2 Type,3,List,,,FALSE,,,"Hose Barb, NPT, BSPT","HB, NPT, BSPT",,,
+"Fitting, Adapter",3,"FTG,ADPTR",FALSE,End 2 Size,,List,,,FALSE,,,"1/4"", 5/16"", 3/8"", 1/2"", 3/4"", 7/8"", 1"", 1-1/8"", 1-1/4"", 1-3/8"", 1-1/2"", 1-3/4"", 2"", 2-1/4"", 2-1/2"", 2-3/4"", 3"", M5, M6, M7, M8, M10, M12, M14, M16, M18, M20, M22","1_4"", 5_16"", 3_8"", 1_2"", 3_4"", 7_8"", 1"", 1-1_8"", 1-1_4"", 1-3_8"", 1-1_2"", 1-3_4"", 2"", 2-1_4"", 2-1_2"", 2-3_4"", 3"", M5, M6, M7, M8, M10, M12, M14, M16, M18, M20, M22",,,
+"Fitting, Adapter",3,"FTG,ADPTR",FALSE,End 2 Gender,,List,,,FALSE,,,"MALE, FEMALE","M, F",,,
+"Fitting, Adapter",3,"FTG,ADPTR",FALSE,Adapter Material,1,List,,,FALSE,,,"Plastic, Brass, Stainless, Steel","PLSTC, BRS, SST, STL",,,
+"Fitting, Cap",3,CAP,FALSE,CAP MATERIAL,1,List,,,FALSE,,,"Plastic, Brass, Stainless, Steel","PLSTC, BRS, SST, STL",,,
+"Fitting, Cap",3,CAP,FALSE,Cap End 1 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, ","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, ",,,
+"Fitting, Cap",3,CAP,FALSE,Cap End 1 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Cross",3,"FTG,CROSS",FALSE,Cross Fitting Mat.,,List,,,FALSE,,,"Steel, Brass, Stainless, Plastic","STL, BRS, SST, PLSTC",,,
+"Fitting, Cross",3,"FTG,CROSS",FALSE,Cross End 1 Gender,,List,,,FALSE,,,"F, M, FS, MS, NA","F, M, FS, MS, NA",,,
+"Fitting, Cross",3,"FTG,CROSS",FALSE,Cross End 1 Sealing Type,1,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA",,,
+"Fitting, Cross",3,"FTG,CROSS",FALSE,Cross End 1 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA",,,
+"Fitting, Elbow",3,"FTG,ELB",FALSE,Elbow ID,,Real,Diameter,Inch,FALSE,,,,,,,
+"Fitting, Elbow",3,"FTG,ELB",FALSE,Elbow Material,1,List,,,FALSE,,,"Steel, Brass, Bronze, Stainless, Plastic, Rubber, Copper, Aluminum","STL,BRS, BRZ, SST, PLSTC, RBR, CU, AL",,,
+"Fitting, Elbow",3,"FTG,ELB",FALSE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+"Fitting, Elbow",3,"FTG,ELB",FALSE,Elbow Max Temp ,,Real,Temperature,Fahrenheit,FALSE,,,,,,,
+"Fitting, Elbow",3,"FTG,ELB",FALSE,Elbow Angle,2,List,Degrees,,FALSE,,,"STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L","STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L",,,
+"Fitting, Grease",3,"FTG,GRS",FALSE,Grease Fitting Angle Type,,List,,,FALSE,,,"F, M, FS, MS","F, M, FS, MS",,,
+"Fitting, Grease",3,"FTG,GRS",FALSE,Dust Cap,,Boolean,,,FALSE,,,"Cap, No Cap","CAP, NOCAP",,,
+"Fitting, Grease",3,"FTG,GRS",FALSE,Grease Fitting End Size,1,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Grease",3,"FTG,GRS",FALSE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+"Fitting, Grease",3,"FTG,GRS",FALSE,Grease Fitting Thread Size,,List,,,FALSE,,,"1/8""NPT, 1/16""NPT, 1/2""NPT, 1/4""-19, 1/8""-27 M10x1","1_8""NPT, 1_16""NPT, 1_2""NPT, 1_4""-19, 1_8""-27 M10x1",,,
+"Fitting, Hose Coupling",3,"FTG,HOSECPLG",FALSE,Angle/Type,,List,,,FALSE,,,"STR, 22.5, 30, 45, 60, 67, 90S, 90M, 90L","STR, 22.5, 30, 45, 60, 67, 90S, 90M, 90L",,,
+"Fitting, Hose Coupling",3,"FTG,HOSECPLG",FALSE,Connection Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Hose Coupling",3,"FTG,HOSECPLG",FALSE,Gender,,List,,,FALSE,,,"F, FS, M, MS","F, FS, M, MS",,,
+"Fitting, Hose Coupling",3,"FTG,HOSECPLG",FALSE,Hose Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Hose Coupling",3,"FTG,HOSECPLG",FALSE,Pressure Rating,,List,,,FALSE,,,"3000, 4000, 5000, 6000, Hydraulic Return, Hydraulic Suction","3000, 4000, 5000, 6000, HYDRRTN, HYDRSUCT",,,
+"Fitting, Hose Coupling",3,"FTG,HOSECPLG",FALSE,Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP",,,
+"Fitting, Live Swivel",3,"FTG,LIVESWVL",FALSE,Swivel Angle,,List,,,FALSE,,,,,,,
+"Fitting, Live Swivel",3,"FTG,LIVESWVL",FALSE,Swivel End 1 Gender,,List,,,FALSE,,,"F, M, FS, MS","F, M, FS, MS",,,
+"Fitting, Live Swivel",3,"FTG,LIVESWVL",FALSE,Swivel End 1 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ",,,
+"Fitting, Live Swivel",3,"FTG,LIVESWVL",FALSE,Swivel End 1 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Live Swivel",3,"FTG,LIVESWVL",FALSE,Swivel End 2 Gender,,List,,,FALSE,,,"F, M, FS, MS","F, M, FS, MS",,,
+"Fitting, Live Swivel",3,"FTG,LIVESWVL",FALSE,Swivel End 2 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ",,,
+"Fitting, Live Swivel",3,"FTG,LIVESWVL",FALSE,Swivel End 2 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Pipe",3,"FTG,PIPE",FALSE,Pipe Finish,,List,,,FALSE,,,"Black Coated, Galvanized, Zinc Plated, Anodized, Plain","BLKCTD, GALV, ZINC, ANDZ, PL",,,TRUE
+"Fitting, Pipe",3,"FTG,PIPE",FALSE,Length,,Real,Length,Inch,FALSE,,,,,,,TRUE
+"Fitting, Pipe",3,"FTG,PIPE",FALSE,Pipe Size,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+"Fitting, Pipe",3,"FTG,PIPE",FALSE,Pipe Schedule ,,List,Length,Inch,FALSE,,,"10, 40, 80, 160, XXH","10, 40, 80, 160, XXH",,,TRUE
+"Fitting, Pipe",3,"FTG,PIPE",FALSE,Pipe Thread Type,,List,,,FALSE,,,"NPT, NPTF, BSPT, NA","NPT, NPTF, BSPT, NA",,,TRUE
+"Fitting, Pipe",3,"FTG,PIPE",FALSE,Pipe Threading,,List,,,FALSE,,,"Threaded Both Ends, Threaded One End, Unthreaded","TBE, TOE, NOTHD",,,TRUE
+"Fitting, Plug",3,"FTG,PLG",FALSE,Plug Hole OD,,Real,,,FALSE,,,,,,,
+"Fitting, Plug",3,"FTG,PLG",FALSE,Plug End 1 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ",,,
+"Fitting, Plug",3,"FTG,PLG",FALSE,Plug End 1 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Restrictor ",3,"FTG,RSTR",FALSE,Restrictor Orifice Size,,Real,Diameter,,FALSE,,,,,,,
+"Fitting, Restrictor ",3,"FTG,RSTR",FALSE,Restrictor Material,,List,,,FALSE,,,"Brass, Stainless, Plastic ","BRS, SST, PLSTC",,,
+"Fitting, Restrictor ",3,"FTG,RSTR",FALSE,Restrictor Connection Type,,List,,,FALSE,,,"Barbed, Compression, Threaded, Unthreaded, Push Connect","BARB, CPRSN, THRD, NOTHRD, PUSHCONN",,,
+"Fitting, Restrictor ",3,"FTG,RSTR",FALSE,Restrictor Thread Type,,List,,,FALSE,,,"NPT, UNC, UNF, N/A","NPT, UNC, UNF, NA",,,
+"Fitting, Straight ",3,"FTG,STR",FALSE,Straight End 1 Gender,,List,,,FALSE,,,"F, M, FS, MS","F, M, FS, MS",,,
+"Fitting, Straight ",3,"FTG,STR",FALSE,Straight End 1 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB",,,
+"Fitting, Straight ",3,"FTG,STR",FALSE,Straight End 1 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Straight ",3,"FTG,STR",FALSE,Straight End 2 Gender,,List,,,FALSE,,,"F, M, FS, MS","F, M, FS, MS",,,
+"Fitting, Straight ",3,"FTG,STR",FALSE,Straight End 2 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB",,,
+"Fitting, Straight ",3,"FTG,STR",FALSE,Straight End 2 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Straight ",3,"FTG,STR",FALSE,Length Classification,,List,Length,Inch,FALSE,,,"Normal,L,LL,LLL","NORM, L, LL, LLL",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee Fitting Mat.,,,,,FALSE,,,"Steel, Brass, Stainless, Plastic","STL, BRS, SST, PLSTC",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 1 Gender,,,,,FALSE,,,"F, M, FS, MS, NA","F, M, FS, MS, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 1 Sealing Type,,,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 1 Size,,,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 2 Gender,,,,,FALSE,,,"F, M, FS, MS, NA","F, M, FS, MS, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 2 Sealing Type,,,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 2 Size,,,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 3 Gender,,,,,FALSE,,,"F, M, FS, MS, NA","F, M, FS, MS, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 3 Size,,,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA",,,
+"Fitting, Tee",3,"FTG,TEE",FALSE,Tee End 3 Sealing Type,,,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA",,,
+"Fitting, Test ",3,"FTG,TEST",FALSE,Angle/Type,,,,,FALSE,,,,,,,
+"Fitting, Test ",3,"FTG,TEST",FALSE,End 1 Gender,,List,,,FALSE,,,"F, M, FS, MS","F, M, FS, MS",,,
+"Fitting, Test ",3,"FTG,TEST",FALSE,End 1 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ",,,
+"Fitting, Test ",3,"FTG,TEST",FALSE,End 1 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Test ",3,"FTG,TEST",FALSE,End 2 Gender,,List,,,FALSE,,,"F, M, FS, MS","F, M, FS, MS",,,
+"Fitting, Test ",3,"FTG,TEST",FALSE,End 2 Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, ",,,
+"Fitting, Test ",3,"FTG,TEST",FALSE,End 2 Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+"Fitting, Vent",3,"FTG,VENT",FALSE,Vent Compatibility ,,List,,,TRUE,,,"Air, Inert Gas, Oil, Water","AIR, INRTGAS, OIL, H2O",,,TRUE
+"Fitting, Vent",3,"FTG,VENT",FALSE,Vent Size,2,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+"Fitting, Vent",3,"FTG,VENT",FALSE,Vent Thread Type,3,List,,,FALSE,,,"NPT, UNF, BSPT, UNC, NPSM","NPT, UNF, BSPT, UNC, NPSM",,,TRUE
+Fluid Level Switch,3,"SW,FLLVL",TRUE,Logic,,List,,,FALSE,,,"N.O., N.C.","N.O., N.C.",,,TRUE
+Fluid Level Switch,3,"SW,FLLVL",TRUE,Fluid Level Mnt Type,1,,,,FALSE,,,"1/4-18, M14X1.5","1_4-18, M14X1.5",,,
+Fluid Tank,2,FLTK,TRUE,Tank Capacity,2,Real,Volume,Gallon,FALSE,,,,,,,TRUE
+Fluid Tank,2,FLTK,TRUE,Tank Pressurized,,Boolean,,,FALSE,,,"Pressurized, Non-Pressurized","PRESS, NOPRESS",,,
+Fluid Tank,2,FLTK,TRUE,Tank Type,1,List,,,FALSE,,,"Water, Hydraulic, Surge","H2O, HYDR, SURGE",,,
+Fuel Cap,2,FUELCAP,FALSE,Fuel Type,,List,,,FALSE,,,"Gasoline(Petrol), Diesel, Diesel & Gasoline",,,,
+Fuel Cap,2,FUELCAP,FALSE,Cap Product Compliance ,,List,,,FALSE,,,,,,,
+Fuel Tank,2,FUELTK,FALSE,Fuel Tank Material,,List,,,FALSE,,,"Metalic, Non-Metalic","MTLC, NM",,,
+Fuel Tank,2,FUELTK,FALSE,Fuel Type,,List,,,FALSE,,,"Gasoline(Petrol), Diesel, Diesel & Gasoline","GAS, DSL, GASDSL",,,
+Fuel Tank,2,FUELTK,FALSE,Tank Product Compliance  ,,List,,,FALSE,,,EPA,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Inner Diameter,,Real,Diameter,Inch,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Internal Spring Req.,,Boolean,,,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Material Code,,Free Text?,,,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Maximum Burst Rating,,Real,Pressure,PSI,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Maximum Temperature Rating,,Real,Temperature,Fahrenheit,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Minimum Vacuum Rating,,Real,Vacuum,PSI,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Textile Reinforcement,,Boolean,,,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Tolerance Code,,Free Text?,,,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Wall Thickness,,Real,Only If Varying From Tolerance,,,,,,,,,
+Formed Rubber Atmospheric Intake Hose (Included in Hose),,,FALSE,Wall Thickness Tolerance,,Real,Only If Varying From Tolerance,,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Inner Diameter,,Real,Diameter,Inch,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Internal Spring Req.,,Boolean,,,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Material Code,,Free Text?,,,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Maximum Burst Rating,,Real,Pressure,PSI,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Maximum Temperature Rating,,Real,Temperature,Fahrenheit,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Minimum Vacuum Rating,,Real,Vacuum,PSI,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Textile Reinforcement,,Boolean,,,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Tolerance Code,,Free Text?,,,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Wall Thickness,,Real,Only If Varying From Tolerance,,,,,,,,,
+Formed Rubber CAC Hose (Inlcuded in Hose),,,FALSE,Wall Thickness Tolerance,,Real,Only If Varying From Tolerance,,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Inner Diameter,,Real,Diameter,Inch,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Internal Spring Req.,,Boolean,,,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Material Code,,Free Text?,,,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Maximum Burst Rating,,Real,Pressure,PSI,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Maximum Temperature Rating,,Real,Temperature,Fahrenheit,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Minimum Vacuum Rating,,Real,Vacuum,PSI,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Textile Reinforcement,,Boolean,,,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Tolerance Code,,Free Text?,,,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Wall Thickness,,Real,Only If Varying From Tolerance,,,,,,,,,
+Formed Rubber Coolant Hose (Included in Hose),,,FALSE,Wall Thickness Tolerance,,Real,Only If Varying From Tolerance,,,,,,,,,
+Fuel,2,FUEL,TRUE,Fuel Taxed ,2,Boolean,,,FALSE,,,"Taxed, Untaxed","TAX, NOTAX",,,TRUE
+Fuel,2,FUEL,TRUE,Fuel Type,1,List,,,FALSE,,,"Gasoline, Diesel, other","GAS, DSL, OTHER",,,TRUE
+Fuel Pump,2,FUELPMP,FALSE,Flow Rate,1,Real,Volumetric Flow,GPM,FALSE,,,,,,,FALSE
+Fuel Pump,2,FUELPMP,FALSE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,FALSE
+Fuel Pump,2,FUELPMP,FALSE,Nominal Pressure,,Real,Pressure,PSI,FALSE,,,,,,,FALSE
+Fuel Pump,2,FUELPMP,FALSE,Power Type,,List,,,FALSE,,,"Electric, Compression, Manual, Other ","ELEC, CPRSN, MANUAL, OTHER",,,TRUE
+Gas Shock,2,GASSH,TRUE,Gas Shock Body OD,,Real,Diameter,Inch,,,,,,,,
+Gas Shock,2,GASSH,TRUE,Comp Length,,Real,Length,Inch,FALSE,,,,,,,
+Gas Shock,2,GASSH,TRUE,Ext Length,1,Real,Length,Inch,FALSE,,,,,,,
+Gas Shock,2,GASSH,TRUE,Gas Shock Ext Force,,Real,Force,Pound,,,,,,,,
+Gas Shock,2,GASSH,TRUE,Gas Shock Rod OD,,Real,Diameter,Inch,,,,,,,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket X-S Shape,1,List,,,FALSE,,,"Round, Square, Rectangle, D, X, Double X","RND, SQ, RECT, D, X, XX",,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket Compatibility ,,List,,,TRUE,,,"Water, Diesel, Gasoline, Engine Oil, Hydraulic Oil, ","H2O, DSL, GAS, ENGOIL, HYDROIL",,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket Hardness,,Real,,,FALSE,,,,,,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket ID,,Real,Distance,Inch,FALSE,,,,,,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket Max Temp,,Real,Temperature,Fahrenheit,FALSE,,,,,,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket Min Temp,,Real,Temperature,Fahrenheit,FALSE,,,,,,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket OD,,Real,Distance,Inch,FALSE,,,,,,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket Shape,,List,,,FALSE,,,"Round, Oval, Square, Custom","RND, OVAL, SQ, CUST",,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket Thickness,,Real,Distance,Inch,FALSE,,,,,,,
+Gasket,3,"SEAL,GSKT",TRUE,Gasket Width,,Real,Distance,Inch,FALSE,,,,,,,
+Gear,2,GEAR,TRUE,Gear Type,1,List,,,FALSE,,,"Helical, Miter, Angular Miter, Spur, Planetary","HLCL, MIT, ANLRMIT, SPUR, PLNTY",,,
+Gear,2,GEAR,TRUE,Gear Pitch,,Integer,,,FALSE,,,,,0,,TRUE
+Gear,2,GEAR,TRUE,Helix Angle,,List,,,FALSE,,N/A,"15°, 20°, 25°, 30°, 35°, 40°, 45°, NA","15°, 20°, 25°, 30°, 35°, 40°, 45°, NA",0,,TRUE
+Gear,2,GEAR,TRUE,Gear Length,,Real,Length,Inch,FALSE,,,,,0,,TRUE
+Gear,2,GEAR,TRUE,Pressure Angle,,List,,,FALSE,,,"14.5°, 20°","14.5°, 20°",0,,TRUE
+Gear,2,GEAR,TRUE,Miter Shaft Angle,,List,,,FALSE,,N/A,"45°, 60°, 90°, 120°, NA","45°, 60°, 90°, 120°, NA",0,,TRUE
+Gear,2,GEAR,TRUE,Miter Straight/Spiral,,List,,,FALSE,,Straight,"Straight, Spiral, N/A","STR, SPL, NA",,,TRUE
+Gear Oil,2,GRO,TRUE,Viscosity Grade Rating Type,1,List,,,FALSE,,,"ISO(68), SAE (80W-90)","ISO68, SAE80W-90",,,TRUE
+Gear Oil,2,GRO,TRUE,API GL rating,,List,,,TRUE,,,"GL_4, GL_5, MT_1","GL_4, GL_5, MT_1",,,
+Gear Oil,2,GRO,TRUE,Limited slip,4,List,,,FALSE,,,"Limited slip, non-limited slip","LTD, NONLTD",,,
+Gear Oil,2,GRO,TRUE,Viscosity Grade,3,List,,,FALSE,,,"32, 46, 68, 100, 150, 220, 320, 460, 680, 1000, 10, 20, 30, 40, 50, 75, 80, 90, 140, 250","32, 46, 68, 100, 150, 220, 320, 460, 680, 1000, 10, 20, 30, 40, 50, 75, 80, 90, 140, 250",,,TRUE
+Gear Oil,2,GRO,TRUE,Viscosity Winter Grade,2,List,,,FALSE,,,"10W, 15W, 20W, 75W, 80W, 85W, 90W ","10W, 15W, 20W, 75W, 80W, 85W, 90W ",,,
+Gear Rack,2,GRK,TRUE,Gear Rack Type,1,List,,,,,,"Helical, Straight","HLCL, STR",,,
+Gear Rack,2,GRK,TRUE,Gear Pitch,,Integer,,,FALSE,,,,,0,,TRUE
+Gear Rack,2,GRK,TRUE,Rack Width,,Real,Length,Inch,FALSE,,,,,,,
+Gear Rack,2,GRK,TRUE,Rack Length,2,Real,Length,Inch,FALSE,,,,,0,,TRUE
+Gear Rack,2,GRK,TRUE,Pressure Angle,,List,,,FALSE,,,"14.5°, 20°","14.5°, 20°",0,,TRUE
+Gear Rack,2,GRK,TRUE,Helix Angle,,List,,,FALSE,,N/A,"19°, 31°, 42°, NA","19°, 31°, 42°, NA",0,,TRUE
+Gearbox,2,GRBX,TRUE,Gearbox Speed Type,,,,,FALSE,,,"Single Speed, Multi-Speed","SGLSP, MULTSP",,,
+Gearbox,2,GRBX,TRUE,Gearbox Max Ratio,,Real,,Ratio,FALSE,Teeth of driven gear/teeth of driver gear,,,,,,TRUE
+Gearbox,2,GRBX,TRUE,Gear Box Input-Output Alignment,1,List,,,FALSE,,,"Concentric, Parallel, Angled","CONC, PRL, ANGLE",,,
+Gearbox,2,GRBX,TRUE,Gearbox Lowest Ratio- Multi-Speed,,Real,,Ratio,FALSE,Teeth of driven gear/teeth of driver gear,,,,,,TRUE
+Gearbox,2,GRBX,TRUE,Gearbox Max Input Torque,,Real,Torque,Foot-Pound,FALSE,,,,,,,
+Gearbox,2,GRBX,TRUE,Gearbox No. of Outputs,,Integer,,,FALSE,,1,,,1,,
+Gearbox,2,GRBX,TRUE,Gearbox No. of Speeds-Multi-Speed,,Integer,,,FALSE,,,,,,,
+Generator,2,GEN,TRUE,Gen. Frequency,3,Real,Frequency,Hz,FALSE,,,,,,,TRUE
+Generator,2,GEN,TRUE,Gen. Max Speed,,Real,Angular Velocity,RPM,FALSE,,,,,,,
+Generator,2,GEN,TRUE,Gen. Phase,,List,,,,,,"1 Phase, 2 Phase, 3 Phase","1PH, 2PH, 3PH",,,
+Generator,2,GEN,TRUE,Gen. Power Rating,1,Real,Power,kW,FALSE,,,,,,,TRUE
+Generator,2,GEN,TRUE,Gen. Rated Speed,,Real,Angular Velocity,RPM,FALSE,,,,,,,
+Generator,2,GEN,TRUE,Gen. Voltage,2,Real,Voltage,V,FALSE,,,,,,,TRUE
+Grease,2,GRS,TRUE,Grease Base Oil Type,3,List,,,FALSE,,,"Mineral, Part Synthetic, Synthetic, Silicone, Fluoropolymer, Other","MNRL, SYNTH, PARTSYNTH, SILICONE, FP, OTHER",,,FALSE
+Grease,2,GRS,TRUE,Grease Base Oil VI,,Real,,,FALSE,,,,,,,FALSE
+Grease,2,GRS,TRUE,Grease EP,,Boolean,,,,,,,,,,
+Grease,2,GRS,TRUE,Grease NLGI Consistency,2,List,,,FALSE,,2,"000, 00, 0, 1, 2, 3, 4, 5, 6","000, 00, 0, 1, 2, 3, 4, 5, 6",,,TRUE
+Grease,2,GRS,TRUE,Grease % Molybdenum Disulfide,,Real,Percent,,FALSE,,0,,,0,100,TRUE
+Grease,2,GRS,TRUE,Grease Thickener Type,1,List,,,TRUE,,,"Aluminum Complex, Barium Complex, Calcium Soap, Calcium Complex, Calcium Sulfonate, Carbon Black, Bentone, Lithium Soap, Lithium Complex, Polyurea, PTFE, Silica, Sodium Soap, Other
+","ALCPLX, BACPLX, CASOAP, CACPLX, CASULF, CBLK, BENTONE, LISOAP, LICPLX, PU, PTFE, SILICA, NASOAP, OTHER",,,
+Grinder Hammer,3,GRINDERHMR,FALSE,Hole Size,4,Real,Diameter,Inch,FALSE,,,,,,,
+Grinder Hammer,3,GRINDERHMR,FALSE,Length,1,Real,Length,Inch,FALSE,,,,,,,
+Grinder Hammer,3,GRINDERHMR,FALSE,Number of Holes,3,Integer,,,FALSE,,,,,,,
+Grinder Hammer,3,GRINDERHMR,FALSE,Thickness,,Real,Length,Inch,FALSE,,,,,,,
+Grinder Hammer,3,GRINDERHMR,FALSE,Width,2,Real,Length,Inch,FALSE,,,,,,,
+Grinder Tip  ,3,GRINDERTIP,FALSE,Coating,5,List,,,,,,"Hardfaced, Premium Grit",,,,
+Grinder Tip  ,3,GRINDERTIP,FALSE,Edge Style,2,List,,,,,,"Single, Double",,,,
+Grinder Tip  ,3,GRINDERTIP,FALSE,Length,3,Real,Length,Inch,FALSE,,,,,,,
+Grinder Tip  ,3,GRINDERTIP,FALSE,Style,1,List,,,,,,"Wing, Wide, Regular",,,,
+Grinder Tip  ,3,GRINDERTIP,FALSE,Width,4,Real,Length,Inch,,,,,,,,
+Grommet,3,GROM,TRUE,Grommet Mat. Thickness,,Real,,,,,,,,,,
+Grommet,3,GROM,TRUE,Grommet ID,,Real,,,,,,,,,,
+Grommet,3,GROM,TRUE,Grommet OD,,Real,,,,,,,,,,
+Grommet,3,GROM,TRUE,Grommet Type ,1,List,,,,,,"Symmetrical, bumper, flat, slit web, push in","SYMM, BMPR, FLAT, SLIT, PUSHIN",,,
+Gusset,2,GUS,TRUE,Gusset Material,1,List,,,,,,"Steel, Aluminum, Plastic","STL, AL, PLSTC",,,
+Gusset,2,GUS,TRUE,Gusset Angle,,Real,Length,Inch,,,,,,,,
+Gusset,2,GUS,TRUE,Gusset Material Thickness,,Real,Length,Inch,,,,,,,,
+Handle,3,HDL,TRUE,Handle Locking,,Boolean,,,FALSE,,,"Locking, Nonlocking","LKG, NOLKG",,,TRUE
+Handle,3,HDL,TRUE,Handle Style,1,List,,,FALSE,,,"Pull, Folding, Offset, Recessed, Edge Pull, Arm Pull, Foot Pull, Knob, Lever, Crank","PULL, FLDG, OFS, REC, EDGEPULL, ARMPULL, FTPULL, KNOB, LEVER, CRANK",,,TRUE
+HDD Collar,3,HDDCOLLAR,FALSE,Thread Size,1,List,,,FALSE,,,"1.625-in (4.13-cm) LPT Hex, 2.125-in (5.4-cm) LPT Hex, QuickFire 300, QuickFire 400, QuickFire 460, QuickFire 700, QuickFire HD 300, QuickFire HD 400, QuickFire HD 460","1.625LPTHEX, 2.125LPTHEX, QF300, QF400, QF460, QF700, QFHD300, QFHD400, QFHD460",,,
+HDD Collar,3,HDDCOLLAR,FALSE,Coating,2,List,,,FALSE,,,Hardfaced,HARDFACED,,,
+HDD Collar,3,HDDCOLLAR,FALSE,Drill Rod Size,3,Real,,Inch,FALSE,,,,,,,
+Heat Shrink Tubing,3,HST,FALSE,Before ID,1,Real,Diameter,Inch,FALSE,,,,,,,
+Heat Shrink Tubing,3,HST,FALSE,Shrink Ratio,,List,,,FALSE,,,"2:1, 3:1, 4:1, 6:1","2:1, 3:1, 4:1, 6:1",,,
+Hinge,3,HNG,TRUE,Hinge Door Weight,,List,,,,,,,,,,
+Hose ,2,HOSE ,TRUE,Hose Type,1,List,,,,,,"Air Intake, CAC, Coolant, ","AITINTK, CAC, COOL",,,
+Hose ,2,HOSE ,TRUE,Hose OD,,Real,Diameter,Inch,,,,,,,,
+Hose ,2,HOSE ,TRUE,Hose Max Temp,,Real,Temperature,Fahrenheit,,,,,,,,
+Hose ,2,HOSE ,TRUE,Hose Wall Thickness,,Real,Length,Inch,,,,,,,,
+Hose Assembly,2,HOSEASSY,FALSE,Clocking Angle,,Real,Angle,Degree,FALSE,,,"STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L","STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L",,,
+Hose Assembly,2,HOSEASSY,FALSE,Covering,,List,,,,,,"None, Nylon, Poly, Spring","NONE, NYL, POLY, SPR",,,
+Hose Assembly,2,HOSEASSY,FALSE,End B Angle,,List,Angle,Degree,FALSE,,,"STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L","STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L",,,
+Hose Assembly,2,HOSEASSY,FALSE,End B Connection Gender,,List,,,FALSE,,,"F, FS, M, MS","F, FS, M, MS",,,
+Hose Assembly,2,HOSEASSY,FALSE,End B Connection Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+Hose Assembly,2,HOSEASSY,FALSE,End B Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP",,,
+Hose Assembly,2,HOSEASSY,FALSE,End C Angle,,List,Angle,Degree,FALSE,,,"STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L","STR, 22 AND ONE HALF, 30, 45, 60, 67, 90S, 90M, 90L",,,
+Hose Assembly,2,HOSEASSY,FALSE,End C Connection Gender,,List,,,FALSE,,,"F, FS, M, MS","F, FS, M, MS",,,
+Hose Assembly,2,HOSEASSY,FALSE,End C Connection Size,,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+Hose Assembly,2,HOSEASSY,FALSE,End C Sealing Type,,List,,,FALSE,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP",,,
+Hose Assembly,2,HOSEASSY,FALSE,Fluid Type,1,List,,,FALSE,,,"Hydraulic, Pneumatic, Grease, Coolant, Diesel Fuel, Biodiesel, Gasoline, Mud, Water","HYDR, PNEU, GRS, COOLM DSL, GAS, MUD, H2O",,,
+Hose Assembly,2,HOSEASSY,FALSE,Generic,,Boolean,,,FALSE,,,,,,,
+Hose Assembly,2,HOSEASSY,FALSE,Hose Size,2,List,,,FALSE,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64",,,
+Hose Assembly,2,HOSEASSY,FALSE,Length,,Real,Length,Inch,FALSE,"In Increments of .5""",,,,,,
+Hose Assembly,2,HOSEASSY,FALSE,Vermeer Generic Hose Spec,,List,,,FALSE,,,"3000, 4000, 5000, 6000, Hydraulic Return, Hydraulic Suction","3000, 4000, 5000, 6000, HYDRRTN, HYDRSUCT",,,
+Hose Carrier,3,HOSECARR,TRUE,Max Hose Dia. ,,Real,Diameter,Inch,FALSE,,,,,,,
+Hose Reel ,3,HOSEREEL,FALSE,For Use With,,List,,,FALSE,,,"Air, Hydraulic Fluid, Water","AIR, HYDROIL, H2O",,,TRUE
+Hose Reel ,3,HOSEREEL,FALSE,Hose ID,1,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+Hose Reel ,3,HOSEREEL,FALSE,Hose Included,,List,,,FALSE,,,"HOSE, NOHOSE","HOSE, NOHOSE",,,TRUE
+Hose Reel ,3,HOSEREEL,FALSE,Length,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Hose Reel ,3,HOSEREEL,FALSE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Hose Reel ,3,HOSEREEL,FALSE,Thread Type,,List,,,FALSE,,,"NPT, BSPT, UNF","NPT, BSPT, UNF",,,FALSE
+Hose Reel ,3,HOSEREEL,FALSE,Winding Method,2,List,,,FALSE,,,"Automatic, Manual","AUTP, MNL",,,TRUE
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Fluid Type,,List,,,FALSE,,,"Filtered Air, Atm Air, CAC, Coolant, Water",,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Inner Diameter,,Real,Diameter,Inch,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Internal Spring Req.,,Boolean,,,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Material Code,,Free Text?,,,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Maximum Burst Rating,,Real,Pressure,PSI,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Maximum Temperature Rating,,Real,Temperature,Fahrenheit,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Minimum Vacuum Rating,,Real,Vacuum,PSI,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Textile Reinforcement,,Boolean,,,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Tolerance Code,,Free Text?,,,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Wall Thickness,,Real,Only If Varying From Tolerance,,FALSE,,,,,,,
+"Hump Hose (Included in Fitting, Adapter)",,,FALSE,Wall Thickness Tolerance,,Real,Only If Varying From Tolerance,,FALSE,,,,,,,
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Hyd. Cyl. Port Size,,List,,,FALSE,,,"2, 4, 6, 8, 10, 12, 14, 16","2, 4, 6, 8, 10, 12, 14, 16",,,
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Hyd. Cyl. Bore Dia.,,Real,Length,Inch,FALSE,,0,,,,,TRUE
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Hyd. Cyl. CB,2,Boolean,,,FALSE,Counterbalance,No,"CB, No CB","CB, NOCB",,,FALSE
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Hyd. Cyl. Cushion,,Boolean,,,FALSE,,No,"Cushion, No-Cushion","CUSH, NOCUSH",,,FALSE
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Ext Length,,Real,Length,Inch,FALSE,,0,,,,,TRUE
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Retract Length,,Real,Length,Inch,FALSE,,0,,,,,TRUE
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Hyd. Cyl. Rod OD,,Real,Length,Inch,FALSE,,0,,,,,TRUE
+Hydraulic Cylinder,2,HYDRCYL,TRUE,Stroke Length,1,Real,Length,Inch,FALSE,,0,,,,,TRUE
+Hydraulic Motor,2,HYDRMTR,TRUE,Continuous Rated Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Hydraulic Motor,2,HYDRMTR,TRUE,Motor Control Type,,List,,,,,,,,,,
+Hydraulic Motor,2,HYDRMTR,TRUE,Motor Displacement,,Real,Volume,Cubic Inch,,,,,,,,
+Hydraulic Motor,2,HYDRMTR,TRUE,Motor Displacement Type,,List,,,,,,,,,,
+Hydraulic Motor,2,HYDRMTR,TRUE,Motor Fluid Type,,List,"If fluid type changes, did we miss anything?",,,,,,,,,
+Hydraulic Motor,2,HYDRMTR,TRUE,Motor Integrated Brake,,Boolean,,,,,,,,,,
+Hydraulic Motor,2,HYDRMTR,TRUE,Motor Integrated Flushing,,Boolean,,,,,,,,,,
+Hydraulic Motor,2,HYDRMTR,TRUE,Motor Open VS Closed Loop,,Boolean,,,,,,,,,,
+Hydraulic Oil,2,HYDROIL,TRUE,Base Hyd. Oil,2,List,,,FALSE,,,"Mineral, Part synthetic, Full synthetic","MNRL, PARTSYNTH, FULLSYNTH",,,TRUE
+Hydraulic Oil,2,HYDROIL,TRUE,Hyd. Oil Biodegradable Rated,3,List,,,FALSE,,,"Biodegradable, Non-biodegradable","BD, NOBD",,,TRUE
+Hydraulic Oil,2,HYDROIL,TRUE,Hyd. Oil Viscosity at 40°C,1,Real,Viscosity,Centipoise,FALSE,,,,,,,TRUE
+Hydraulic Oil,2,HYDROIL,TRUE,Hyd. Oil Viscosity Index,,List,,,FALSE,,,"Low, Medium, High, Very High","LOW, MDM, HIGH, VERYHIGH",,,TRUE
+Hydraulic Pump,2,HYDRPUMP,TRUE,Hyd. Pump Rotary Group,,List,,,FALSE,,,"Positive-Displacement, Non-Positive-Displacement","POSDISP, NOPOSDISP",,,
+Hydraulic Pump,2,HYDRPUMP,TRUE,Hyd. Pump Loop State,,Boolean,,,FALSE,,,"Open, Closed","OPEN, CLOSE",,,
+Hydraulic Pump,2,HYDRPUMP,TRUE,Hyd. Pump Control Type,,List,,,FALSE,,,,,,,
+Hydraulic Pump,2,HYDRPUMP,TRUE,Hyd. Pump Displacement,,Real,Volume,gpm,FALSE,,,,,,,
+Hydraulic Pump,2,HYDRPUMP,TRUE,Continuous Rated Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Inclinometer,3,"SNSR,INCLIN",TRUE,Inclin. Max Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Inclinometer,3,"SNSR,INCLIN",TRUE,Inclin. Min Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Jack,2,JACK,TRUE,Jack Type,,List,,,FALSE,,,"Trailer Tongue, Leveling","TRLR, LVL",,,
+Jack,2,JACK,TRUE,Jack Load Capacity,2,Real,Weight,Pound,FALSE,,,,,,,TRUE
+Jack,2,JACK,TRUE,Jack Mount Type,1,List,,,FALSE,,,"Weld-on, Bolt-on","WELD, BOLT,",,,TRUE
+J-Bolt,3,JBOLT,TRUE,J-Bolt Material,,List,,,FALSE,,,"Steel, Stainless, Brass","STL, SST, BRS",,,
+J-Bolt,3,JBOLT,TRUE,J-Bolt Thread Size,1,List,,,FALSE,,,"3/8""-16, 1/2""13, 5/8""-11, 3/4""-10, 1""-8","3_8""-16, 1_2""13, 5_8""-11, 3_4""-10, 1""-8",,,
+Joystick,2,JSTICK,TRUE,Joystick Axes,1,List,,,FALSE,,,"Single, Dual, Multi","SGL, DUAL, MULT",,,TRUE
+Joystick,2,JSTICK,TRUE,Joystick Grip Style,,,,,FALSE,,,"None, Knob, Handle","NONE, KNOB, HDL",,,
+Joystick,2,JSTICK,TRUE,Joystick Type,2,List,,,FALSE,,,"Analog, Digital, CAN","ANLG, DGTL, CAN",,,TRUE
+Joystick,2,JSTICK,TRUE,Joystick Max Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Joystick,2,JSTICK,TRUE,Joystick Min Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Joystick,2,JSTICK,TRUE,Joystick Operator Presence,,Boolean,,,FALSE,,,"PRESENCE, NO PRESENCE","PRES, NOPRES",,,
+Keypad,2,KEYPAD,TRUE,Backlight,,Boolean,,,FALSE,,,"LIGHT, NO LIGHT","LT, NOLT",,,
+Keypad,2,KEYPAD,TRUE,Column Count,2,Integer,,,FALSE,,,,,,,
+Keypad,2,KEYPAD,TRUE,Function Count,,Integer,,,FALSE,,,,,,,TRUE
+Keypad,2,KEYPAD,TRUE,Icons/Symbols,,Boolean,,,FALSE,,,"Custom, Standard","CUST, STD",,,TRUE
+Keypad,2,KEYPAD,TRUE,Indicators,,,,,,,,"Indicator, No Indicator","IND, NOIND",,,
+Keypad,2,KEYPAD,TRUE,Max Voltage,,Real,Voltage,V,TRUE,,,,,,,TRUE
+Keypad,2,KEYPAD,TRUE,Min Voltage,,Real,Voltage,V,,,,,,,,
+Keypad,2,KEYPAD,TRUE,Row Count,1,Integer,,,FALSE,,,,,,,
+Latch,3,LCH,TRUE,Latch Finish,,List,,,FALSE,,,"Anodized, Brass Plated, Chrome Plated, Galvanized, Zinc Plated
+","ANDZ, BRSPLD, CRPLD, GALVANIZE, ZNPLD",,,TRUE
+Latch,3,LCH,TRUE,Latch Handle Style,,List,,,FALSE,,,"L, T, Paddle, Lever, Wing, Swing, Ring, Knob, Recessed","L, T, PADDLE, LVR, WING, SWG, RING, KNOB, REC",,,TRUE
+Latch,3,LCH,TRUE,Latch Locking Type,,List,,,FALSE,,,"Locking, Nonlocking"," LKG, NOLKG",,,TRUE
+Light ,2,LT,TRUE,Light Color,1,List,,,,,,"White, Red, Amber","WHT, RED, AMB",,,
+Light ,2,LT,TRUE,Light Max Voltage,,Real,Voltage,V,,,,,,,,
+Light ,2,LT,TRUE,Light Min Voltage,,Real,Voltage,V,,,,,,,,
+Light ,2,LT,TRUE,Light Max Current,,Real,Electric Intensity,A,,,,,,,,
+Light ,2,LT,TRUE,Light Min Current,,Real,Electric Intensity,A,,,,,,,,
+Limit Switch,3,LIMSW,TRUE,Limit Switch Current,,Real,Electric Intensity,mA,,,,,,,,
+Limit Switch,3,LIMSW,TRUE,Pole/Throw,2,List,,,,,,"SPST, SPDT, DPST, DPDT","SPST, SPDT, DPST, DPDT",,,
+Limit Switch,3,LIMSW,TRUE,Limit Switch Type,1,List,,,,,,"Lever, Roller Lever, Plunger, Roller Plunger, Wobble, No Actuator","LVR, RLRLVR, PLGR, RLRPLGR, WOBBLE, NOACTR",,,
+Limit Switch,3,LIMSW,TRUE,Limit Switch Voltage,,Real,Voltage,V,,,,,,,,
+Load Sensor,3,"SNSR,LOAD",TRUE,Load Signal Range,,List,,,FALSE,,,".2500 MV/V, .5500 MV/V",".2500 MV_V, .5500 MV_V",,,TRUE
+Load Sensor,3,"SNSR,LOAD",TRUE,Load Rating,1,List,Weight,Pound,TRUE,,,"2268, 4990, 6000, 10000","2268, 4990, 6000, 10000",,,TRUE
+Load Sensor,3,"SNSR,LOAD",TRUE,Load Max Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Load Sensor,3,"SNSR,LOAD",TRUE,Load Min Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Magnet,3,MAG,TRUE,Magnet OD,,Real,Diameter,,,,,,,,,
+Manifold Housing (Included in Valve Manifold),,,FALSE,Number of Ports,,,,,,,,,,,,
+Manifold Housing (Included in Valve Manifold),,,FALSE,Port Sealing Type,,,,,,,,,,,,
+Manifold Housing (Included in Valve Manifold),,,FALSE,Port Size,,,,,,,,,,,,
+Manual Switch,3,"SW,MNL",TRUE,Manual Switch Backlight,,,,,,,,"BACKLIGHT, NO BACKLIGHT","BLT, NOBLT",,,
+Manual Switch,3,"SW,MNL",TRUE,Manual Switch Current,,Real,Electric Intensity,mA,TRUE,,,,,,,TRUE
+Manual Switch,3,"SW,MNL",TRUE,Manual Switch Indicator,,Boolean,,,,,,"Indicator, No Indicator","IND, NOIND",,,
+Manual Switch,3,"SW,MNL",TRUE,Pole/Throw,2,List,,,FALSE,,,"SPST, SPDT, DPST, DPDT","SPST, SPDT, DPST, DPDT",,,TRUE
+Manual Switch,3,"SW,MNL",TRUE,Manual Switch Type,1,List,,,FALSE,,,"Toggle, Rocker, Pushbutton, Key, Lever","TGL, RKR, PB, ",,,TRUE
+Manual Switch,3,"SW,MNL",TRUE,Manual Switch Voltage,,Real,Voltage,V,TRUE,,,,,,,TRUE
+Mechanical Fan,2,MECHFAN,TRUE,Fan Diameter,1,Real,Length,Inch,FALSE,,,,,,,TRUE
+Mechanical Fan,2,MECHFAN,TRUE,Fan Mount Type,,List,,,FALSE,,,"Hub, Straight Shaft, Tapered Shaft, Spline","HUB, STRSFT, TPRSFT, SPLN",,,TRUE
+Mechanical Fan,2,MECHFAN,TRUE,Fan No. of Blades,,Integer,,,FALSE,,,,,,,TRUE
+Mechanical Fan,2,MECHFAN,TRUE,Fan Pitch,,Real,Angle,Degree,FALSE,,,,,,,TRUE
+Mechanical Fan,2,MECHFAN,TRUE,Fan Reversible,,Boolean,,,FALSE,,,"Non-Reversible, Reversible","NORVSBL, RVSBL",,,TRUE
+Mechanical Fan,2,MECHFAN,TRUE,Primary Fan Rotation Direction,2,Boolean,,,FALSE,,,"CW, CCW","CW, CCW",,,
+Mechanical Gauge,2,MECHGA,TRUE,Gauge Thread Type,3,List,,,FALSE,,,"BSPP, Metric, NPT, UNC","BSPP, METRIC, NPT, UNC",,,
+Mechanical Gauge,2,MECHGA,TRUE,Gauge Type,1,List,,,FALSE,,,"PRESSURE, Vacuum, TEMPERATURE","PRES, VAC, TEMP",,,
+Mechanical Gauge,2,MECHGA,TRUE,Gauge Pipe Size,2,Real,Diameter,Inch,FALSE,,,,,,,
+Misc. Seal,3,MISCSEAL,TRUE,Seal Type,1,List,,,FALSE,,,,,,,
+Mount,2,MT,TRUE,Mount Type,1,List,,,FALSE,,,"Cable Tie, Antenna","CBLTIE, ANT",,,
+Mud Pump,2,MUDPUMP,TRUE,Mud Pump Displacement,,Real,Volume,Cubic Inch,FALSE,,,,,,,FALSE
+Mud Pump,2,MUDPUMP,TRUE,Flow Rate,,Real,Volumetric Flow,GPM,FALSE,,,,,,,TRUE
+Mud Pump,2,MUDPUMP,TRUE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Muffler,2,MUF ,TRUE,Muffler Inlet OD,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+Muffler,2,MUF ,TRUE,Muffler Max Flow,,Real,Volumetric Flow,,FALSE,,,,,,,TRUE
+Muffler,2,MUF ,TRUE,Muffler Outlet OD,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+Muffler,2,MUF ,TRUE,Spark Arrestor,,Boolean,,,FALSE,,FALSE,"Spark Arrestor, No Spark Arrestor","SPKARSR, NOSPKARSR",,,TRUE
+Nozzle,3,NOZ,TRUE,Nozzle Inlet ID,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+Nozzle,3,NOZ,TRUE,Nozzle Inlet Thread Type,1,List,,,FALSE,,,"NPT, UNF, BSPP","NPT, UNF, BSPP",,,TRUE
+Nozzle,3,NOZ,TRUE,Nozzle Max Flow Rate,,Real,Volumetric Flow,GPM,FALSE,,,,,,,TRUE
+Nozzle,3,NOZ,TRUE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Nozzle,3,NOZ,TRUE,Nozzle Orifice ID,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+Nozzle,3,NOZ,TRUE,Nozzle Type,2,List,,,FALSE,,,"15-degree, 30-degree, 60-degree, Rotary","15°, 30°, 60°, RTRY",,,TRUE
+Nut,3,NUT,TRUE,Nut Type,1,List,,,FALSE,,,"Hex, Nylon Lock, Jam, Wing, Cap, Flange, Tee, Square, Prevailing Torque, K-Lock, Coupling, Slotted, Castle","HEX, NYLLK, JAM, WING, CAP, FLG, TEE, SQ, PREV, TRQ, K-LK, CPLG, SLTD, CAST",,,
+Nut,3,NUT,TRUE,Bolt Coating,4,List,,,FALSE,,,"Brass Plated, Bronze Plated, Chrome Plated, Nickel Plated, Zinc, Hot Dip Galvanized, Electro Galvanized, Grey Phosphate, Ceramic, Blackoxidize, Magnicoat","BRSPLD, BRZPLD, CRPLD, NKLPLD, ZN, HDGALV, ELECGALV, GREYPHOS, CERAMIC, BLKOX, MAGNI",,,
+Nut,3,NUT,TRUE,Bolt Grade / Class,2,List,,,FALSE,,,"Grade 2, Grade 5, Grade 8, Class 8.8, Class 10.9, Class 12.9","GD2, GD5, GD8, CL8.8, CL10.9, CL12.9",,,
+Nut,3,NUT,TRUE,Nut Thread Size,3,Real,,,FALSE,,,"0-80, 1-64, 1-72, 2-56, 2-64, 3-48, 3-56, 4-40, 4-48, 5-40, 5-44, 6-32, 6-40, 8-32, 8-36, 10-24, 10-32, 12-24, 12-28, 1/4-20, 1/4-28, 5/16-18, 5/16-24, 3/8-16, 3/8-24,7/16-14, 7/16-20, 1/2-13, 1/2-20, 9/16-12, 9/16-18, 5/8-11, 5/8-18, 3/4-10, 3/4-16, 7/8-9, 7/8-14, 1-8, 1-12, M1.4-0.3, M2-0.4, M2.5-0.45, M3-0.5, M3.5-0.6, M4-0.7, M5-0.8, M6-1.0, M7-1.0, M8-1.25, M8-1.0, M10-1.5, M10-1.25, M10-1.0, M12-1.75, M12-1.5, M12-1.25, M14-2.0, M14-1.5, M16-2.0, M16-1.5, M18-2.5, M18-1.5,","0-80, 1-64, 1-72, 2-56, 2-64, 3-48, 3-56, 4-40, 4-48, 5-40, 5-44, 6-32, 6-40, 8-32, 8-36, 10-24, 10-32, 12-24, 12-28, 1_4-20, 1_4-28, 5_16-18, 5_16-24, 3_8-16, 3_8-24,7_16-14, 7_16-20, 1_2-13, 1_2-20, 9_16-12, 9_16-18, 5_8-11, 5_8-18, 3_4-10, 3_4-16, 7_8-9, 7_8-14, 1-8, 1-12, M1.4-0.3, M2-0.4, M2.5-0.45, M3-0.5, M3.5-0.6, M4-0.7, M5-0.8, M6-1.0, M7-1.0, M8-1.25, M8-1.0, M10-1.5, M10-1.25, M10-1.0, M12-1.75, M12-1.5, M12-1.25, M14-2.0, M14-1.5, M16-2.0, M16-1.5, M18-2.5, M18-1.5,",,,
+O-Ring,3,ORING,TRUE,O-Ring XS Dia.,,Real,Diameter,Inch,FALSE,,,,,,,
+O-Ring,3,ORING,TRUE,O-Ring Material,,List,,,FALSE,,,"PTFE, Neoprene, EPDM, Fluorocarbon","PTFE, NPRN, EPDM, FLRC",,,
+O-Ring,3,ORING,TRUE,O-Ring OD,,Real,Diameter,Inch,FALSE,,,,,,,
+Overhung Load Adaptor,2,OHLOADADPTR,FALSE,OHLA Mnt Type,,List,,,FALSE,,,"Non-SAE, SAE A, SAE B, SAE C, SAE D, SAE E, SAE F, Custom","NOSAE, SAEA, SAEB, SAEC, SAED, SAEE, SAEF, CUS",,,
+Overhung Load Adaptor,2,OHLOADADPTR,FALSE,OHLA Shaft Dia.,,Real,Diameter,Inch,FALSE,,,,,,,
+Personal Protective Equipment,2,PPE,FALSE,PPE Type,1,List,,,TRUE,,,"Shop Clothing, Disposable Clothing, Welding Clothing, High-Visibility Clothing, Cut-Protection Clothing, Gloves, Sleeves, Safety Glasses, Eye Shields, Face Shield, Mask, Respirator, Footwear, Earplugs, Knee Pads, Elbow Pads, Hard Hat, Harness","SHOPCLOTH, DISPCLOTH, WELDCLOTH, HIVISCLOTH, CUTPROTNCLOTH, GLOVES, SLV, SAFGLS, EYESHLD, FACESHLD, MASK, RSPTR, FTWR, EARPLG, KNEEPAD, ELBPAD, HDHAT, SAFHARN",,,TRUE
+Pin,3,PIN,TRUE,Pin OD,,Real,,,FALSE,,,,,,,
+Pin,3,PIN,TRUE,Pin Finish,,List,,,FALSE,,,"BLACKOXIDE, BRASS PLATED, CADMIUM, CHROME PLATED, COPPER PLATED, GALVANIZED, NICKEL PLATED, POWDER COATED, ZINC PLATED, ","BLKOX, BRSPLD, SCDP, CUPLD, GALV, NKLPLD, PDRCTG, ZINCPLD",,,
+Pin,3,PIN,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Pin,3,PIN,TRUE,Pin Type,1,List,,,FALSE,,,"Cotter, Hair, Dowel, Clevis, Spring, Bent-Pull, coiled spring, Cylinder, Hitch, Linch, Lock, Quick Release","COTTER, HAIR, DOWEL, CLEVIS, SPR, BTPL, COILSPR, CYL, HITCH, LINCH, LOCK, QREL",,,
+Pin,3,PIN,TRUE,Pin Material,,List,,,FALSE,,,"Steel, Copper, Brass, Wood, Plastic","STL, CU, BRS, WOOD, PLSTC",,,
+Pin,3,PIN,TRUE,Useable Length,,Real,Length,Inch,FALSE,,,,,,,
+Planetary Drive,2,PLNTYDR,FALSE,Max Output Torque,,Real,Torque,Foot-Pound,FALSE,,,,,,,
+Planetary Drive,2,PLNTYDR,FALSE,Max Output Speed,,Real,Angular Velocity,RPM,FALSE,,,,,,,
+"Plate, PIN ",2,"PLATE,PIN",FALSE,PIN Plate Type,,List,,,FALSE,,,"Off-Road, Attachment, Quad Track","OFFROAD, ATCH, QUADTRK",,,
+"Plate, PIN ",2,"PLATE,PIN",FALSE,WMI/WMC,,List,,,FALSE,,,"1VR, 1MV, 2MV, 3MV, XM2, LVC, 7NW","1VR, 1MV, 2MV, 3MV, XM2, LVC, 7NW",,,
+"Plate, PIN ",2,"PLATE,PIN",FALSE,Conformity Mark,,List,,,FALSE,,,"CE,CCC,EAC,GCC,UKCA,NONE","CE,CCC,EAC,GCC,UKCA,NONE",,,
+"Plate, VIN",2,"PLATE,VIN",TRUE,WMI/WMC,,List,,,FALSE,,,"1VR, 1MV, 2MV, 3MV, XM2, LVC, 7NW","1VR, 1MV, 2MV, 3MV, XM2, LVC, 7NW",,,
+"Plate, VIN",2,"PLATE,VIN",TRUE,Conformity Mark,,List,,,FALSE,,,"CE,CCC,EAC,GCC,UKCA,NONE","CE,CCC,EAC,GCC,UKCA,NONE",,,
+"Plate, Miscellaneous",3,"PLATE,MISC",TRUE,Plate Type,,List,,,FALSE,,,"404 Pro, Engine Emission, European EBS, FOPS, Lely, Military Data, Model Conversasion, Pintle Ring, Rops, Rotary Power, Quad Track","404PRO, ENGEMSN, EUEBS, FOPS, LELY, MILDATA, MODCVRSN, PINTLERING, ROPS, RTRYPWR, QUADTRK",,,
+Plow Blade,3,PLOWBLADE,FALSE,Toe,,List,,,FALSE,,,"LRG, MJ, SMALLREP, STD, NA, -","LRG, MJ, SMALLREP, STD, NA, -",,,
+Plow Blade,3,PLOWBLADE,FALSE,Marker Tube ID,,Real,Diameter,Inch,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Marker Tube Height,,Real,Height,Inch,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Ear Type,,List,,,FALSE,,,"Single, Double, Bolt, NA","SGL, DBL, BOLT, NA",,,
+Plow Blade,3,PLOWBLADE,FALSE,Bullet Size,,Real,,,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Bullet Type,,List,,,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Blade Mount,,List,,,FALSE,,,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 7A, 3A. NA",,,,
+Plow Blade,3,PLOWBLADE,FALSE,Blade Type,,List,,,FALSE,,,"Chute, Pull, Combo",,,,
+Plow Blade,3,PLOWBLADE,FALSE,Plow Blade Gate Radius,,Real,Radius,Inch,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Chute Width,,Real,Length,Inch,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Chute Front to Back,,Real,Length,Inch,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Chute Pivot,,List,,,FALSE,,,"Double, Rigid, Single, -","DBL, RGD, SGL, -",,,
+Plow Blade,3,PLOWBLADE,FALSE,Plow Blade Depth,,List,,,FALSE,,,"2-12, 24-27-30, 9-12-15, 12-15-18, 18-21-24, 6-9-12, 12, 2-12, 30-33-36, 36-42, 30-36, 36, 4-7-10, 15-18-21, 42, 40, 42-45-48, 14-17-20, 22-25-28, 42-48, 34-42, 36-44, 48, 32-40, 26, 40-48, 42, 31-39, 24-32, 15-21, 28-36, 36-39-42, 34-40, 24, 17-20-23, 32-35-38, 38-46, 52-60, 20-23-26, 43-51, 36, 48, 18, 33-36-39, 16-24, 20-28, 21-24-27, 50, 10, 27-30-33, 42-50, 19-22-25, 18-24, 30-38, 10-13-16, 30, 35-49, 33, 29-32-35, 46, 32, 5-8-11, 34-48, 12-18, 38-44, 31-34-37, 26-34, 40-44-48, 28-31-34, 7-10-13, 16, 15, 40, 44, 30, 18, 20-36-36, 9, 24, 26-29-32, 49, 14-1720, 16-19-22, 40-46, 44, 21, 24-30, 54-62,  -, 23-26-29, 26-32, 6, 8-11-14, 41, 25-33, -, 14-22, 34, 13-16-19, 9, 26, 46, 39-42-45, 48-56, 22-30, 60, 35-43, 18-26, 54-60, 48-54, 34-37-40, 44-52, 25-28-31, 38-42-46, 20, 38-41-44, 17-25, 23-31, 29-37, 21-29, 32-38, 33.5-25.5, 32-36-40, 33-37-41, 46-52, 58-66, ","2-12, 24-27-30, 9-12-15, 12-15-18, 18-21-24, 6-9-12, 12, 2-12, 30-33-36, 36-42, 30-36, 36, 4-7-10, 15-18-21, 42, 40, 42-45-48, 14-17-20, 22-25-28, 42-48, 34-42, 36-44, 48, 32-40, 26, 40-48, 42, 31-39, 24-32, 15-21, 28-36, 36-39-42, 34-40, 24, 17-20-23, 32-35-38, 38-46, 52-60, 20-23-26, 43-51, 36, 48, 18, 33-36-39, 16-24, 20-28, 21-24-27, 50, 10, 27-30-33, 42-50, 19-22-25, 18-24, 30-38, 10-13-16, 30, 35-49, 33, 29-32-35, 46, 32, 5-8-11, 34-48, 12-18, 38-44, 31-34-37, 26-34, 40-44-48, 28-31-34, 7-10-13, 16, 15, 40, 44, 30, 18, 20-36-36, 9, 24, 26-29-32, 49, 14-1720, 16-19-22, 40-46, 44, 21, 24-30, 54-62,  -, 23-26-29, 26-32, 6, 8-11-14, 41, 25-33, -, 14-22, 34, 13-16-19, 9, 26, 46, 39-42-45, 48-56, 22-30, 60, 35-43, 18-26, 54-60, 48-54, 34-37-40, 44-52, 25-28-31, 38-42-46, 20, 38-41-44, 17-25, 23-31, 29-37, 21-29, 32-38, 33.5-25.5, 32-36-40, 33-37-41, 46-52, 58-66, ",,,
+Plow Blade,3,PLOWBLADE,FALSE,Plow Blade Thickness,,Real,Thickness,Inch,FALSE,,,,,,,
+Plow Blade,3,PLOWBLADE,FALSE,Plow Blade Lead Edge,,List,,,FALSE,,,"STANDARD, SHARPENED, SERRATED, STANDARD/SERRATED, CARBIDE,  -","STD, SHARPENED, SERRATED, STD_SERRATED, CARBIDE, -",,,
+Pneumatic Cylinder,3,PNEUCYL,TRUE,Pneum. Cyl. Bore Dia.,,Real,,,FALSE,,,,,,,
+Pneumatic Cylinder,3,PNEUCYL,TRUE,Pneum. Cyl. Rod OD,,Real,,,FALSE,,,,,,,
+Pneumatic Cylinder,3,PNEUCYL,TRUE,Ext Length,1,Real,Length,Inch,FALSE,,,,,,,
+Pneumatic Cylinder,3,PNEUCYL,TRUE,Retract Length,,Real,Length,Inch,FALSE,,,,,,,
+Pneumatic Cylinder,3,PNEUCYL,TRUE,Pneum. Cyl. Actuation,,List,,,FALSE,,,"Single Acting, Double Acting","SGL, DBL",,,
+"Power Distribution, Breaker",3,PCB,FALSE,Current(Amp),2,Real,Current,Amps,FALSE,,,,,,,TRUE
+"Power Distribution, Breaker",3,PCB,FALSE,Nominal Voltage,3,Real,Voltage,V,FALSE,,,,,,,TRUE
+"Power Distribution, Breaker",3,PCB,FALSE,Current Type,1,List,,,FALSE,,,"AC, DC","AC, DC",,,
+"Power Distribution, Fuse",3,FUSE,FALSE,Current,1,Real,Electric Intensity,mA,FALSE,,,,,,,TRUE
+"Power Distribution, Fuse",3,FUSE,FALSE,Fuse Type,2,List,,,FALSE,,,"ATC_ATO, ATM, ATM_LED, AMG, AMI, MAXI, MEGA","ATC_ATO, ATM, ATM_LED, AMG, AMI, MAXI, MEGA",,,TRUE
+"Power Distribution, Fuse",3,FUSE,FALSE,Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+"Power Distribution, Fuse Box",3,FUBX,FALSE,Cavity Count,2,Integer,,,FALSE,,,,,,,
+"Power Distribution, Fuse Box",3,FUBX,FALSE,Fuse Type,1,List,,,FALSE,,,"ATC/ATO, ATM, AMG, AMI, MAXI, MEGA, COMBO",,,,
+"Power Distribution, Relay",3,RLY,FALSE,Relay Control Current,,Real,Electric Intensity,mA,TRUE,,,,,,,TRUE
+"Power Distribution, Relay",3,RLY,FALSE,Relay Control Voltage,1,Real,Voltage,V,TRUE,,,,,,,TRUE
+"Power Distribution, Relay",3,RLY,FALSE,Relay Load Current,2,Real,Electric Intensity,mA,TRUE,,,,,,,TRUE
+"Power Distribution, Relay",3,RLY,FALSE,Relay Load Voltage,,Real,Voltage,V,TRUE,,,,,,,TRUE
+"Power Distribution, Relay",3,RLY,FALSE,Pole/Throw,1,List,,,FALSE,,,"SPST, SPDT, DPST, DPDT","SPST, SPDT, DPST, DPDT",,,TRUE
+"Power Distribution, Relay",3,RLY,FALSE,Relay Series,,List,,,FALSE,,,"Maxi, Mini, Micro","MAXI, MINI, MICR",,,TRUE
+"Power Distribution, Relay",3,RLY,FALSE,Relay Suppression,,List,,,FALSE,,,"Diode, Resistor","DIO, RES",,,
+Power Takeoff,3,PTO,FALSE,PTO Shaft OD,,Real,Diameter,Inch,FALSE,,,,,,,
+Power Takeoff,3,PTO,FALSE,Flywheel Size,1,List,,,FALSE,,,"6-1_2, 7-1_2, 8, 10, 11-1_2, 14, 18, 21","6-1_2, 7-1_2, 8, 10, 11-1_2, 14, 18, 21",,,
+Power Takeoff ,3,PTO,FALSE,Flywheel Housing Size,2,List,,,FALSE,,,"00, 0, 1_2, 1, 2, 3, 4, 5, 6","00, 0, 1_2, 1, 2, 3, 4, 5, 6",,,
+Pressure Sensor,3,"SNSR,PRESS",TRUE,Pressure Max Output Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Pressure Sensor,3,"SNSR,PRESS",TRUE,Pressure Max Sensing Pressure,3,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Pressure Sensor,3,"SNSR,PRESS",TRUE,Pressure Max Supply Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Pressure Sensor,3,"SNSR,PRESS",TRUE,Pressure Min Output Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Pressure Sensor,3,"SNSR,PRESS",TRUE,Pressure Min Sensing Pressure,2,Real,Pressure,PSI,FALSE,,,,,,,
+Pressure Sensor,3,"SNSR,PRESS",TRUE,Pressure Min Supply Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Pressure Sensor,3,"SNSR,PRESS",TRUE,Pressure Mounting Type,1,List,,,FALSE,,,"1/8-27, 1/4-18, G1/4A, G1/4B, 7/16-20, 1/2-14, G1/2B, 9/16-18","1_8-27, 1_4-18, G1_4A, G1_4B, 7_16-20, 1_2-14, G1_2B, 9_16-18",,,
+Pressure Switch,3,"SW,PRESS",TRUE,Logic,,List,,,FALSE,,,"N.O., N.C.","NO, NC",,,TRUE
+Pressure Switch,3,"SW,PRESS",TRUE,Pressure Mnt Type,1,,,,FALSE,,,"1/4-18, 9/16-18","1_4-18, 9_16-18",,,
+Pressure Switch,3,"SW,PRESS",TRUE,Set Pressure,2,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Proximity Sensor,3,"SNSR,PROX",TRUE,Proximity Logic,,List,,,FALSE,,,"Normally Open, Normally Closed, Analog","NO, NC, ANLG",,,TRUE
+Proximity Sensor,3,"SNSR,PROX",TRUE,Proximity Max Supply Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Proximity Sensor,3,"SNSR,PROX",TRUE,Proximity Min Supply Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Proximity Sensor,3,"SNSR,PROX",TRUE,Proximity Mounting Type,1,List,,,FALSE,,,"M8X1, M12X1, 9/16-18, M18X1, Panel","M8X1, M12X1, 9_16-18, M18X1, PNL",,,
+Proximity Sensor,3,"SNSR,PROX",TRUE,Proximity Operating Distance,2,Real,Length,Inch,FALSE,,,,,,,TRUE
+Proximity Sensor,3,"SNSR,PROX",TRUE,Proximity Output,,List,,,FALSE,,,"PNP, NPN, Analog","PNP, NPN, ANLG",,,
+Pulley ,2,PUL,FALSE,Pulley Max Belt Width,,Real,,Inch,FALSE,,,,,,,
+Pulley ,2,PUL,FALSE,Pulley OD,,Real,,Inch,FALSE,,,,,,,
+Pulley ,2,PUL,FALSE,Pulley Shaft Diameter,,Real,,Inch,FALSE,,,,,,,
+Pulley ,2,PUL,FALSE,Shaft Type,,List,,,FALSE,,,"Round, Keyed","RND, KEY",,,
+Pulley ,2,PUL,FALSE,Pulley Type,1,List,,,FALSE,,,"Standard, Mounted, Idler, Hanging, Fixed, Swivel","STD, MTD, IDL, HNG, FXD, SWVL",,,
+Pulley ,2,PUL,FALSE,No. of Belts,,List,,,FALSE,,,"1,2,3,4,5,6",,,,
+Pump Drive,2,PUMPDR,TRUE,Pump Drive Housing Size,1,List,,,FALSE,,,"SAE 0, SAE 1, SAE 2, SAE 3, SAE 4, SAE 5, Backplate","SAE0, SAE1, SAE2, SAE3, SAE4, SAE5, BKPL",,,TRUE
+Pump Drive,2,PUMPDR,TRUE,Pump Drive No. of Pumps,2,Integer,,,FALSE,,1,,,1,,TRUE
+Pump Drive,2,PUMPDR,TRUE,Pump Drive Mnt Size,,List,,,TRUE,,,"2 Bolt SAE A, 2 Bolt SAE B, 4 Bolt SAE C","2BOLTSAEA, 2BOLTSAEB, 4BOLTSAEC ",,,TRUE
+"Pump, Dynamic",3,"PUMP,DYN",FALSE,Dynamic Pump HP,,Real,Power,HP,FALSE,,,,,,,TRUE
+"Pump, Dynamic",3,"PUMP,DYN",FALSE,Dynamic Pump Max Head,,Real,Pressure,Foot of Water,FALSE,,,,,,,TRUE
+"Pump, Dynamic",3,"PUMP,DYN",FALSE,Max Flow Rate,1,Real,Volumetric Flow,GPM,FALSE,,,,,,,TRUE
+"Pump, Dynamic",3,"PUMP,DYN",FALSE,Max Output Pressure ,2,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+"Pump, Dynamic",3,"PUMP,DYN",FALSE,Dynamic Pump Self Priming,,Boolean,,,FALSE,,,"Self Prime, No Self Prime","SLFPRM, NOPRM",,,TRUE
+"Pump, Dynamic",3,"PUMP,DYN",FALSE,Dynamic Pump Type,,List,,,FALSE,,,"Centrifugal, Submersible","CNTFG, SBM",,,
+Raw Material,2,RAWMATL,TRUE,Raw Material Type,,List,,,FALSE,,,"Flat, Angle, Round, Square, Thread Rod","FLAT, ANGLE, RND, SQ, THRDROD",,,
+Reamer,3,REAMER,TRUE,Reamer Family,2,List,,,FALSE,,,"Barrel, Diamond Wing, Fluted, Flycutter, Helical, Helical Plus, Mixer, MixMaster, Super Helical, Supreamer, T Rex","BARREL, DMDWG, FLTD, FLYCTR, HLCL, HLCLPLUS, MIXER, MIXMA, SUPERHLCL, SUPRMR, TREX",,,
+Reamer,3,REAMER,TRUE,Max Cut ,,Real,Diameter,Inch,FALSE,,,,,,,
+Reamer,3,REAMER,TRUE,Min Cut ,,Real,Diameter,Inch,FALSE,,,,,,,
+Reamer,3,REAMER,TRUE,Reamer Direction,,List,,,FALSE,,,"Push, Pull, Push/Pull, NA","PUSH, PULL, PP, NA",,,
+Reamer,3,REAMER,TRUE,Reamer Style,1,List,,,FALSE,,,"Barrel, Carbide Reverse Radial, Conical, Custom, Display, Elliptical, Flat, HRE, Large Bar, Large Bore, Large Tube, Medium Bar, Medium Bore, Medium Tube, Mixing Bars, MX HD, Reverse Radial, Small Bar, Small Bore, Small Tube, Standard, Superflute, Terminator","BARREL, CARBIDERVSRDL, CONL, CUSTOM, DSPL, ELP, FLAT, HRE, LGEBAR, LGEBORE, LGETUBE, MDMBAR, MDMBORE, MDMTUBE, MXGBARS, MXHD, RVSRDL, SMBAR, SMBORE, SMTUBE, STD, SUPERFLUTE, TERMINATOR",,,
+Reamer,3,REAMER,TRUE,Reamer Teeth,,List,,,FALSE,,,"CAT/SMALL SHARK, LARGE ROTARY, LARGE SHARK, LARGE SHARK/LARGE ROTARY, LARGE SHARK/ROTARY POCKET, LARGE SHARK/SMALL SHARK, NONE, ROTARY POCKET, SMALL ROTARY, SMALL ROTARY/LARGE ROTARY, SMALL ROTARY/LARGE SHARK, SMALL ROTARY/XLRG SHARK, SMALL SHARK, SMALL SHARK/LARGE SHARK, XLRG SHARK","CAT_SMALLSHARK, LARGEROTARY, LARGESHARK, LARGESHARK_LARGEROTARY, LARGESHARK_ROTARYPOCKET, LARGESHARK_SMALLSHARK, NONE, ROTARYPOCKET, SMALLROTARY, SMALLROTARY_LARGEROTARY, SMALLROTARY_LARGESHARK, SMALLROTARY_XLRGSHARK, SMALLSHARK, SMALLSHARK_LARGESHARK, XLRGSHARK",,,
+Reamer,3,REAMER,TRUE,Reamer Spokes,,List,,,FALSE,,,"NONE, 2, 3, 4, 5, 6","NONE, 2, 3, 4, 5, 6",,,
+Reamer,3,REAMER,TRUE,Reamer Front Connection,,List,,,FALSE,,,,,,,
+Reamer,3,REAMER,TRUE,Reamer Out Front,,List,,,FALSE,,,"3.50FST#1000(P), 3.50APIREG(B), 2.375APIREG(B), 5.50APIFH(B), 3.50FST#1000(B), 4.50APIIF(B), 6.625APIFH(B), 2.875APIREG(B), 3.50APIIF(B), 4.50IFDS(B), 3.50FST#800(B), 2.125LPT(P), 2.875FST#900(B), 1.625LPT(P), QF#300(P), QF#400(P), 3.50FST#800(P), 2.875APIIF(B), QF#460(P), NONE, 350SPLII(B), QF#700(P), 2APIIF(B), 2.375FST#600(B), MEDIUMARMOR, SMALLARMOR, 1.66FST#200(B), 5.50FHDS(B), 1.90FST#250(B), 2.875FST#900(P), 3.50APIIF(P), 2.06FST#400(B), ULTRAX3325(P), ULTRAX3275(P), ULTRAX3_375(P), 6.625FHDSJTM(B), 6.625FHDS(B), 2.375FST#650(B), 2.875IFDS(B), 4.50APIIF(P), 3.50FST#1000(P), 3.50APIREG(P)","3.50FST#1000(P), 3.50APIREG(B), 2.375APIREG(B), 5.50APIFH(B), 3.50FST#1000(B), 4.50APIIF(B), 6.625APIFH(B), 2.875APIREG(B), 3.50APIIF(B), 4.50IFDS(B), 3.50FST#800(B), 2.125LPT(P), 2.875FST#900(B), 1.625LPT(P), QF#300(P), QF#400(P), 3.50FST#800(P), 2.875APIIF(B), QF#460(P), NONE, 350SPLII(B), QF#700(P), 2APIIF(B), 2.375FST#600(B), MEDIUMARMOR, SMALLARMOR, 1.66FST#200(B), 5.50FHDS(B), 1.90FST#250(B), 2.875FST#900(P), 3.50APIIF(P), 2.06FST#400(B), ULTRAX3325(P), ULTRAX3275(P), ULTRAX3_375(P), 6.625FHDSJTM(B), 6.625FHDS(B), 2.375FST#650(B), 2.875IFDS(B), 4.50APIIF(P), 3.50FST#1000(P), 3.50APIREG(P)",,,
+Reamer,3,REAMER,TRUE,Reamer Rear Connection,,List,,,FALSE,,,"3.50 FST #1000(B),100K SWIVEL,24K SWIVEL,90K EYE,5.50 API FH(P),50K EYE,4.50 API IF(P),3.50 FST #1000(B),4.50 API IF(B),6.625 API FH(P),50K SWIVEL,90K SWIVEL,2.875 API REG(P),3.50 API REG(P),24K EYE,3.50 API IF(P),4.50 IF DS(P),40K SWIVEL,3.50 FST #800(P),NONE,3.50 FST #1000(P),36K EYE,5.50 API FH(B),2.875 API IF(B),2.375 FST #600(B),5.50 FH DS(P),2.125 LPT(B),2.875 FST #900(B),QF #400(B),2.875 FST #900(P),12K EYE,9/12K EYE,21K EYE,2.375 FST #600(P),6.625 FH DS JTM(P),2.375 API REG(P),6.625 FH DS(P),2.375 FST #650(P),2.875 API REG(B),2.875 IF DS(P),2.875 API IF(P),3.50 API IF(B),2 API IF(P),3.50 API REG(B),1.625 LPT(B),2.375 API REG(B),QF #460(B),300K EYE,10K EYE,3.50 FST #800(B),SPECIAL EYE,5.50 FH DS(B),6.625 API FH(B)","3.50FST#1000(B), 100KSWIVEL, 24KSWIVEL, 90KEYE, 5.50APIFH(P), 50KEYE, 4.50APIIF(P), 3.50FST#1000(B), 4.50APIIF(B), 6.625APIFH(P), 50KSWIVEL, 90KSWIVEL, 2.875APIREG(P), 3.50APIREG(P), 24KEYE, 3.50APIIF(P), 4.50IFDS(P), 40KSWIVEL, 3.50FST#800(P), NONE, 3.50FST#1000(P), 36KEYE, 5.50APIFH(B), 2.875APIIF(B), 2.375FST#600(B), 5.50FHDS(P), 2.125LPT(B), 2.875FST#900(B), QF#400(B), 2.875FST#900(P), 12KEYE, 9/12KEYE, 21KEYE, 2.375FST#600(P), 6.625FHDSJTM(P), 2.375APIREG(P), 6.625FHDS(P), 2.375FST#650(P), 2.875APIREG(B), 2.875IFDS(P), 2.875APIIF(P), 3.50APIIF(B), 2APIIF(P), 3.50APIREG(B), 1.625LPT(B), 2.375APIREG(B), QF#460(B), 300KEYE, 10KEYE, 3.50FST#800(B), SPECIALEYE, 5.50FHDS(B), 6.625APIFH(B) ",,,
+Reamer,3,REAMER,TRUE,Reamer Out Back,,List,,,,,,"Bit, Blade, Chipper Knife, Collar, Digger Chain, Drill Head, Drive Chuck, Grinder Block, Grinder Hammer, Grinder Tip, Pickup Teeth, Reamer, Screen, Sod Cutter, Starter Rod, Sub Saver, Swivel, Teeth, Vise Jaw,
+","BIT, BL, CHPRKN, COLLAR, DIGCHN, DRHD, DRCHUK, GRDBLK, GRDHMR, GRDTIP, PUT, RMR, SCRN, SODCTR, STROD, SUBSVR, SWVL, THEETH, VISEJAW",,,
+Remote Control,2,RC,TRUE,Remote Control Type,1,List,,,FALSE,,,"Wired, Wireless","WIRE, WIRELESS",,,
+Resistive Fuel Level Sensor,3,"SNSR,RESFUELLVL",TRUE,Length,1,Real,Length,Inch,FALSE,,,,,,,TRUE
+Resistive Fuel Level Sensor,3,"SNSR,RESFUELLVL",TRUE,Fuel Level Max Output Resistance,,Real,Resistance,Ohm,TRUE,,,,,,,TRUE
+Resistive Fuel Level Sensor,3,"SNSR,RESFUELLVL",TRUE,Fuel Level Max Supply Voltage,,Real,Voltage,V,TRUE,,,,,,,TRUE
+Resistive Fuel Level Sensor,3,"SNSR,RESFUELLVL",TRUE,Fuel Level Min Output Resistance,,Real,Resistance,Ohm,,,,,,,,
+Resistive Fuel Level Sensor,3,"SNSR,RESFUELLVL",TRUE,Fuel Level Min Supply Voltage,,Real,Voltage,V,,,,,,,,
+Resistive Temperature Sensor,3,"SNSR,RESTEMP",TRUE,RT Max Output Resistance,,Real,Resistance,Ohm,,,,,,,,
+Resistive Temperature Sensor,3,"SNSR,RESTEMP",TRUE,Temp Max Sensing Temperature,,Real,Temperature,Fahrenheit,TRUE,,,,,,,TRUE
+Resistive Temperature Sensor,3,"SNSR,RESTEMP",TRUE,RT Min Output Resistance,,Real,Resistance,Ohm,,,,,,,,
+Resistive Temperature Sensor,3,"SNSR,RESTEMP",TRUE,Temp Min Sensing Temperature,,,,,,,,,,,,
+Resistive Temperature Sensor,3,"SNSR,RESTEMP",TRUE,RT Mounting Type,1,List,,,,,,"1/2-14, 9/16-18, M14-1.5, M18X1.5, 3/4-16","1_2-14, 9_16-18, M14-1.5, M18X-.5, 3_4-16",,,
+Rivet,3,RVT,TRUE,Rivet OD,,Real,,,,,,,,,,
+Rivet,3,RVT,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Rivet,3,RVT,TRUE,Rivet Material,2,List,,,,,,"Aluminum, Steel, Stainless, Copper, Brass, Titanium
+","AL, STL, SST, CU, BRS, TI",,,
+Rivet,3,RVT,TRUE,Rivet Type,1,List,,,,,,"Blind, Solid, Tubular, Drive, Split, Shoulder, Tinners, Mate, Belt","BLD, SOL, TUB, DR, SP, SHLDR, TINN, MATE, BELT,",,,
+Roller,2,RLR,TRUE,Roller Type,1,List,,,,,,"Conveyor, Baler, Track, Idler","CNVR, BALER, TRK, IDL",,,
+Roller,2,RLR,TRUE,Roller Width,,Real,Width,Inch,,,,,,,,
+Roller  ,2,RLR,TRUE,Roller OD,,Real,Diameter,Inch,,,,,,,,
+Rotary Sensor,3,"SNSR,RTRY",TRUE,Rotary Max Output Voltage,,Real,Voltage,V,TRUE,,,,,,,TRUE
+Rotary Sensor,3,"SNSR,RTRY",TRUE,Rotary Max Supply Voltage,,Real,Voltage,V,TRUE,,,,,,,TRUE
+Rotary Sensor,3,"SNSR,RTRY",TRUE,Rotary Min Output Voltage,,,,,,,,,,,,
+Rotary Sensor,3,"SNSR,RTRY",TRUE,Rotary Min Supply Voltage,,,,,,,,,,,,
+Rotary Sensor,3,"SNSR,RTRY",TRUE,Rotary Sensing Angle,1,List,Degrees,,TRUE,,,"45, 80, 90, 175, 270, 360","45, 80, 90, 175, 270, 360",,,TRUE
+Safety Switch,3,"SW,SAF",TRUE,Safety Switch Supply Current,,Real,Electric Intensity,mA,TRUE,,,,,,,TRUE
+Safety Switch,3,"SW,SAF",TRUE,Safty Switch Type,1,List,,,FALSE,,,"E-Stop, Battery Disconnect, Breakaway, Tether","ESTP, BTRYDISC, BRKWY, TETHER",,,TRUE
+Safety Switch,3,"SW,SAF",TRUE,Pole/Throw,,List,,,FALSE,,,"SPST, SPDT, DPST, DPDT","SPST, SPDT, DPST, DPDT",,,TRUE
+Safety Switch,3,"SW,SAF",TRUE,Safety Switch Voltage,,Real,Voltage,V,TRUE,,,,,,,TRUE
+Screw,3,SCR,TRUE,Screw Type,1,List,,,FALSE,,,"Hex, Self-Threading, Socket Head, Flat Head, Blind, Dome, Set, Special","HEX, SELFTHRD, SCH, FLH, BLD, DOME, SET, SPCL",,,TRUE
+Screw,3,SCR,TRUE,Screw Finish,,List,,,FALSE,,,"Acrylic Coated, Anodized, Black Anodized, Black Epoxy Coated, Black Oxide, Black Phosphate, Black Zinc Plated, Blue Anodized, Blue Dyed, Blue PTFE Coated, Brass Plated, Bronze Plated, Cadmium Plated, Chrome Plated, Corrosion Resistant Coated, Electrocoated, Galvanic, Barrier Coated, Galvanized, Gold Plated, Green Dyed, Hot Dipped Galvanized, Nickel Plated, Nylon Coated, Passivated, Powder Coated, PTFE Coated, Rubber Coated, Silver Plated, TiCN Coated, Tin Plated, Trivalent Zinc Plated, Ultra Corrosion Resistant Coated, Vinyl Coated, Yellow Chromate Plated, Zinc Plated, Zinc Yellow Chromate Plated, Zinc Aluminum Coated, Zinc Flake Coated","ACRYL, ANDZ, BLKANDZ, BLKEPXCTD, BLKOX, BLKPHOS, BLKZINCPLD, BLUANDZ, BLUDYE, BLUPTFECTD, BRSPLD, BRZPLD, CDPLD, CRPLD, CRECTD, ELECTROCTD, GALVANIC, BARRCTD, GALV, NKLPLD, NKLCTD, PSVT, PDRCTD, PTFECTD, RUBCTD, SILPLD, TICNCTD, TINPLD, TZINCPLD, ULCRSNRCTD, VINYLCTD, YELCRPLD, ZINCPLD, ZINCYELCRPLD, ZINCALCTD, ZINCFLKCTD ",,,TRUE
+Screw,3,SCR,TRUE,Bolt Grade/Class,4,List,,,FALSE,,,"Grade 2, Grade 5, Grade 8, Grade 9, Class 8_8, Class 10_9, Class 12_9, NA","GD2, GD5, GD8, CL8.8, CL10.9, CL12.9",,,TRUE
+Screw,3,SCR,TRUE,Length,3,Real,Length,Inch,FALSE,,,,,,,TRUE
+Screw,3,SCR,TRUE,Screw Thread Direction,,List,,,FALSE,,,"Right Hand, Left Hand","RH, LH",,,TRUE
+Screw,3,SCR,TRUE,Screw Thread Size,2,List,,,FALSE,,,"0-80, 1-64, 1-72, 2-56, 2-64, 3-48, 3-56, 4-40, 4-48, 5-40, 5-44, 6-32, 6-40, 8-32, 8-36, 10-24, 10-32, 12-24, 12-28, 1/4-20, 1/4-28, 5/16-18, 5/16-24, 3/8-16, 3/8-24,7/16-14, 7/16-20, 1/2-13, 1/2-20, 9/16-12, 9/16-18, 5/8-11, 5/8-18, 3/4-10, 3/4-16, 7/8-9, 7/8-14, 1-8, 1-12, M1.4-0.3, M2-0.4, M2.5-0.45, M3-0.5, M3.5-0.6, M4-0.7, M5-0.8, M6-1.0, M7-1.0, M8-1.25, M8-1.0, M10-1.5, M10-1.25, M10-1.0, M12-1.75, M12-1.5, M12-1.25, M14-2.0, M14-1.5, M16-2.0, M16-1.5, M18-2.5, M18-1.5, M20-2.5, M20-1.5, M22-2.5, M24-3.0, M24-2.0, M30-3.5, M36-4.0","0-80, 1-64, 1-72, 2-56, 2-64, 3-48, 3-56, 4-40, 4-48, 5-40, 5-44, 6-32, 6-40, 8-32, 8-36, 10-24, 10-32, 12-24, 12-28, 1_4-20, 1_4-28, 5_16-18, 5_16-24, 3_8-16, 3_8-24,7_16-14, 7_16-20, 1_2-13, 1_2-20, 9_16-12, 9_16-18, 5_8-11, 5_8-18, 3_4-10, 3_4-16, 7_8-9, 7_8-14, 1-8, 1-12, M1.4-0.3, M2-0.4, M2.5-0.45, M3-0.5, M3.5-0.6, M4-0.7, M5-0.8, M6-1.0, M7-1.0, M8-1.25, M8-1.0, M10-1.5, M10-1.25, M10-1.0, M12-1.75, M12-1.5, M12-1.25, M14-2.0, M14-1.5, M16-2.0, M16-1.5, M18-2.5, M18-1.5, M20-2.5, M20-1.5, M22-2.5, M24-3.0, M24-2.0, M30-3.5, M36-4.0",,,TRUE
+Seat,2,SEAT,TRUE,Seat Backrest Adjustability,1,List,,,FALSE,,,"Fixed, Reclinable, Folding","FIX, RCLD, FLDG",,,TRUE
+Seat,2,SEAT,TRUE,Seat Operator Presence Switch ,,Boolean,,,FALSE,,,"Operator Presence, No Operator Presence","OPRPRES, NOOPRPRES",,,TRUE
+Seat,2,SEAT,TRUE,Seat Belt Included,,Boolean,,,FALSE,,,"Seat Belt, No Seat Belt","SEATBELT, NOSEATBELT",,,TRUE
+Seat,2,SEAT,TRUE,Seat Vibration-resistant ,,Boolean,,,FALSE,,,"Vib Resistant, Not Vib Resistant","VIB, NOVIB",,,FALSE
+Seat,2,SEAT,TRUE,Seat Waterproof ,,Boolean,,,FALSE,,,"Waterproof, Not Waterproof","WTRPRF, NOWTRPRF",,,FALSE
+Seat Belt,2,SEATBELT,TRUE,SB Strap Location,2,List,,,TRUE,,,"Lap, Shoulder","LAP, SHLDR",,,TRUE
+Seat Belt,2,SEATBELT,TRUE,SB Style,1,List,,,FALSE,,,"Retractable, Standard, Wraparound","RETR, STD, WRAPAROUND",,,TRUE
+Shaft,2,SHFT,TRUE,Shaft Type,1,List,,,FALSE,,,"PTO, Flex, Drive","PTO, FLEX, DR",,,
+Shaft,2,SHFT,TRUE,Shaft OD,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Shaft,2,SHFT,TRUE,Shaft End 1 Type,,List,,,FALSE,,,"Straight, Keyed, Treaded, Tapped, D-Profile, Step Down, Splined, Hollow","STR, KEY, TRD, TAP, D-PF, STPDN, SPLN, HOL",,,TRUE
+Shaft,2,SHFT,TRUE,Shaft End 2 Type,,,,,,,,,,,,
+Shaft,2,SHFT,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Shaft,2,SHFT,TRUE,Shaft Max Torque,,Real,Force,Foot-Pound,FALSE,,,,,,,FALSE
+Shaft Flex Coupler,2,SHFTFLEXCPLG,FALSE,Coupler Flywheel SAE Size,1,List,,,FALSE,,,"6-1/2, 7-1/2, 8, 10, 11-1/2, 14, 18, 21","6-1_2, 7-1_2, 8, 10, 11-1_2, 14, 18, 21",,,TRUE
+Shaft Flex Coupler,2,SHFTFLEXCPLG,FALSE,Coupler Max Power,,Real,,,FALSE,,,,,,,TRUE
+Shaft Key,3,SFTKEY,TRUE,Key Height,,Real,,,,,,,,,,
+Shaft Key,3,SFTKEY,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Shaft Key,3,SFTKEY,TRUE,Key Width,,Real,,,,,,,,,,
+Shroud,2,SHRD,TRUE,Shroud Fan Dia,1,Real,Diameter,Inch,FALSE,,,,,,,
+Silencer,2,SILENCER,TRUE,Air Flowrate,1,Real,Air Flow,CFM,FALSE,,,,,,,
+Silencer,2,SILENCER,TRUE,Silencer Connection Type,,List,,,FALSE,,,"Flange, Threaded","FLG, THRD",,,
+Silencer,2,SILENCER,TRUE,Silencer Connection ID,,Real,Diameter,Inch,FALSE,,,,,,,
+Snap Ring,3,SNAPRING,TRUE,Ring Finish,,List,,,FALSE,,,"Sealed, Serviceable","SLD, SVCE",,,
+Snap Ring,3,SNAPRING,TRUE,Ring ID,,Real,,,FALSE,,,,,,,
+Snap Ring,3,SNAPRING,TRUE,Ring OD,,Real,,,FALSE,,,,,,,
+Snap Ring,3,SNAPRING,TRUE,Ring Thickness,,Real,,,FALSE,,,,,,,
+Snap Ring,3,SNAPRING,TRUE,Ring Type,1,List,,,FALSE,,,"External, Spiral, Side Mount, Constant Section, Push On, Crimp On, Clip on","EXT, SPL, SIDEMT, CSECT, PUSHON, CRPON, CLIPON",,,
+Sod Cutter,3,SODCTR,FALSE,,,,,,FALSE,,,,,,,
+Spring,2,SPR,TRUE,Spring End Type,,List,,,FALSE,,,"Hook, Eye, Double Twisted Loop, Plain Square Cut, ","HOOK, EYE, DBLTWLP, PLSQCUT",,,
+Spring,2,SPR,TRUE,Ext Length,,Real,Length,Inch,FALSE,,,,,,,
+Spring,2,SPR,TRUE,Spring Coil ID,,Real,Diameter,Inch,FALSE,,,,,,,
+Spring,2,SPR,TRUE,Spring Coil OD,,Real,Diameter,Inch,FALSE,,,,,,,
+Spring,2,SPR,TRUE,Spring Torsional Rating,,Real,Rating,lbs/deg.,FALSE,,,,,,,
+Spring,2,SPR,TRUE,Spring Linear Rating,,Real,Rating,lbs/in.,FALSE,,,,,,,
+Spring,2,SPR,TRUE,Retract Length,,Real,Length,Inch,FALSE,,,,,,,
+Spring,2,SPR,TRUE,Spring Type,1,List,,,FALSE,,,"Compression, Extension, Suspension, Torsion, Conical, Double Extension, Elbow Extension","CPRSN, EXT, SPNSN, TRSN, CONL, DBLEXT, ELBEXT",,,
+Spring,2,SPR,TRUE,Spring Wire OD,,Real,Diameter,Inch,FALSE,,,,,,,
+Sprocket,2,SPRKT,TRUE,Sprocket Type,1,List,,,FALSE,,,"Pilot Bore, Taper Lock, Plate","PLTBORE, TPRLK, PL",,,
+Sprocket,2,SPRKT,TRUE,Sprocket Pitch,,Real,,,FALSE,,,,,,,
+Sprocket,2,SPRKT,TRUE,Sprocket Shaft OD,,Real,,,FALSE,,,,,,,
+Sprocket,2,SPRKT,TRUE,Sprocket No. or Teeth,,Integer,,,FALSE,,,,,,,
+Standalone Valve,,,FALSE,Maximum Rated Flow,,Real,Flow,GPM,,,,,,,,
+Standalone Valve,,,FALSE,Max Rated Working Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Starter Rod,,,FALSE,Drill Rod Size,2,Real,,Inch,FALSE,,,,,,,
+Starter Rod,,,FALSE,Thread Size,1,List,,,FALSE,,,"Firestick 600, Firestick 700, etc.","FIRESTICK600, FIRESTICK700",,,
+Strap,3,STRP,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Strap,3,STRP,TRUE,Strap Type ,1,List,,,,,,,,,,
+Strap,3,STRP,TRUE,Strap Material,2,List,,,FALSE,,,"Steel, Plastic, Fabric, ","STL, PLSTC, FABRIC",,,
+Strap,3,STRP,TRUE,Strap Width,,Real,,,,,,,,,,
+Sub Saver,,,FALSE,Drill Rod Size,2,Real,,Inch,FALSE,,,,,,,
+Sub Saver,,,FALSE,Length,3,Real,Length,Inch,FALSE,,,,,,,
+Sub Saver,,,FALSE,Thread Size,1,List,,,FALSE,,,"Firestick 600, Firestick 700, etc.","FIRESTICK600, FIRESTICK700",,,
+Teeth,3,TEETH,FALSE,Teeth Direction,2,List,,,FALSE,,,"Left, Right, Straight","LH, RH, STR",,,
+Teeth,3,TEETH,FALSE,Teeth Edge Style,3,List,,,FALSE,,,"Single, Double","SGL, DBL",,,
+Teeth,3,TEETH,FALSE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Teeth,3,TEETH,FALSE,Teeth Style,1,List,,,FALSE,,,"YellowJacket, etc",YELJKT,,,
+Temperature Switch,3,"SW,TEMP",TRUE,Logic,,List,,,,,,"N.O., N.C.","NO, NC",,,TRUE
+Temperature Switch,3,"SW,TEMP",TRUE,Temp Mnt Type,1,List,,,,,,"1/4-18, 3/8-18, 1/2-14, 9/16-18, M18X1.5, 3/4-16, 3/4-16","1_4-18, 3_8-18, 1_2-14, 9_16-18, M18X1.5, 3_4-16, 3_4-16",,,
+Temperature Switch,3,"SW,TEMP",TRUE,Temp Set Point,2,Real,Temperature,Fahrenheit,TRUE,,,,,,,TRUE
+Terminal,2,ELECTERM,TRUE,Terminal Size,1,List,,,,,,"#10, #8, #6, 1/4, 5/16, 3/8, 7/16, 1/2, 5/8, 3/4, BATTERY","#10, #8, #6, 1_4, 5_16, 3_8, 7_16, 1_2, 5_8, 3_4, BTRY",,,
+Terminal,2,ELECTERM,TRUE,Terminal Wire Size,3,List,,,,,,"20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 1, 1/0, 2/0, 3/0, 4/0","20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 1, 1_0, 2_0, 3_0, 4_0",,,
+Terminal,2,ELECTERM,TRUE,Terminal Polarity,,List,,,,,,"Positive, Negative","POS, NEG",,,
+Terminal,2,ELECTERM,TRUE,Terminal Type,2,List,,,,,,"Straight, Bent, Blade, Bullet, Elbow, Clamp","STR, BENT, BL, BULL, ELB, CLAMP",,,
+Tire,2,TIRE,TRUE,Section Width,,Real,Length,Inch,,,,,,,,
+Tire,2,TIRE,TRUE,Side Wall Aspect Ratio,,Real,,,,,,,,,,
+Tire,2,TIRE,TRUE,Wheel Diameter,,Real,Diameter,Inch,,,,,,,,
+Toolbox,2,TOOLBOX,TRUE,Toolbox Color,,List,,,FALSE,,,"Black, White, Gray, Chrome","BLK, WHT, GRY, CR",,,FALSE
+Toolbox,2,TOOLBOX,TRUE,Toolbox Depth,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Toolbox,2,TOOLBOX,TRUE,Toolbox Height,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Toolbox,2,TOOLBOX,TRUE,Toolbox Width,,Real,Length,Inch,FALSE,,,,,,,TRUE
+Track,2,TRACK,TRUE,Track Type,1,List,,,FALSE,,,"Chain Drive, Positive Drive, Friction Drive, N/A","CHNDR, POSDR, FRICTDR, NA",,,
+Track,2,TRACK,TRUE,Rubber Track Tread,2,List,,,FALSE,,,"Standard Block, C-Lug, Straight Bar, Multi-Bar","STDBLK, CLUG, STRBAR, MULTIBAR",,,
+Track,2,TRACK,TRUE,Track Length,,Real,Length,Inch,FALSE,,,,,,,
+Track,2,TRACK,TRUE,Track Pitch,,Real,Distance,Inch,FALSE,,,,,,,
+Track,2,TRACK,TRUE,Track Width,,Real,Length,Inch,FALSE,,,,,,,
+Trailer Coupler,2,TRLRCPLR,TRUE,Coupler Type,1,List,,,FALSE,,,"Channel Mount, Pintle, 5th Wheel, Gooseneck ","CHNLMT, PTL, 5WHL, GSNK",,,
+Trailer Coupler,2,TRLRCPLR,TRUE,Coupler Load Capacity,2,Real,Weight,Pound,FALSE,,,,,,,
+Tube,3,TUBE,TRUE,Tube Type,1,List,,,,,,"Jacket Water, Intake, CAC","JW, INTK, CAC",,,
+Tube,3,TUBE,TRUE,Tube Material Code,2,List,,,,,,,,,,
+Tube,3,TUBE,TRUE,Tube OD,,Real,Diameter,,,,,,,,,
+Tube,3,TUBE,TRUE,Tube Wall Thickness,,Real,Length,,,,,,,,,
+Tube,3,TUBE,TRUE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Tube,3,TUBE,TRUE,Tube Connection Size,,List,,,,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA",,,
+Tube,3,TUBE,TRUE,Tube Sealing Type,,List,,,,,,"JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA","JIC, ORB, ORFS, CD61, CD62, NPT, BSPP, BARB, NA",,,
+Tube,3,TUBE,TRUE,Tube End Style,,List,,,,,,"Male Braze On, Female Swivel Braze On, Parflange, Male Bulkhead Braze On, Saddle, Flare, N/A","MBRZ, FSWVLBRZ, PARFLG, MBHD, BRZ, SDL, FLRD, NA",,,
+Tube,3,TUBE,TRUE,Tube Size,,List,,,,,,"2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA","2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, NA",,,
+U-Bolt,3,UBOLT,TRUE,U-Bolt Inside Width,,Real,Length,Inch,FALSE,,,,,,,TRUE
+U-Bolt,3,UBOLT,TRUE,U-Bolt Height,,Real,Length,Inch,FALSE,,,,,,,TRUE
+U-Bolt,3,UBOLT,TRUE,U-Bolt Shape,,List,,,FALSE,,,"Round, Square","RND, SQ ",,,TRUE
+U-Bolt,3,UBOLT,TRUE,U-Bolt Mounting Plate,,List,,,FALSE,,,"None, Flat, Muffler-style","NONE, FLAT, MUF",,,TRUE
+U-Bolt,3,UBOLT,TRUE,U-Bolt Finish,,List,,,FALSE,,,"Zinc Plated, Galvanized, Black Oxide, Chrome Plated","ZINCPLD, GALV, BLKOX, CRPLD",,,TRUE
+U-Bolt,3,UBOLT,TRUE,U-Bolt Vibration-Damping,,Boolean,,,FALSE,,,"Dampening, No Dampening","DPG, NODPG",,,TRUE
+U-Joint,3,UJT,TRUE,U-Joint End Joint 1 Type,,List,,,,,,"Hooke, Double-Hooke, Birfield","HOOK, DBLHOOK, BIRFIELD",,,
+U-Joint,3,UJT,TRUE,U-Joint End Joint 2 Type,,List,,,,,,"Hooke, Double-Hooke, Birfield","HOOK, DBLHOOK, BIRFIELD",,,
+U-Joint,3,UJT,TRUE,U-Joint Max Angle,,Real,Angle,Degree,,,,,,,,
+U-Joint,3,UJT,TRUE,U-Joint Max Speed,,Real,Angular Velocity,RPM,,,,,,,,
+U-Joint,3,UJT,TRUE,U-Joint Max Torque,,Real,,,,,,,,,,
+U-Joint,3,UJT,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+U-Joint,3,UJT,TRUE,U-Joint Shaft Diameter,,Real,,,,,,,,,,
+Valve,2,VALVE,TRUE,Valve Control Type,,List,,,FALSE,,,"Manual, Diaphragm, Solenoid, N/A","MNL, DIAPH, SOL, NA",,,
+Valve,2,VALVE,TRUE,Valve No. of Ports,,Integer,,,FALSE,,,,,,,
+Valve,2,VALVE,TRUE,Valve No. of Sections,,Integer,,,FALSE,,,,,,,
+Valve,2,VALVE,TRUE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Valve,2,VALVE,TRUE,Valve Type,1,List,,,FALSE,,,"Drainage, Ball, Needle, Check, Custom, Directional, Flow Control, Pressure Relief, Sectional Assembly, Section ","DR, BALL, NDL, CV, CUST, DIR, FCONT, PRESSRLF, SECTASSY, SECT",,,
+Valve Assembly,,,FALSE,Control Type,1,List,,,,,,,,,,
+Valve Assembly,,,FALSE,Maximum Rated Flow,,Real,Flow,GPM,,,,,,,,
+Valve Assembly,,,FALSE,Max Rated Working Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Valve Assembly,,,FALSE,Number of Sections/Cartridges,,Integer,,,FALSE,,,,,,,
+Valve Assembly,,,FALSE,Number of Working Ports,,Integer,,,FALSE,,,,,,,
+Valve Assembly,,,FALSE,Open Loop VS Closed Loop,,Boolean,,,,,,,,,,
+Valve Cartridge,2,VSRTG,TRUE,Valve Type,1,List,,,FALSE,,,"Check, Direction Control, Flow Control, Pressure Relief","CV, DIRCONT, FCONT, PRESSRLF",,,
+Valve Component,,,FALSE,Max Rated Working Pressure,,Real,Pressure,PSI,FALSE,,,,,,,
+Valve Manifold,2,VMANF,TRUE,Valve Manifold Type,1,List,,,FALSE,,,"Off The Shelf, Custom, Return","COTS, CUST, RTN",,,
+Valve Manifold,2,VMANF,TRUE,No. of Manifold Ports ,,Integer,,,FALSE,,,,,,,
+Valve Section,,,FALSE,Control Type,1,,,,,,,,,,,
+Valve Section,,,FALSE,Maximum Rated Flow,,,,,,,,,,,,
+Valve Section,,,FALSE,Number of Working Ports,,,,,,,,,,,,
+Valve Section,,,FALSE,Port Sealing Type,,,,,,,,,,,,
+Valve Section,,,FALSE,Port Size,,,,,,,,,,,,
+Valve Section,,,FALSE,Seal Kit Type,,,,,,,,,,,,
+Valve Section,,,FALSE,Section Type,,,,,,,,,,,,
+Vibration Isolator,2,VIBISLN,TRUE,Isolator Mat. Hardness,2,Real,Hardness,Shore Durometer,FALSE,,,,,,,TRUE
+Vibration Isolator,2,VIBISLN,TRUE,Isolator Type,1,List,,,FALSE,,,"2 Piece, Cone, Hydraulic, Hydro-Cone","2PC, CONE, HYDR, HYDROCONE",,,TRUE
+Vibration Isolator,2,VIBISLN,TRUE,Isolator Max Load,,Real,Force,,FALSE,,,,,,,TRUE
+Vise Jaw,3,VISEJAW,FALSE,Vise Jaw Drill Rod Size,4,Real,,Inch,FALSE,,,,,,,
+Vise Jaw,3,VISEJAW,FALSE,Vise Jaw Pattern,2,List,,,FALSE,,,"Standard, diamond","STD, DMD",,,
+Vise Jaw,3,VISEJAW,FALSE,Vise Jaw Side,3,List,,,,,,"Stationary, Cylinder","STA, CYL",,,
+Vise Jaw,3,VISEJAW,FALSE,Vise Jaw Style,1,List,,,FALSE,,,"Jaw, Block, Insert","JAW, BLK, INSR",,,
+Voltage Fuel Level Sensor,3,"SNSR,VFUELLVL",TRUE,Length,1,Real,Length,Inch,FALSE,,,,,,,
+Voltage Fuel Level Sensor,3,"SNSR,VFUELLVL",TRUE,VF Max Output Voltage,,Real,Voltage,V,FALSE,,,,,,,TRUE
+Voltage Fuel Level Sensor,3,"SNSR,VFUELLVL",TRUE,VF Max Supply Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Voltage Fuel Level Sensor,3,"SNSR,VFUELLVL",TRUE,VF Min Output Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Voltage Fuel Level Sensor,3,"SNSR,VFUELLVL",TRUE,VF Min Supply Voltage,,Real,Voltage,V,FALSE,,,,,,,
+Voltage Temperature Sensor,3,"SNSR,VTEMP",TRUE,VT Max Output Voltage,,Real,Voltage,V,TRUE,,,,,,,FALSE
+Voltage Temperature Sensor,3,"SNSR,VTEMP",TRUE,Temp Sensing Temperature,,Real,Temperature,Fahrenheit,TRUE,,,,,,,TRUE
+Voltage Temperature Sensor,3,"SNSR,VTEMP",TRUE,VT Min Output Voltage,,Real,Voltage,V,TRUE,,,,,,,
+Voltage Temperature Sensor,3,"SNSR,VTEMP",TRUE,Temp Min Sensing Temperature,,Real,Temperature,Fahrenheit,TRUE,,,,,,,
+Voltage Temperature Sensor,3,"SNSR,VTEMP",TRUE,VT Mounting Type,1,List,,,,,,"1/2-14, 9/16-18, M18X1.5, 3/4-16","1_2-14, 9_16-18, M18X1.5, 3_4-16",,,
+Wash Gun,3,,TRUE,Inlet Pipe Size,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+Wash Gun,3,,TRUE,Max Flow Rate,,Real,Volume,GPM,FALSE,,,,,,,TRUE
+Wash Gun,3,,TRUE,Max Pressure,,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+Wash Gun,3,,TRUE,Max Temperature,,Real,Temperature,Fahrenheit,FALSE,,,,,,,TRUE
+Wash Gun,3,,TRUE,Nozzle Connection Thread Type,,List,,,FALSE,,,"UN, NPT","UN, NPT",,,FALSE
+Washer,3,WSHR,TRUE,Washer Coating,,List,,,FALSE,,,"Zinc, Black Oxide, Galvanized, Magnicoat, ","ZINC, BLKOX, GALV, MAGNI",,,
+Washer,3,WSHR,TRUE,Washer Grade/Class,3,List,,,FALSE,,,"Grade 2, Grade 5, Grade 8, Class 8.8, Class 10.9, Class 12.9","GD2, GD5, GD8, CL8.8, CL10.9, CL12.9",,,
+Washer,3,WSHR,TRUE,Washer ID,,Real,,,FALSE,,,,,,,
+Washer,3,WSHR,TRUE,Washer OD,,Real,,,FALSE,,,,,,,
+Washer,3,WSHR,TRUE,Washer Thickness,,Real,,,FALSE,,,,,,,
+Washer,3,WSHR,TRUE,Washer Material,2,List,,,FALSE,,,"Steel, Brass, Plastic, Aluminum","STL, BRS, PLSTC, AL,",,,
+Washer,3,WSHR,TRUE,Washer Type,1,List,,,FALSE,,,"Flat, Split, External Tooth, Internal Tooth, Square, Seal, Wave","FLAT, SP, EXTTOOTH, INTTOOTH, SQ, SEAL, WAVE",,,TRUE
+"Pump, Positive Displacement",2,"PUMP,POSDISP",FALSE,Pump Discharge Port Size,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+"Pump, Positive Displacement",2,"PUMP,POSDISP",FALSE,Pump Discharge Port Thread,,List,,,FALSE,,,"BSPP, BSPT, NPT","BSPP, BSPT, NPT",,,TRUE
+"Pump, Positive Displacement",2,"PUMP,POSDISP",FALSE,Pump Inlet Port Size,,Real,Diameter,Inch,FALSE,,,,,,,TRUE
+"Pump, Positive Displacement",2,"PUMP,POSDISP",FALSE,Pump Inlet Port Thread,,List,,,FALSE,,,"BSPP, BSPT, NPT","BSPP, BSPT, NPT",,,TRUE
+"Pump, Positive Displacement",2,"PUMP,POSDISP",FALSE,Max Output Pressure,,Real,Pressure,PSI,FALSE,,,,,,,TRUE
+"Pump, Positive Displacement",2,"PUMP,POSDISP",FALSE,Max Flow Rate,2,Real,Volume,GPM,FALSE,,,,,,,TRUE
+"Pump, Positive Displacement",2,"PUMP,POSDISP",FALSE,Max Pump Speed,,Real,Angular Velocity,RPM,FALSE,,,,,,,TRUE
+"Pump, Positive Displacement",3,"PUMP,POSDISP",FALSE,Pump Type,1,List,,,FALSE,,,"Diaphragm, Gear, Lobe, Piston","DIAPH, GEAR, LOBE, PSTN",,,
+Wear Pad,3,WEARPAD,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Wear Pad,3,WEARPAD,TRUE,Pad Thickness,,Real,,,,,,,,,,
+Wear Pad,3,WEARPAD,TRUE,Pad Width,,Real,,,,,,,,,,
+Wear Pad,3,WEARPAD,TRUE,Pad Material,,List,,,FALSE,,,"Plastic, Ceramic","PLSTC, CERAMIC",,,
+Weatherstripping,,,FALSE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Weld Ring,3,WELDRING,TRUE,Length,,Real,Length,Inch,FALSE,,,,,,,
+Weld Ring,3,WELDRING,TRUE,Weld Ring OD,,Real,,,,,,,,,,
+Weld Ring,3,WELDRING,TRUE,Weld Ring Rod OD,,Real,,,,,,,,,,
+Weld Ring,3,WELDRING,TRUE,Weld Ring Type,1,List,,,,,,"Oval, Ring, D-Ring, Rod, Loops","OVAL, RING, DRING, ROD, LOOP",,,
+Weld Ring,3,WELDRING,TRUE,Weld Ring Width,,Real,,,,,,,,,,
+Wheel,2,WHL,TRUE,Wheel Material,,List,,,FALSE,,,"Steel, Alloy, ","STL, ALY",,,
+Wheel,2,WHL,TRUE,Wheel OD,,Real,Diameter,Inch,FALSE,,,,,,,
+Wheel,2,WHL,TRUE,Wheel Width,,Real,Length,Inch,FALSE,,,,,,,
+Wheel,2,WHL,TRUE,Wheel Offset,,Real,Length,Inch,FALSE,,,,,,,
+Wheel,2,WHL,TRUE,Wheel No. of Lugs,,Integer,,,FALSE,,,,,,,
+Wheel Chock,2,WHLCHOCK,FALSE,"Chock, Wheel OD",,Real,Diameter,Inch,FALSE,,,,,,,
+Wheel Chock,2,WHLCHOCK,FALSE,"Chock, Load Rating",,List,,,FALSE,,,"20-50K, 50-80K, 80-150K, 150-550K, 550-1600K","20-50K, 50-80K, 80-150K, 150-550K, 550-1600K",,,
+Wiring Harness,2,WH,TRUE,Harness Type,1,List,,,,,,"ADAPTER, ATTACHMENT, CAB, CARRIAGE, CHUTE, CLUTCH, CONSOLE, CONTROL, CONVEYOR, CRANE, DASH, EMISSION, ENGINE, EXTENSION, INFEED, LIGHT, LOADER, MAIN, OPTION, PANEL, POWER, RACK, REMOTE, SEAT, TELEMATICS, TRACK, TRAILER, VALVE, VISE, WINCH","ADAPTER, ATTACHMENT, CAB, CARRIAGE, CHUTE, CLUTCH, CONSOLE, CONTROL, CONVEYOR, CRANE, DASH, EMISSION, ENGINE, EXTENSION, INFEED, LIGHT, LOADER, MAIN, OPTION, PANEL, POWER, RACK, REMOTE, SEAT, TELEMATICS, TRACK, TRAILER, VALVE, VISE, WINCH",,,

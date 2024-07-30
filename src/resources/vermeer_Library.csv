@@ -1,0 +1,248 @@
+Library Title,Class Title (Level 1),Class Title (Level 2),Class Title (Level 3),Class Title (Level 4),Class Title (Level 5),Status,Owner,Attribute Count,Reviewed,Description Abbreviation,Comments,Description Template,EXAMPLE TITLE,CHARACTER COUNT,Description Template2
+Vermeer Part Library,Fluid/Lubricant,A/C Oil,,,,,Jacob K,3,,ACOil,,"ACOil,A/C Oil Type,A/C OIL Viscosity,A/C OIL Refrig Compat","A/COil,PAG,ISO68",16,"ACOil,A/C Oil Type,A/C OIL Viscosity"
+Vermeer Part Library,Fluid/Lubricant,A/C Refrigerant,,,,,Jacob K,1,,ACRFGT,,ACRFGT,"ACRFGT,R1234YF",14,"ACRFGT,A/C Refridgerant Type"
+Vermeer Part Library,Mechanical,Air Cleaner,,,,,Jacob K,,,AIRCLEANER,,"AIRCLEANER,Tank Capacity,AIR COMPRESSOR Power Source","AIRCLEANER,1000CFM,DUALSTG",26,"AIRCLEANER,Max Air Flow"
+Vermeer Part Library,Mechanical,Air Compressor,,,,,Chris Z,5,,AIRCOMPR,,"AIRCOMPR,Additive Type,Antenna Type,Max Frequency,Mounting Material Thickness","AIRCOMP,120GAL,TANK,36CFM,200PSI",32,"AIRCOMPR,AIR COMPRESSOR Tank,AIR COMPRESSOR Max Flow Rate,Max Pressure"
+Vermeer Part Library,Electrical,Antenna,,,,,Chris S,6,,ANT,,"ANT,Sound Pressure Level,Max Power,Base Type,Sensitivity,Min Voltage","ANT,MONOPOLE,50DB,TNCM,.75IN,.25IN",34,"ANT,Antenna Type,Max Frequency"
+Vermeer Part Library,Fluid/Lubricant,Antifreeze,,,,,Andrew T,2,,ANTIFRZ,,"ANTIFRZ,Axel GAWR ,Suspension Type","ANTIFR,PROPGLYCOL,HOAT",22,"ANTIFRZ,Base Type,Additive Type"
+Vermeer Part Library,Electrical,Audible Device,,,,,Chris S,5,,AUDDVC,,"AUDDVC,Shank Thread Direction,Ball Joint ID-Steerable,No. of Axels","AUDDEV,112DBA",13,"AUDDVC,Sound Pressure Level"
+Vermeer Part Library,Mechanical,Axle,,,,,Nick M,3,,AXLE,,#REF!,"AXLE,20K,STRT,3,NSTR",20,AXLE
+Vermeer Part Library,Mechanical,Ball Joint,,,,,Jacob K,0,,BALLJT,,#REF!,"BALJT,1.00IN,M,7_16-14,RH,SVCE",30,"BALLJT,Ball Joint Type,Ball Joint ID"
+Vermeer Part Library,Electrical,Battery,,,,,Chris S,5,,BTRY,,"BTRY,Insulation Type,Terminal B Size,Cable Size,Additional Terminal","BTRY,GRP75,1000CCA,12V,SIDEPOST",31,"BTRY,Nominal Voltage,Battery CCA,Battery Group Size"
+Vermeer Part Library,Electrical,Battery Cable,,,,,Chris S,5,,BTRYCBL,,"BTRYCBL,Ball Bearing Mount,ID,Dynamic Load Rating","BTRYCBL,POS,0000,100""",21,"BTRYCBL,Polarity,Cable Size,Length"
+Vermeer Part Library,Mechanical,Bearing,Ball,,,MODIFIED,Andrew T,10,,BBRG,,"BBRG,Linear Bearing Types,Thrust or Rotation,Ball Bearing Type","BBRG,SELFALIGN,3.5IN,1.0IN",26,"BBRG,Ball Bearing Type,Thrust or Rotation"
+Vermeer Part Library,Mechanical,Bearing,Bushing,,,MODIFIED,Andrew T,0,,"BRG,BSHG",,"BRG,BSHG,Roller Bearing Max RPM,Roller Bearing Thrust/Rotation,Roller Bearing Mount","BRG,BSHG,SPHER,SYNTH,1.0INSFT",29,"BRG,BSHG,Bushing Type,Bushing Material"
+Vermeer Part Library,Mechanical,Bearing,Linear,,,MODIFIED,Andrew T,0,,"BRG,LIN",,"BRG,LIN,Maximum Temperature Rating,Minimum Vacuum Rating","BRG,LIN,CERAMIC,TRKRLR",22,"BRG,LIN,Linear Bearing Material,Linear Bearing Types"
+Vermeer Part Library,Mechanical,Bearing,Roller,,,MODIFIED,Andrew T,0,,"BRG,RLR",,"BRG,RLR,Max Output Pressure ,Centrifugal Pump Self Priming","BRG,RLR,PLBLK,1.0INSFT",22,"BRG,RLR,Roller Bearing Type,Roller Bearing Thrust/Rotation"
+Vermeer Part Library,Mechanical,Bearing,Slew,,,MODIFIED,Andrew T,0,,"BRG,SLEW",,#REF!,"BRG,SLEW,FLG,INTLTEETH",22,"BRG,SLEW,Slew Bearing Type,Sealed"
+Vermeer Part Library,Mechanical,Belt,Baler,,,,Erin Z,3,,"BLT,BALER",,"BLT,BALER,Roller Bearing Housing ID,Roller Bearing Shaft OD","BLT,BALER,6.8IN,424IN,3PLY,ENDLESS",34,"BLT,BALER,Width,Length,Baler Belt Ply,Bailer Belt Splice Type"
+Vermeer Part Library,Mechanical,Belt,Conveyor Belt,,,,Erin Z,3,,"BLT,CNVR",,"BLT,CNVR,Slew Bearing Type,Radial Static Load","BELT,CNVR,MULTICHVRN,1000IN",27,"BLT,CNVR"
+Vermeer Part Library,Mechanical,Belt,Drive Belt,,,,Erin Z,4,,"BLT,DR",,"BLT,DR,Max Load,Slew Bearing ID,Slew Bearing OD","BELT,DR,TOOTH,3V,36IN",21,"BLT,DR"
+Vermeer Part Library,Mechanical,Blower,,,,,Chris Z,4,,BLO,,"BLO,Width,Conveyor Belt Type,Length,Width","BLO,3244CFM,3000RPM,10PSI,16INHG",32,"BLO,Blower Max Flow"
+Vermeer Part Library,Mechanical,Brake,,,,,Nick M,0,,BRAKE,,#REF!,"BRAKE,PRKG, ",12,"BRAKE,Brake Type"
+Vermeer Part Library,Mechanical ,Cab,,,,,Erin Z,0,,CAB,,CAB,"CAB,",4,CAB
+Vermeer Part Library,Mechanical,Caster,,,,,Jacob K,,,CASTER,,"CASTER,Brake Type,Pressure,Max Pressure Rating,Sleeve ID ","CASTER,SWVL,BOLTON,SEMIPNEU,DIA10.0IN",37,"CASTER,Caster Type,Caster Wheel Type,Caster Wheel Diameter"
+Vermeer Part Library,Mechanical,Chassis,Trailer ,,,,Chris Z,2,,"CHAS,TRLR",,"CHAS,TRLR,Cable Tie Mnt Type,Cable Tie Mnt Color","CHAS,TRLR,10K,2AXLE",19,"CHAS,TRLR,GVWR"
+Vermeer Part Library,Mechanical,Chassis,Truck,,,,Chris Z,5,,"CHAS,TRK",,"CHAS,TRK,Caster Max Load,Caster Type,Caster Wheel Type","CHAS,TRK,80K,MACK,250IN",23,"CHAS,TRK,GVWR,Truck Manufacturer,Truck Wheelbase"
+Vermeer Part Library,Mechanical ,Clamp,,,,,Jacob K,0,,CLAMP,,#REF!,"CLAMP,STDBOLT,Ø10.5-15.0IN",26,"CLAMP,Clamp Type"
+Vermeer Part Library,Mechanical,Clutch,,,,,Nick M,8,,CLUTCH,,"CLUTCH,Clamp Hose OD Max,Clevis Pin OD,Thickness,Clamp Type","CLUTCH,MECH,SAE11-1_2,SAE2,NOPUMPDR",35,"CLUTCH,Clutch Type,Flywheel Size,Flywheel Housing Size,Clutch Pump Drive"
+Vermeer Part Library,Electrical,Computer,,,,,Jacob K,,,COMPTR,,COMPTR,"COMPTR,RUGGED ",14,COMPTR
+Vermeer Part Library,Mechanical,Cooling System,,,,,Nick M,8,,CLGSYS,,"CLGSYS,Clutch Pump Drive,Clutch Type","CLGSYS,RDTR,OIL,CAC,FUEL,4.5IN,12FPI",36,"CLGSYS,Cooler Type,Core Depth,Primary Core Fin Density"
+Vermeer Part Library,Electrical,Display,,,,,Chris S,5,,DSPL,,"DSPL,Chain Pin Count,Chain Cut Width,Chain Style","DSPL,10.0IN,BLKWHT,CONT",23,"DSPL,Screen Size,Screen Type,Multifunction"
+Vermeer Part Library,Mechanical,Drive Chain,,,,,Erin Z,3,,DRCHAIN,,"DRCHAIN,Screen Type","DRCHAIN,240IN",13,"DRCHAIN,Length,Width,Drive Chain No. of Links"
+Vermeer Part Library,Electrical,Electrical Actuator,,,,,Grant F,6,,ELECACTR,,"ELECACTR,Cavity Count,Parent Mat. Thickness,Color","ELECACTR,12.0IN,1000LB,120V",27,"ELECACTR,Stroke Length,Push Load Capacity,Voltage"
+Vermeer Part Library,Electrical,Electrical Cable,,,,,Chris S,6,,ELECCBL,,"ELECCBL,Connector Type,Key","ELECCBL,ETH,100IN",17,"ELECCBL,Cable Type,Length"
+Vermeer Part Library,Electrical,Electrical Connector,,,,,Chris S,6,,ELECCONN,,#REF!,"ELECCONN,F,10,RECT,PLUG",23,ELECCONN
+Vermeer Part Library,Electrical,Electrical Fan,,,,,Jacob K,,,ELECFAN,,"ELECFAN,Gauge Max Voltage,Motor Mounting Type","ELECFAN,15.5IN,SUCKER",21,"ELECFAN,Fan Diameter,Flow Direction"
+Vermeer Part Library,Electrical,Electrical Gauge,,,,,Chris S,7,,ELECGA,,"ELECGA,Cable Type,Stroke Length,Voltage","ELECGA,HRTACH,M5.5,BSPP",23,"ELECGA,Gauge Type"
+Vermeer Part Library,Electrical,Electrical Motor,,,,,Jacob K,,,ELECMOT,,"ELECMOT,Encoder Max Voltage,Encoder Min Voltage,Encoder Output Type,Encoder Type,Length,Ethernet Category","ELECMOT,120V,AC,3PH,20KW",24,"ELECMOT,Motor Voltage,Current Type,Number of Phases,Motor Rated Power"
+Vermeer Part Library,Electrical,Electronic Control Module,,,,,Chris S,2,,ECM,,"ECM,Core Depth,Custom,Number of Cores,","ECM,BCM,10,10",13,"ECM,Control Module Type,Connector Count,Cavity Count"
+Vermeer Part Library,Mechanical,Enclosure,Engine Cabinet,,,,Jacob K,0,,"ENCL, ENGCAB",,"ENCL, ENGCAB","ENCL,ENGCAB",11,"ENCL, ENGCAB"
+Vermeer Part Library,Mechanical,Enclosure,Hood,,,,Jacob K,0,,"ENCL,HOOD",,"ENCL,HOOD","ENCL,HOOD",9,"ENCL,HOOD"
+Vermeer Part Library,Mechanical,Engine,,,,,Nick M,6,,ENG ,,"ENG ,Encoder Type,Encoder Max Voltage,Displacement","ENG,DSL,3.6L,100HP",18,ENG 
+Vermeer Part Library,Fluid/Lubricant,Engine Oil,,,,,Jacob K,,,ENGOIL,,"ENGOIL,Rated Speed,Rated Power-Fuel Type","ENGOIL,DSL,10W-30",17,"ENGOIL,Engine Oil Type,SAE Winter Visc Grade,SAE Visc. Grade"
+Vermeer Part Library,Mechanical,Exhaust Coupling,,,,,Jacob K,,,EXHCPLG,,"EXHCPLG,Engine Oil API Rating","EXHCPLG,4.0IN",13,"EXHCPLG,Pipe OD"
+Vermeer Part Library,Mechanical,Fabricated Machined,,,,,Jacob K,,,FABMA,,FABMA,FABMA,5,FABMA
+Vermeer Part Library,Mechanical,Fabricated Sheetmetal,,,,,Jacob K,,,FABSHMET,,FABSHMET,FABSHMET,8,FABSHMET
+Vermeer Part Library,Mechanical,Filter,,,,,Jacob K,0,,FLRT,,"FLRT,Fab Material","FLTR,ENGOIL",11,"FLRT,Filter Type"
+Vermeer Part Library,Mechanical,Filter Element,,,,,,,,FLRTELEM,,FLRTELEM,"FLRTELEM,ENGOIL",,"FLRTELEM,Filter Type"
+Vermeer Part Library,Mechanical,Fitting,Adapter,,,,Jacob K,,,"FTG,ADPTR",,"FTG,ADPTR,AIR COMPRESSOR Max Flow Rate","FTG,ADPT,FBSPT-2.75"",FNPT-2.75"",Brass",37,"FTG,ADPTR,Adapter Material,End 1 Type,End 2 Type"
+Vermeer Part Library,Mechanical,Fitting,Pipe,,,NEW,Chris Z,6,,"FTG,PIPE",,"FTG,PIPE","PIPE,144,SCH XXH,THREADED BOTH ENDS",35,"FTG,PIPE"
+Vermeer Part Library,Mechanical,Fitting,A/C System,,,NEW,,0,,"FTG,AC",,"FTG,AC",,0,"FTG,AC"
+Vermeer Part Library,Mechanical,Fitting,Cap,,,,Grant F,2,,"FTG,CAP",,"FTG,CAP","FITTING,CAP,16,ORFS",19,"FTG,CAP"
+Vermeer Part Library,Mechanical,Fitting,Hose Coupling,,,,Jacob K,,,"FTG,HOSECPLG",,"FTG,HOSECPLG",,,"FTG,HOSECPLG"
+Vermeer Part Library,Mechanical,Fitting,Cross Fitting,,,MODIFIED,Grant F,3,,"FTG,CROSS",,"FTG,CROSS","FITTING,CROSS TEE,04,M,ORFS",27,"FTG,CROSS,Cross End 1 Sealing Type"
+Vermeer Part Library,Mechanical,Fitting,Diagnostic,,,NEW,,0,,"FTG,DIGN",,"FTG,DIGN",,0,"FTG,DIGN"
+Vermeer Part Library,Mechanical,Fitting,Elbow,,,NEW,Grant F,0,,"FTG,ELB",,"FTG,ELB","FITTING,90 DEG,LLL,12,M,ORFS,12,M,ORB",37,"FTG,ELB,Elbow Material,Elbow Angle"
+Vermeer Part Library,Mechanical,Fitting,Grease Fitting,,,MODIFIED,Grant F,7,,"FTG,GRS",,"FTG,GRS","FITTING,GREASE ZERK,2,M,NPT",27,"FTG,GRS,Grease Fitting End Size"
+Vermeer Part Library,Mechanical,Fitting,Live Swivel,,,,Grant F,7,,"FTG,LIVESWVL",,"FTG,LIVESWVL","FITTING,LIVE SWIVEL,16,M,ORFS,13,M,ORFS",39,"FTG,LIVESWVL"
+Vermeer Part Library,Mechanical,Fitting,Plug,,,,Grant F,2,,"FTG,PLG",,"FTG,PLG","FITTING,PLUG,16,ORFS",20,"FTG,PLG"
+Vermeer Part Library,Mechanical,Fitting,Restrictor,,,NEW,Grant F,0,,"FTG,RSTR",,"FTG,RSTR","FITTING,RESTRICTOR,0.062,STR,ORB,ORFS",37,"FTG,RSTR"
+Vermeer Part Library,Mechanical,Fitting,Straight,,,MODIFIED,Grant F,0,,"FTG,STR",,"FTG,STR",,0,"FTG,STR"
+Vermeer Part Library,Mechanical,Fitting,Tee,,,NEW,Jacob K,0,,"FTG,TEE",,"FTG,TEE",,0,"FTG,TEE"
+Vermeer Part Library,Mechanical,Fitting,Test,,,MODIFIED,Grant F,0,,"FTG,TEST",,"FTG,TEST",,0,"FTG,TEST"
+Vermeer Part Library,Mechanical,Fitting,Vent,,,,Chris Z,3,,"FTG,VENT",,"FTG,VENT","Fitting,Vent,Aluminum,1/2"",BSPT",31,"FTG,VENT,Vent Size,Vent Thread Type"
+Vermeer Manufacturing Library,Tooling,Fixture,,,,,Jacob K,,,FXTR,,FXTR,,0,FXTR
+Vermeer Part Library,Mechanical,Fluid Actuator,Hydraulic Cylinder,,,,Grant F,9,,HYDRCYL,,HYDRCYL,"HYD CYL,BORE3IN,ROD1IN,STROKE24IN",33,"HYDRCYL,Stroke Length,Hyd. Cyl. CB"
+Vermeer Part Library,Mechanical,Fluid Actuator,Pneumatic Cylinder,,,,Grant F,0,,PNEUCYL,,PNEUCYL,"PNU CYL,BORE3IN,STROKE24IN,04,NPT",33,"PNEUCYL,Ext Length"
+Vermeer Part Library,Mechanical,Fluid Conductor,Tube,,,QUESTION,Grant F,8,,TUBE,,TUBE,"CAC TUBE,3.00IN,W.065IN",23,"TUBE,Tube Type,Tube Material Code"
+Vermeer Part Library,Mechanical,Fluid Conductor,Hose  ,,,QUESTION,Grant F,10,,HOSE,,HOSE,"FORMED INTAKE HOSE,1.50IN,4.00IN",32,"HOSE,"
+Vermeer Part Library,Mechanical,Fluid Tank,,,,,Jacob K,0,,FLTK,,FLTK,"FLTK,SURGE,1000GALLON",21,"FLTK,Tank Type,Tank Capacity"
+Vermeer Part Library,Fluid/Lubricant,Fuel,,,,,Andrew T,2,,FUEL ,,FUEL ,,0,FUEL 
+Vermeer Part Library,Electrical,Fuel Pump,,,,,Jacob K,,,FUELPMP,,"FUELPMP,Pipe Thread Type,Pipe Size,Length",,,"FUELPMP,Flow Rate"
+Vermeer Part Library,Mechanical,Fuel Tank,,,,,,,,FUELTK,,FUELTK,FUELTK,,FUELTK
+Vermeer Part Library,Mechanical,Gas Shock,,,,,Nick M,6,,GASSH,,GASSH,"GASSH,100IN",11,"GASSH,Ext Length"
+Vermeer Part Library,Mechanical,Gear,,,,,Jacob K,,,GEAR,,GEAR,"GEAR,ANLRMIT",12,"GEAR,Gear Type"
+Vermeer Part Library,Fluid/Lubricant,Gear Oil,,,,,Andrew T,5,,GRO ,,GRO ,,0,GRO 
+Vermeer Part Library,Mechanical,Gear Rack,,,,MODIFIED,Nick M,3,,GRK,,GRK,"GRK,HLCL,100IN",14,"GRK,Gear Rack Type,Rack Length"
+Vermeer Part Library,Mechanical,Gearbox,,,,MODIFIED,Andrew T,7,,GRBX,,GRBX,"GRBX,ANGLE",10,"GRBX,Gear Box Input-Output Alignment"
+Vermeer Part Library,Electrical,Generator ,,,,,Chris S,7,,GEN,,GEN,,0,"GEN,Gen. Power Rating,Gen. Voltage,Gen. Frequency"
+Vermeer Part Library,Fluid/Lubricant,Grease,,,,,Andrew T,7,,GRS,,GRS,,0,"GRS,Grease Thickener Type,Grease NLGI Consistency,Grease Base Oil Type"
+Vermeer Part Library,Mechanical,Gusset,,,,,Jacob K,0,,GUS,,GUS,"GUS,PUSHIN",10,"GUS,Gusset Material"
+Vermeer Part Library,Mechanical,Hardware,Battery Hold Down,,,,Jacob K,,,BTRYHOLDDN,,BTRYHOLDDN,BTRYHOLDDN,10,BTRYHOLDDN
+Vermeer Part Library,Mechanical,Hardware,Battery Box,,,,Jacob K,,,BTRYBX,,BTRYBX,"BTRYBX,GRP78",12,"BTRYBX,Battery Group Size"
+Vermeer Part Library,Mechanical,Hardware,Grommet,,,NEW,Ien Q,4,,GROM,,GROM,"GROM,PUSHIN",11,"GROM,Grommet Type "
+Vermeer Part Library,Mechanical,Hardware,Edge Trim,,,NEW,Jacob K,0,,EDGETRIM,,EDGETRIM,"EDGETRIM,PLSTC",14,"EDGETRIM,Edge Trim Mat."
+Vermeer Part Library,Mechanical,Hardware,Bolt,,,NEW,Ien Q,5,,BOLT,,BOLT,,0,"BOLT,Bolt Type,Length,Bolt Grade / Class,Bolt Thread Size,Bolt Coating"
+Vermeer Part Library,Mechanical,Hardware,Nut,,,NEW,Grant F,0,,NUT,,NUT,"NUT,BULKHEAD,16",15,"NUT,Nut Type,Bolt Grade / Class,Nut Thread Size,Bolt Coating"
+Vermeer Part Library,Mechanical,Hardware,Pin,,,NEW,Ien Q,5,,PIN,,PIN,"PIN,COILSPR",11,"PIN,Pin Type"
+Vermeer Part Library,Mechanical,Hardware,Rivet,,,NEW,Chris Z,3,,RVT,,RVT,"RVT,SHLDR,SST",13,"RVT,Rivet Type,Rivet Material"
+Vermeer Part Library,Mechanical,Hardware,Screw,,,NEW,Chris Z,1,,SCR,,SCR,"Hex Head Screw,Serrated Flange,.375,1.25,Grade 5",48,"SCR,Screw Type,Screw Thread Size,Length,Bolt Grade/Class"
+Vermeer Part Library,Mechanical,Hardware,Washer,,,NEW,Ien Q,0,,WSHR,,WSHR,,0,"WSHR,Washer Type,Washer Material,Washer Grade/Class"
+Vermeer Part Library,Mechanical,Hardware,Flange Half,,,,Grant F,0,,FLGHALF,,FLGHALF,,0,FLGHALF
+Vermeer Part Library,Mechanical,Hardware,Flange Kit,,,,Grant F,0,,FLGKIT,,FLGKIT,,0,FLGKIT
+Vermeer Part Library,Mechanical,Hardware,Wash Gun,,,MODIFIED,Erin Z,5,,WASHGUN,,WASHGUN,WASHGUN,7,WASHGUN
+Vermeer Part Library,Mechanical,Hardware,Actuator Cable,,,NEW,Ien Q,4,,ACTRCBL,,ACTRCBL,"ACTUATOR CABLE,THROTTLE,72.5",28,"ACTRCBL,Stroke Length"
+Vermeer Part Library,Mechanical,Hardware,Clevis,,,,Ien Q,1,,CLEVIS,,CLEVIS,"CLEVIS,NOTHRD",13,"CLEVIS,Clevis Type"
+Vermeer Part Library,Mechanical,Hardware,Handle,,,MODIFIED,Ien Q,2,,HDL,,HDL,"HDL,EDGEPULL",12,"HDL,Handle Style"
+Vermeer Part Library,Mechanical,Hardware,Hinge,,,MODIFIED,Ien Q,1,,HNG,,HNG,,0,HNG
+Vermeer Part Library,Mechanical,Hardware,Latch,,,MODIFIED,Ien Q,3,,LCH,,LCH,,0,LCH
+Vermeer Part Library,Mechanical,Hardware,Magnet,,,QUESTION,Ien Q,3,,MAG,,MAG,,0,MAG
+Vermeer Part Library,Mechanical,Hardware,Nozzle,,,,Ien Q,7,,NOZ,,NOZ,"NOZ,BSPP,RTRY",13,"NOZ,Nozzle Inlet Thread Type,Nozzle Type"
+Vermeer Part Library,Mechanical,Hardware,Shaft Key,,,MODIFIED,Ien Q,3,,SFTKEY,,SFTKEY,,0,SFTKEY
+Vermeer Part Library,Mechanical,Hardware,Snap Ring,,,MODIFIED,Ien Q,5,,SNAPRING,,SNAPRING,"SNAPRING,PUSHON",15,"SNAPRING,Ring Type"
+Vermeer Part Library,Mechanical,Hardware,Strap,,,,Ien Q,3,,STRP,,STRP,"STRP,BRD,NYLN",13,"STRP,Strap Type ,Strap Material"
+Vermeer Part Library,Mechanical,Hardware,U-Joint,,,,Ien Q,7,,UJT,,UJT,,0,UJT
+Vermeer Part Library,Mechanical,Hardware,Wear Pad,,,,Ien Q,3,,WEARPAD,,WEARPAD,,0,WEARPAD
+Vermeer Part Library,Mechanical ,Hardware,J-Bolt,,,,Jacob K,,,JBOLT,,JBOLT,,0,"JBOLT,J-Bolt Thread Size"
+Vermeer Part Library,Mechanical ,Hardware,U-Bolt,,,,Jacob K,6,,UBOLT,,UBOLT,,0,UBOLT
+Vermeer Part Library,Mechanical,Hardware,Deflector,,,,,1,,DFTR,,DFTR,,0,DFTR
+Vermeer Part Library,Mechanical,Hardware,Weld Ring,,,MODIFIED,Grant F,5,,WELDRING,,WELDRING,"WELD RING,OVAL,.25IN,2IN",24,"WELDRING,Weld Ring Type"
+Vermeer Part Library,Mechanical,Hose Assembly,,,,,,,,HOSEASSY,,HOSEASSY,"HOSEASSY,COOLM,64",,"HOSEASSY,Fluid Type,Hose Size"
+Vermeer Part Library,Mechanical,Hose Individual,,,,,,,,HOSE,,HOSE,,,"HOSE,"
+Vermeer Part Library,Mechanical,Hose Kit,,,,,,,,HOSEKIT,,HOSEKIT,,,HOSEKIT
+Vermeer Part Library,Mechanical,Hose Routing,,,,,Jacob K,,,HOSERTE,,HOSERTE,,0,HOSERTE
+Vermeer Part Library,Mechanical,Hydraulic Motor,,,,,Grant F,0,,HYDRMTR,,HYDRMTR,"HYD MOTOR,ROTARY PISTON,50CU.IN,6250PSI",39,HYDRMTR
+Vermeer Part Library,Fluid/Lubricant,Hydraulic Oil,,,,,Andrew T,4,,HO ,,HO ,,0,HO 
+Vermeer Part Library,Mechanical,Hydraulic Pump,,,,,Grant F,0,,HYDRPUMP,,HYDRPUMP,"HYD PUMP,50CU.IN,6250PSI",24,HYDRPUMP
+Vermeer Part Library,Mechanical,Jack,,,,,Chris Z,2,,JACK,,JACK,"Jack,Weld-on,10,000 lbs",23,"JACK,Jack Mount Type,Jack Load Capacity"
+Vermeer Part Library,Electrical,Joystick,,,,,Jacob K,,,JSTICK,,JSTICK,,0,"JSTICK,Joystick Axes,Joystick Type"
+Vermeer Part Library,Electrical,Keypad,,,,,Jacob K,,,KEYPAD,,KEYPAD,,0,"KEYPAD,Row Count,Column Count"
+Vermeer Part Library,Mechanical,Label,"Decal, Safety",,,MODIFIED,Jacob K,0,,"DECAL,SAFETY",,"DECAL,SAFETY,Curtain Thickness","DECAL,SAF",9,"DECAL,SAFETY"
+Vermeer Part Library,Mechanical,Label,"Decal, Control",,,,Jacob K,,,"DECAL,CONTROL",,"DECAL,CONTROL",,0,"DECAL,CONTROL"
+Vermeer Part Library,Mechanical,Label,"Decal, Control Multi",,,,Jacob K,,,"DECAL,CONTROLMULTI",,"DECAL,CONTROLMULTI",,0,"DECAL,CONTROLMULTI"
+Vermeer Part Library,Mechanical,Label,"Decal, Information",,,,Jacob K,,,"DECAL,INFO",,"DECAL,INFO","DECAL,INFO",10,"DECAL,INFO"
+Vermeer Part Library,Mechanical,Label,"Decal, Fuse Panel",,,,Jacob K,,,"DECAL,FUSEPANEL",,"DECAL,FUSEPANEL",,0,"DECAL,FUSEPANEL"
+Vermeer Part Library,Mechanical,Label,"Decal, Lube Chart",,,,Jacob K,,,"DECAL,LUBECHART",,"DECAL,LUBECHART",,0,"DECAL,LUBECHART"
+Vermeer Part Library,Mechanical,Label,"Decal, Impact Stripe",,,,Jacob K,,,"DECAL,STRIPE",,"DECAL,STRIPE",,,"DECAL,STRIPE"
+Vermeer Part Library,Mechanical,Label,"Decal, Control Panel",,,,Jacob K,,,"DECAL,CONTPANEL",,"DECAL,CONTPANEL",,,"DECAL,CONTPANEL"
+Vermeer Part Library,Mechanical,Label,"Decal, Logo",,,,Jacob K,,,"DECAL,LOGO",,"DECAL,LOGO",,,"DECAL,LOGO"
+Vermeer Part Library,Mechanical,Label,"Decal, Private Label",,,,Jacob K,,,"DECAL,PRIVATELBL",,"DECAL,PRIVATELBL",,,"DECAL,PRIVATELBL"
+Vermeer Part Library,Mechanical,Label,"Decal, Protective",,,,Jacob K,,,"DECAL,PROT",,"DECAL,PROT",,,"DECAL,PROT"
+Vermeer Part Library,Mechanical,Label,"Decal, Sound Level",,,,Jacob K,,,"DECAL,SNDLVL",,"DECAL,SNDLVL",,,"DECAL,SNDLVL"
+Vermeer Part Library,Mechanical,Label,"Decal, Speed Indication Symbol",,,,Jacob K,,,"DECAL,SIS",,"DECAL,SIS",,,"DECAL,SIS"
+Vermeer Part Library,Mechanical,Label,"Plate, PIN",,,,Jacob K,,,"PLATE,PIN",,"PL,PIN","PL,PIN",6,"PLATE,PIN"
+Vermeer Part Library,Mechanical,Label,"Plate, VIN",,,,Jacob K,,,"PLATE,VIN",,"PL,VIN","PL,VIN",6,"PLATE,VIN"
+Vermeer Part Library,Mechanical,Label,"Plate, Miscellaneous",,,,Jacob K,,,"PLATE,MISC",,"PL,ENGEMSN","PL,ENGEMSN",10,"PLATE,MISC"
+Vermeer Part Library,Electrical,Light ,,,,,Jacob K,,,LT,,LT,,0,"LT,Light Color"
+Vermeer Part Library,Document Part,Manual,,,,MODIFIED,Erin Z,0,,"DOC,MAN",,"DOC,MAN",,0,"DOC,MAN"
+Vermeer Part Library,Mechanical,Material Engage,Adapter,,,,,,,ADPTR,,ADPTR,,,"ADPTR,"
+Vermeer Part Library,Mechanical,Material Engage,Track Chain,,,,,,,TRKCHAIN,,TRKCHAIN,,,TRKCHAIN
+Vermeer Part Library,Mechanical,Material Engage,Hole Openers,,,,,,,HOLEOPR,,HOLEOPR,,,HOLEOPR
+Vermeer Part Library,Mechanical,Material Engage,Dirt Housing,,,,,,,DIRTHSG,,DIRTHSG,,,DIRTHSG
+Vermeer Part Library,Mechanical,Material Engage,Narrow Cut Wheel,,,,,,,NARCUTWHL,,NARCUTWHL,,,NARCUTWHL
+Vermeer Part Library,Mechanical,Material Engage,Pile Driver Guide,,,,,,,PILEDRVRGDE,,PILEDRVRGDE,,,PILEDRVRGDE
+Vermeer Part Library,Mechanical,Material Engage,Plate Bit,,,,,,,PLBIT,,PLBIT,,,PLBIT
+Vermeer Part Library,Mechanical,Material Engage,Puller,,,,,,,PLR,,PLR,,,"PLR,"
+Vermeer Part Library,Mechanical,Material Engage,RH Head,,,,,,,RHHEAD,,RHHEAD,,,RHHEAD
+Vermeer Part Library,Mechanical,Material Engage,Soft Rock Bit,,,,,,,SOFTROCKBIT,,SOFTROCKBIT,,,SOFTROCKBIT
+Vermeer Part Library,Mechanical,Material Engage,UT Rockwheel,,,,,,,UTROCKWHL,,UTROCKWHL,,,UTROCKWHL
+Vermeer Part Library,Mechanical,Material Engage,Track Wheel,,,,,,,TRKWHL,,TRKWHL,,,TRKWHL
+Vermeer Part Library,Mechanical,Material Engage,EV Screen,,,,,,,EVSCREEN,,EVSCREEN,,,EVSCREEN
+Vermeer Part Library,Mechanical,Material Engage,EV Grinder Block,,,,,,,EVGRINDERBLK,,EVGRINDERBLK,,,EVGRINDERBLK
+Vermeer Part Library,Mechanical,Material Engage,Drill Rod,,,,,,,DRILLROD,,DRILLROD,,,DRILLROD
+Vermeer Part Library,Mechanical,Material Engage,PDC Reamer,,,,,,,PDCREAMER,,PDCREAMER,,,PDCREAMER
+Vermeer Part Library,Mechanical,Material Engage,Shackle,,,,,,,SHACKLE,,SHACKLE,,,SHACKLE
+Vermeer Part Library,Mechanical,Material Engage,Breakout Device,,,,,,,BKODVC,,BKODVC,,,BKODVC
+Vermeer Part Library,Mechanical,Material Engage,Rod Wiper,,,,,,,RODWIPER,,RODWIPER,,,RODWIPER
+Vermeer Part Library,Mechanical,Material Engage,Thread Brush,,,,,,,THDBR,,THDBR,,,THDBR
+Vermeer Part Library,Mechanical,Material Engage,Rock Pilot Bit,,,,,,,ROCKPLTBIT,,ROCKPLTBIT,,,ROCKPLTBIT
+Vermeer Part Library,Mechanical,Material Engage,Nozzle,,,,,,,NOZ,,NOZ,"NOZ,BSPP,RTRY",,"NOZ,Nozzle Inlet Thread Type,Nozzle Type"
+Vermeer Part Library,Mechanical,Material Engage,Vise Jaw,,,,,,,VISEJAW,,VISEJAW,,,"VISEJAW,Vise Jaw Style,Vise Jaw Pattern,Vise Jaw Side,Vise Jaw Drill Rod Size"
+Vermeer Part Library,Mechanical,Material Engage,Teeth,,,,,,,TEETH,,TEETH,,,"TEETH,Teeth Style,Teeth Direction,Teeth Edge Style"
+Vermeer Part Library,Mechanical,Material Engage,Sod Cutter,,,,,,,SODCTR,,SODCTR,,,SODCTR
+Vermeer Part Library,Mechanical,Material Engage,Drill Head,,,,,,,DRILLHEAD,,DRILLHEAD,,,"DRILLHEAD,Min Cut Diameter,Drill Rod Size,Ground Conditions"
+Vermeer Part Library,Mechanical,Material Engage,Quick Connect Collar,,,,,,,QUICKCONNCOLLAR,,QUICKCONNCOLLAR,,,QUICKCONNCOLLAR
+Vermeer Part Library,Mechanical,Material Engage,Chipper Knife,,,,,,,CHIPPERKNIFE,,CHIPPERKNIFE,,,CHIPPERKNIFE
+Vermeer Part Library,Mechanical,Material Engage,Grinder Tip,,,,,,,GRINDERTIP,,GRINDERTIP,,,"GRINDERTIP,Style,Edge Style,Length,Width,Coating"
+Vermeer Part Library,Mechanical,Material Engage,Grinder Hammer,,,,,,,GRINDERHMR,,GRINDERHMR,,,"GRINDERHMR,Length,Width,Number of Holes,Hole Size"
+Vermeer Part Library,Mechanical,Material Engage,Reamer,,,MODIFIED,Erin Z,2,,REAMER,,REAMER,,0,"REAMER,Reamer Style,Reamer Family"
+Vermeer Part Library,Mechanical,Material Engage,Plow Blade,,,,,,,PLOWBLADE,,PLOWBLADE,,,PLOWBLADE
+Vermeer Part Library,Mechanical,Material Engage,Utility Chain,,,,,,,UTILCHAIN,,UTILCHAIN,,,UTILCHAIN
+Vermeer Part Library,Mechanical,Mechanical Fan,,,,,Jacob K,0,,MECHFAN,,MECHFAN,"MECHFAN,20.0IN,CCW",18,"MECHFAN,Fan Diameter,Primary Fan Rotation Direction"
+Vermeer Part Library,Mechanical,Mechanical Gauge,,,,,Jacob K,7,,MECHGA,,MECHGA,"MECHGA,TEMP,1,METRIC",20,"MECHGA,Gauge Type,Gauge Pipe Size,Gauge Thread Type"
+Vermeer Part Library,Mechanical,Mount,,,,,Jacob K,,,MT,,MT,"MT,CBLTIE",9,"MT,Mount Type"
+Vermeer Part Library,Mechanical,Mud Pump,,,,,Grant F,3,,MUDPUMP,,MUDPUMP,,0,MUDPUMP
+Vermeer Part Library,Mechanical,Muffler,,,,,Nick M,0,,MUF,,MUF,,0,MUF
+Vermeer Part Library,Mechanical,Off-Highway Serial Plate,,,,MODIFIED,,0,,OFFHWYSERPLT,,OFFHWYSERPLT,,0,OFFHWYSERPLT
+Vermeer Part Library,Mechanical,Overhung Load Adapter,,,,,Jacob K,0,,OHLOADPTR,,OHLOADPTR,,0,OHLOADPTR
+Vermeer Part Library,Mechanical,Planetary Drive,,,,,Jacob K,,,PLNTYDR,,PLNTYDR,,,PLNTYDR
+Vermeer Part Library,Electrical,Power Distribution,Breaker,,,MODIFIED,Chris S,3,,PCB,,#REF!,"PCB,MAXI,20A,120V",17,"PCB,Current Type,Current(Amp),Nominal Voltage"
+Vermeer Part Library,Electrical,Power Distribution,Fuse,,,MODIFIED,Chris S,3,,FUSE,,#REF!,"FUSE,20A,ATM_LED",16,"FUSE,Current,Fuse Type"
+Vermeer Part Library,Electrical,Power Distribution,Fuse Box,,,,,,,FUBX,,"FUBX,Number of Bolts,Length","FUBX,MAXI,99",,"FUBX,Fuse Type,Cavity Count"
+Vermeer Part Library,Electrical,Power Distribution,Relay,,,,,,,RLY,,"RLY,Relay Load Current,Relay Load Voltage,Relay Series","RLY,14V,20MA,DPDT",,"RLY,Relay Control Voltage,Relay Load Current"
+Vermeer Part Library,Mechanical,Power Takeoff,,,,,,,,PTO,,PTO,"PTO,21,6",,"PTO,Flywheel Size,Flywheel Housing Size"
+Vermeer Part Library,Mechanical,PPE,,,,,Chris Z,1,,PPE,,PPE,"PPE,Cut-Protection Clothing",27,"PPE,PPE Type"
+Vermeer Part Library,Mechanical,Pulley,,,,,Jacob K,0,,PUL,,PUL,"PUL,SWVL",8,"PUL,Pulley Type"
+Vermeer Part Library,Mechanical,Pump,Positive Displacement,,,,Chris Z,7,,"PUMP,POSDISP",,"PUMP,POSDISP","PUMP,POSDISP,DIAPH,1000 GPM",27,"PUMP,POSDISP,Pump Type,Max Flow Rate"
+Vermeer Part Library,Mechanical,Pump  ,Dynamic,,,,Chris Z,6,,"PUMP,CNTFG",,"PUMP,CNTFG,Relay Control Voltage,Relay Load Current,Relay Load Voltage","CNTFGP,1000GPM,1000PSI,SLFPRM",29,"PUMP,CNTFG"
+Vermeer Part Library,Mechanical,Pump Drive,,,,,Nick M,3,,PUMPDR,,PUMPDR,"PUMPDR,SAE5,5",13,"PUMPDR,Pump Drive Housing Size,Pump Drive No. of Pumps"
+Vermeer Part Library,Electrical,Remote Control,,,,,Jacob K,,,RC,,RC,,0,"RC,Remote Control Type"
+Vermeer Part Library,Mechanical,Roller  ,,,,,Erin Z,1,,RLR,,RLR,"RLR,BALER",9,"RLR,Roller Type"
+Vermeer Part Library,Mechanical ,Routing Management ,Cable Tie,,,MODIFIED,Grant F,0,,CBLTIE ,,CBLTIE ,"CABLE TIE,15IN,IDENTIFICATION,ORANGE",36,CBLTIE 
+Vermeer Part Library,Mechanical ,Routing Management ,Cable Tie Mount,,,,Jacob K,,,CBLTIEMNT,,CBLTIEMNT,"CBLTIEMNT,FSTNR",15,"CBLTIEMNT,Cable Tie Mnt Type"
+Vermeer Part Library,Mechanical ,Routing Management ,Burst Protection,,,,Jacob K,0,,BURSTPROTN,,"BURSTPROTN,Conveyor Belt Type,Width","COVERING,CTL,NYLON",18,"BURSTPROTN,Sleeve ID "
+Vermeer Part Library,Mechanical ,Routing Management ,Heat Shrink ,,,,Jacob K,,,HST,,"HST,Wall Thickness,Wall Thickness Tolerance","HST,1IN",7,"HST,Before ID"
+Vermeer Part Library,Mechanical ,Routing Management ,Abrasion Resistant,,,,Jacob K,,,ART,,"ART,Abrassion Sleeve Material Type,Sleeve Max ID ,Max Temp","ART,CORRUGATE,100IN",19,"ART,Abrassion Sleeve Material Type,Sleeve Max ID "
+Vermeer Part Library,Mechanical ,Routing Management ,Hose Reel,,,,,,,HOSEREEL,,HOSEREEL,"HOSEREEL,10IN,AUTO",,"HOSEREEL,Hose ID,Winding Method"
+Vermeer Part Library,Mechanical ,Routing Management ,Hose Carrier,,,MODIFIED,Grant F,0,,HOSECARR,,"HOSECARR,Gear Type,Gear Pitch","HOSECARRIER,STEEL,RADIUS10.00IN",31,HOSECARR
+Vermeer Part Library,Mechanical,Safety,Wheel Chock,,,,Jacob K,,,WHLCHOCK,,WHLCHOCK,,,WHLCHOCK
+Vermeer Part Library,Mechanical,Safety,Cone,,,,Chris Z,1,,"SAF,CONE",,"SAF,CONE","Cone,Fluorescent Green",22,"SAF,CONE"
+Vermeer Part Library,Mechanical,Safety,Curtain,,,,Chris Z,8,,"SAF,CURT",,"SAF,CURT","Curtain,Infeed Chute,.09"",32.50"",52.00"",Rubber",46,"SAF,CURT,Curtain Type"
+Vermeer Part Library,Mechanical,Seal,Gasket,,,,Ien Q,10,,"SEAL,GSKT",,"SEAL,GSKT",,0,"SEAL,GSKT,Gasket X-S Shape"
+Vermeer Part Library,Mechanical,Seal,O-Ring,,,,Ien Q,1,,ORING,,ORING,,0,ORING
+Vermeer Part Library,Mechanical,Seal,Misc. Seal,,,MODIFIED,Ien Q,0,,"SEAL,MISC",,"SEAL,MISC","SEAL,",5,"SEAL,MISC"
+Vermeer Part Library,Mechanical,Seat,,,,,Chris Z,5,,SEAT ,,SEAT ,"Seat,Reclinable",15,SEAT 
+Vermeer Part Library,Mechanical,Seat Belt,,,,,Chris Z,2,,SEATBELT,,SEATBELT,"Seat Belt,Wraparound,Lap",24,"SEATBELT,SB Style,SB Strap Location"
+Vermeer Part Library,Electrical,Sensor,Encoder,,,,Chris S,4,,"SNSR,ENCDR",,"SNSR,ENCDR",,0,"SNSR,ENCDR,Encoder Type"
+Vermeer Part Library,Electrical,Sensor,Inclinometer,,,,Chris S,2,,"SNSR,INCLIN",,"SNSR,INCLIN",,0,"SNSR,INCLIN"
+Vermeer Part Library,Electrical,Sensor,Load Sensor,,,,Chris S,4,,"SNSR,LOAD",,"SNSR,LOAD",,0,"SNSR,LOAD,Load Rating"
+Vermeer Part Library,Electrical,Sensor,Pressure Sensor,,,,Chris S,7,,"SNSR,PRESS",,"SNSR,PRESS",,0,"SNSR,PRESS,Pressure Mounting Type,Pressure Min Sensing Pressure,Pressure Max Sensing Pressure"
+Vermeer Part Library,Electrical,Sensor,Proximity Sensor,,,,Chris S,6,,"SNSR,PROX",,"SNSR,PROX",,0,"SNSR,PROX,Proximity Mounting Type,Proximity Operating Distance"
+Vermeer Part Library,Electrical,Sensor,Resistive Fuel Level Sensor,,,,Chris S,5,,"SNSR,RESFUELLVL",,"SNSR,RESFUELLVL",,0,"SNSR,RESFUELLVL,Length"
+Vermeer Part Library,Electrical,Sensor,Resistive Temperature Sensor,,,,Chris S,5,,"SNSR,RESTEMP",,"SNSR,RESTEMP",,0,"SNSR,RESTEMP,RT Mounting Type"
+Vermeer Part Library,Electrical,Sensor,Rotary Sensor,,,,Chris S,5,,"SNSR,RTRY",,"SNSR,RTRY",,0,"SNSR,RTRY,Rotary Sensing Angle"
+Vermeer Part Library,Electrical,Sensor,Voltage Fuel Level Sensor,,,,Chris S,5,,"SNSR,VFUELLVL",,"SNSR,VFUELLVL",,0,"SNSR,VFUELLVL,Length"
+Vermeer Part Library,Electrical,Sensor,Voltage Temperature Sensor,,,,Chris S,5,,"SNSR,VTEMP",,"SNSR,VTEMP",,0,"SNSR,VTEMP,VT Mounting Type"
+Vermeer Part Library,Mechanical,Serial Plate Blank,,,,MODIFIED,,0,,"DOC,SERPL",,"DOC,SERPL",,0,"DOC,SERPL"
+Vermeer Part Library,Mechanical,Shaft  ,,,,,Nick M,4,,SHFT,,SHFT,"SHFT,FLEX",9,"SHFT,Shaft Type"
+Vermeer Part Library,Mechanical,Shaft Flex Coupling,,,,,Nick M,2,,SHFTFLEXCPLG,,SHFTFLEXCPLG,"SHFTFLEXCPLG,21",15,"SHFTFLEXCPLG,Coupler Flywheel SAE Size"
+Vermeer Part Library,Mechanical,Shroud,,,,,Jacob K,0,,SHRD,,SHRD,"SHRD,100IN",10,"SHRD,Shroud Fan Dia"
+Vermeer Part Library,Mechanical,Silencer,,,,,Jacob K,,,SILENCER,,SILENCER,"SILENCER,1000CFM",16,"SILENCER,Air Flowrate"
+Vermeer Part Library,Mechanical,Slew Drive,,,,,Jacob K,,,SLEWDR,,SLEWDR,,,SLEWDR
+Vermeer Part Library,Mechanical,Spring,,,,,Jacob K,0,,SPR ,,SPR ,,0,SPR 
+Vermeer Part Library,Mechanical,Sprocket,,,,,Nick M,0,,SPRKT,,SPRKT,"SPRKT,PLTBORE",13,"SPRKT,Sprocket Type"
+Vermeer Part Library,Electrical,Switch,Fluid Level Switch,,,,Chris S,2,,"SW,FLLVL",,"SW,FLLVL",,0,"SW,FLLVL,Fluid Level Mnt Type"
+Vermeer Part Library,Electrical,Switch,Limit Switch,,,,Chris S,4,,LIMSW,,LIMSW,,0,"LIMSW,Limit Switch Type,Pole/Throw"
+Vermeer Part Library,Electrical,Switch,Manual Switch,,,,Chris S,7,,"SW,MNL",,"SW,MNL",,0,"SW,MNL,Manual Switch Type,Pole/Throw"
+Vermeer Part Library,Electrical,Switch,Pressure Switch,,,,Chris S,3,,"SW,PRESS",,"SW,PRESS",,0,"SW,PRESS,Pressure Mnt Type,Set Pressure"
+Vermeer Part Library,Electrical,Switch,Safety Switch,,,,Chris S,4,,"SW,SAF",,"SW,SAF",,0,"SW,SAF,Safty Switch Type"
+Vermeer Part Library,Electrical,Switch,Temperature Switch,,,,Chris S,3,,"SW,TEMP",,"SW,TEMP",,0,"SW,TEMP,Temp Mnt Type,Temp Set Point"
+Vermeer Part Library,Electrical,Terminal,,,,,Chris S,4,,ELECTERM,,ELECTERM,,0,"ELECTERM,Terminal Size,Terminal Type,Terminal Wire Size"
+Vermeer Part Library,Mechanical,Tire,,,,,Nick M,4,,TIRE,,TIRE,,0,TIRE
+Vermeer Part Library,Mechanical,Toolbox,,,,,Chris Z,4,,TOOLBOX,,TOOLBOX,"Toolbox,48""W,17""H,15""D,Aluminum,Black",37,TOOLBOX
+Vermeer Part Library,Mechanical,Track  ,,,,,Nick M,4,,TRACK,,TRACK,"TRACK,FRICTDR,MULTIBAR",22,"TRACK,Track Type,Rubber Track Tread"
+Vermeer Part Library,Mechanical,Trailer Coupler,,,,,Chris Z,3,,TRLRCPLR,,TRLRCPLR,"Coupler,Clevis,10,000 lbs,Bolt-on",33,"TRLRCPLR,Coupler Type,Coupler Load Capacity"
+Vermeer Part Library,Electrical,Utility Locator,,,,NEW,Chris Z,1,,UTILLOCATOR,,UTILLOCATOR,,0,UTILLOCATOR
+Vermeer Part Library,Mechanical,Valve,,,,,Chris Z,0,,VALVE,,VALVE,"Drainage Valve,Aluminum,Thumb Screw,1/2""",40,"VALVE,Valve Type"
+Vermeer Part Library,Mechanical,Valve Cartridge,,,,MODIFIED,Grant F,0,,VCRTG,,VCRTG,"VALVE COMPONENT,CARTRIDGE,CHECK",31,VCRTG
+Vermeer Part Library,Mechanical,Valve Manifold,,,,MODIFIED,Grant F,0,,VMANF,,VMANF,"MANIFOLD HOSUING,CUSTOM",23,"VMANF,Valve Manifold Type"
+Vermeer Part Library,Mechanical,Vibration Isolator,,,,,Nick M,0,,VIBISLN,,VIBISLN,"VIBISLN,HYDROCONE,250",21,"VIBISLN,Isolator Type,Isolator Mat. Hardness"
+Vermeer Part Library,Mechanical,VIN Tag,,,,,,,,VIN,,VIN,,,VIN
+Vermeer Part Library,Electrical,Voltage Stake,,,,,Jacob K,0,,ELECVSTAKE,,ELECVSTAKE,,0,ELECVSTAKE
+Vermeer Part Library,Mechanical,Weldment,,,,,,0,,WELDMENT,,WELDMENT,,0,WELDMENT
+Vermeer Part Library,Mechanical,Wheel,,,,,Jacob K,,,WHL ,,WHL ,,0,WHL 
+Vermeer Part Library,Electrical,Wiring Harness  ,,,,,Jacob K,,,WH ,,WH ,,0,WH 
+Vermeer Manufacturing Library,Raw Material,,,,,,Jacob K,0,,RAWMATL,,RAWMATL,,0,RAWMATL
+Vermeer Manufacturing Library,Continuous Improvement,,,,,,Jacob K,,,CI,,CI,,0,CI
+Vermeer Part Library,Software,,,,,,Jacob K,,,SOFTWARE,,SOFTWARE,,0,SOFTWARE
